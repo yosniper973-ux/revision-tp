@@ -15,6 +15,7 @@ import Dashboard from './pages/Dashboard';
 import Leaderboard from './pages/Leaderboard';
 import Settings from './pages/Settings';
 import Promo from './pages/Promo';
+import UpdateBanner from './components/UpdateBanner';
 import type { GameResult } from './types';
 
 type Screen =
@@ -94,6 +95,7 @@ export default function App() {
 
   return (
     <div className="h-full">
+      <UpdateBanner />
       <AnimatePresence mode="wait">
         <motion.div
           key={screen}

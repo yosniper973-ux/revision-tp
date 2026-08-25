@@ -17,6 +17,29 @@ Une formation = un fichier dans `src/data/formations/` (modules, couleurs, icôn
 
 Chaque formation a **ses propres profils et scores** : clé `revision-data-<id>` dans le `localStorage`.
 
+## Mode formateur
+
+Un interrupteur dans les paramètres, protégé par mot de passe, débloque le suivi de promo :
+import des fichiers de résultats envoyés par les apprenants, tableau par apprenant et niveau
+moyen de la promo par module. Seule une empreinte du mot de passe figure dans le code
+(`src/stores/useTeacherStore.ts`) ; le mot de passe lui-même n'apparaît ni dans les sources ni
+dans le build. Ce verrou évite une activation par curiosité — ce n'est pas une barrière de
+sécurité, tout le code étant lisible sur le poste.
+
+## Mises à jour
+
+L'app embarque `tauri-plugin-updater`. À chaque tag `v*`, la CI signe l'installateur et publie
+un `latest.json` dans la release ; l'app interroge
+`https://github.com/yosniper973-ux/revision-tp/releases/latest/download/latest.json` au démarrage.
+
+- La **clé privée de signature** vit hors du dépôt (`~/.tauri/revision-tp.key`) et doit être
+  présente dans les secrets GitHub sous `TAURI_SIGNING_PRIVATE_KEY`, sinon le build échoue à
+  l'étape `latest.json`. La clé publique correspondante est dans `tauri.conf.json`.
+- **Ne jamais régénérer la clé** une fois des versions diffusées : les apprenants ne pourraient
+  plus vérifier les mises à jour suivantes.
+- `productName` est volontairement **sans accent** (`Revision TP`) : il nomme l'exe, donc l'URL
+  de téléchargement du `latest.json`.
+
 ## Pièges connus
 
 - **Ne pas changer `identifier` dans `src-tauri/tauri.conf.json`.** Sous Windows il détermine le dossier de données WebView2, donc les profils déjà enregistrés chez les apprenants. Il vaut historiquement `com.educentre.msads-revision`.

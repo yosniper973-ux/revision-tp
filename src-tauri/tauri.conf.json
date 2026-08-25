@@ -1,6 +1,6 @@
 {
   "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
-  "productName": "Révision TP",
+  "productName": "Revision TP",
   "version": "1.1.0",
   "identifier": "com.educentre.msads-revision",
   "build": {
@@ -28,7 +28,10 @@
   },
   "bundle": {
     "active": true,
-    "targets": ["nsis", "msi"],
+    "targets": [
+      "nsis",
+      "msi"
+    ],
     "icon": [
       "icons/32x32.png",
       "icons/128x128.png",
@@ -40,13 +43,26 @@
       "nsis": {
         "installMode": "currentUser",
         "displayLanguageSelector": false,
-        "languages": ["French"],
+        "languages": [
+          "French"
+        ],
         "installerIcon": "icons/icon.ico"
       },
       "webviewInstallMode": {
         "type": "offlineInstaller"
       }
-    }
+    },
+    "createUpdaterArtifacts": true
   },
-  "plugins": {}
+  "plugins": {
+    "updater": {
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEJDOTBBMUZGRkY2MDM0RjYKUldUMk5HRC8vNkdRdk5nSlZWZGd3YU5CbzhmYU43bDJLczhROGdacUVwWlFhOCtJRUxiWVIvL1UK",
+      "endpoints": [
+        "https://github.com/yosniper973-ux/revision-tp/releases/latest/download/latest.json"
+      ],
+      "windows": {
+        "installMode": "passive"
+      }
+    }
+  }
 }
