@@ -2,10 +2,10 @@ import { motion } from 'framer-motion';
 import { ChevronLeft, TrendingUp, Award, Target } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, RadarChart, PolarGrid, PolarAngleAxis, Radar } from 'recharts';
 import { useProfileStore } from '../stores/useProfileStore';
+import { useFormationStore } from '../stores/useFormationStore';
 import Card from '../components/ui/Card';
 import ProgressBar from '../components/ui/ProgressBar';
 import Avatar from '../components/ui/Avatar';
-import { MODULE_NAMES } from '../types';
 import { getModuleStats, getStars } from '../lib/questionUtils';
 import { BADGES } from '../data/badges';
 
@@ -15,15 +15,16 @@ interface Props {
 
 export default function Dashboard({ onBack }: Props) {
   const profile = useProfileStore(s => s.getActiveProfile());
-  if (!profile) return null;
+  const formation = useFormationStore(s => s.formation);
+  if (!profile || !formation) return null;
 
   const examHistory = profile.history.filter(h => h.mode === 'exam');
-  const stats = getModuleStats(examHistory);
+  const stats = getModuleStats(formation, examHistory);
 
-  const radarData = [1, 2, 3, 4, 5, 6].map(m => ({
-    module: `M${m}`,
-    fullName: MODULE_NAMES[m],
-    score: stats[m].avgScore,
+  const radarData = formation.modules.map(m => ({
+    module: `${formation.modulePrefix}${m.id}`,
+    fullName: m.name,
+    score: stats[m.id].avgScore,
   }));
 
   const historyData = examHistory.slice(-10).map((h, i) => ({
@@ -115,17 +116,17 @@ export default function Dashboard({ onBack }: Props) {
 
       {/* Module details */}
       <Card className="mb-6">
-        <h3 className="font-bold mb-4">Détail par module</h3>
+        <h3 className="font-bold mb-4">Détail par {formation.modulePrefix === 'CCP' ? 'CCP' : 'module'}</h3>
         <div className="space-y-3">
-          {[1, 2, 3, 4, 5, 6].map(m => {
-            const s = stats[m];
+          {formation.modules.map(mod => {
+            const s = stats[mod.id];
             const stars = getStars(s.avgScore);
             return (
-              <div key={m} className="flex items-center gap-3">
-                <span className="text-sm font-bold w-8">M{m}</span>
+              <div key={mod.id} className="flex items-center gap-3">
+                <span className="text-sm font-bold w-12">{formation.modulePrefix}{mod.id}</span>
                 <div className="flex-1">
                   <div className="flex justify-between text-sm mb-1">
-                    <span className="text-white/70">{MODULE_NAMES[m]}</span>
+                    <span className="text-white/70">{mod.name}</span>
                     <span className="text-white/50">{s.attempts > 0 ? `${s.avgScore}/20` : '-'}</span>
                   </div>
                   <ProgressBar value={s.avgScore} max={20} color={s.avgScore >= 14 ? 'bg-emerald-500' : s.avgScore >= 10 ? 'bg-amber-500' : 'bg-red-500'} height="h-2" />

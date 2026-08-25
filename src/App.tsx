@@ -1,8 +1,10 @@
 import { useState, useCallback, useEffect } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useProfileStore } from './stores/useProfileStore';
+import { useFormationStore } from './stores/useFormationStore';
 import { useSound } from './hooks/useSound';
 import SplashScreen from './pages/SplashScreen';
+import FormationSelect from './pages/FormationSelect';
 import ProfileSelect from './pages/ProfileSelect';
 import ProfileCreate from './pages/ProfileCreate';
 import Home from './pages/Home';
@@ -16,6 +18,7 @@ import type { GameResult } from './types';
 
 type Screen =
   | 'splash'
+  | 'formation-select'
   | 'profile-select'
   | 'profile-create'
   | 'home'
@@ -36,6 +39,9 @@ export default function App() {
   const { setEnabled } = useSound();
 
   const { activeProfileId, addResult, getActiveProfile } = useProfileStore();
+  const formation = useFormationStore(s => s.formation);
+  /** Vrai quand on change de formation depuis les paramètres : permet de revenir en arrière. */
+  const [changingFormation, setChangingFormation] = useState(false);
 
   useEffect(() => {
     setEnabled(soundEnabled);
@@ -46,12 +52,21 @@ export default function App() {
   }, [fontSize]);
 
   const handleSplashDone = useCallback(() => {
-    if (activeProfileId) {
-      setScreen('home');
-    } else {
-      setScreen('profile-select');
-    }
-  }, [activeProfileId]);
+    if (!formation) setScreen('formation-select');
+    else if (activeProfileId) setScreen('home');
+    else setScreen('profile-select');
+  }, [formation, activeProfileId]);
+
+  const handleFormationSelected = useCallback(() => {
+    setChangingFormation(false);
+    // Chaque formation a ses propres profils : on reprend celui déjà actif s'il existe.
+    setScreen(useProfileStore.getState().activeProfileId ? 'home' : 'profile-select');
+  }, []);
+
+  const handleChangeFormation = useCallback(() => {
+    setChangingFormation(true);
+    setScreen('formation-select');
+  }, []);
 
   const handleStartExam = useCallback((module: number | 'all') => {
     setGameModule(module);
@@ -87,7 +102,14 @@ export default function App() {
           className="h-full"
         >
           {screen === 'splash' && (
-            <SplashScreen onDone={handleSplashDone} />
+            <SplashScreen formation={formation} onDone={handleSplashDone} />
+          )}
+
+          {screen === 'formation-select' && (
+            <FormationSelect
+              onSelect={handleFormationSelected}
+              onBack={changingFormation ? () => setScreen('settings') : undefined}
+            />
           )}
 
           {screen === 'profile-select' && (
@@ -154,6 +176,7 @@ export default function App() {
           {screen === 'settings' && (
             <Settings
               onBack={() => setScreen('home')}
+              onChangeFormation={handleChangeFormation}
               soundEnabled={soundEnabled}
               onToggleSound={() => setSoundEnabled(!soundEnabled)}
               fontSize={fontSize}

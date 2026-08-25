@@ -1,19 +1,19 @@
 import { jsPDF } from 'jspdf';
-import type { GameResult, Profile } from '../types';
-import { MODULE_NAMES } from '../types';
-import { allQuestions } from './questionUtils';
+import type { Formation, GameResult, Profile } from '../types';
+import { getModuleName } from './questionUtils';
 import { getRecommendation } from './scoring';
 
 interface ExportOptions {
   result: GameResult;
   profile: Profile | null;
+  formation: Formation;
 }
 
 /**
  * Génère un PDF stylé des résultats d'une session.
  * Retourne le blob du PDF et le nom de fichier.
  */
-export function buildResultsPdf({ result, profile }: ExportOptions): {
+export function buildResultsPdf({ result, profile, formation }: ExportOptions): {
   blob: Blob;
   filename: string;
   dataUri: string;
@@ -26,7 +26,7 @@ export function buildResultsPdf({ result, profile }: ExportOptions): {
   let y = margin;
 
   // Couleurs (RGB)
-  const violet: [number, number, number] = [139, 92, 246];
+  const accent: [number, number, number] = formation.pdfAccent;
   const cyan: [number, number, number] = [34, 211, 238];
   const grayDark: [number, number, number] = [55, 65, 81];
   const grayLight: [number, number, number] = [156, 163, 175];
@@ -35,8 +35,7 @@ export function buildResultsPdf({ result, profile }: ExportOptions): {
 
   const isExam = result.mode === 'exam';
   const note = Math.round((result.score / result.total) * 20 * 10) / 10;
-  const moduleName =
-    result.module === 'all' ? 'Tous modules' : MODULE_NAMES[result.module as number];
+  const moduleName = getModuleName(formation, result.module);
   const dateStr = new Date(result.date).toLocaleDateString('fr-FR', {
     day: '2-digit',
     month: 'long',
@@ -47,21 +46,17 @@ export function buildResultsPdf({ result, profile }: ExportOptions): {
   const { text: recText } = getRecommendation(result.score, result.total);
 
   // ===== En-tête =====
-  doc.setFillColor(...violet);
+  doc.setFillColor(...accent);
   doc.rect(0, 0, pageWidth, 28, 'F');
   doc.setTextColor(255, 255, 255);
   doc.setFont('helvetica', 'bold');
   doc.setFontSize(20);
-  doc.text('MSADS Révision', margin, 13);
+  doc.text(formation.appTitle, margin, 13);
   doc.setFontSize(11);
   doc.setFont('helvetica', 'normal');
-  doc.text(
-    'Titre Pro Médiateur Social Accès aux Droits et Services',
-    margin,
-    20,
-  );
+  doc.text(`Titre Pro ${formation.fullName}`, margin, 20);
   doc.setFontSize(9);
-  doc.text('RNCP36241 — Niveau 4', margin, 25);
+  doc.text([formation.rncp, formation.level].filter(Boolean).join(' — '), margin, 25);
   y = 38;
 
   // ===== Bloc info session =====
@@ -78,7 +73,7 @@ export function buildResultsPdf({ result, profile }: ExportOptions): {
     doc.text(`Apprenant : ${profile.name}`, margin, y);
     y += 5;
   }
-  doc.text(`Module : ${moduleName}`, margin, y);
+  doc.text(`${formation.modulePrefix === 'CCP' ? 'CCP' : 'Module'} : ${moduleName}`, margin, y);
   y += 5;
   doc.text(`Date : ${dateStr}`, margin, y);
   y += 10;
@@ -90,7 +85,7 @@ export function buildResultsPdf({ result, profile }: ExportOptions): {
   // Box 1 — Note ou Points
   doc.setFillColor(245, 243, 255);
   doc.roundedRect(margin, y, boxWidth, boxHeight, 3, 3, 'F');
-  doc.setTextColor(...violet);
+  doc.setTextColor(...accent);
   doc.setFont('helvetica', 'bold');
   doc.setFontSize(22);
   const mainScore = isExam ? `${note}/20` : `${result.points ?? 0}`;
@@ -145,7 +140,7 @@ export function buildResultsPdf({ result, profile }: ExportOptions): {
   doc.setFont('helvetica', 'normal');
 
   result.details.forEach((detail, i) => {
-    const q = allQuestions.find((qq) => qq.id === detail.questionId);
+    const q = formation.questions.find((qq) => qq.id === detail.questionId);
     if (!q) return;
 
     // Estimation hauteur nécessaire
@@ -196,7 +191,7 @@ export function buildResultsPdf({ result, profile }: ExportOptions): {
     doc.setFontSize(8);
     doc.setTextColor(...grayLight);
     doc.text(
-      `MSADS Révision — Document généré le ${new Date().toLocaleDateString('fr-FR')}`,
+      `${formation.appTitle} — Document généré le ${new Date().toLocaleDateString('fr-FR')}`,
       margin,
       pageHeight - 8,
     );
@@ -209,7 +204,7 @@ export function buildResultsPdf({ result, profile }: ExportOptions): {
   const dataUri = doc.output('datauristring');
   const safeName = (profile?.name ?? 'apprenant').replace(/[^a-zA-Z0-9-_]/g, '_');
   const dateSlug = new Date(result.date).toISOString().slice(0, 10);
-  const filename = `MSADS_Resultats_${safeName}_${dateSlug}.pdf`;
+  const filename = `${formation.shortName}_Resultats_${safeName}_${dateSlug}.pdf`;
 
   return { blob, filename, dataUri };
 }
@@ -237,22 +232,21 @@ export function downloadResultsPdf(opts: ExportOptions): string {
  */
 export function shareResultsByEmail(opts: ExportOptions): void {
   const filename = downloadResultsPdf(opts);
-  const { result, profile } = opts;
+  const { result, profile, formation } = opts;
   const isExam = result.mode === 'exam';
   const note = Math.round((result.score / result.total) * 20 * 10) / 10;
-  const moduleName =
-    result.module === 'all' ? 'Tous modules' : MODULE_NAMES[result.module as number];
+  const moduleName = getModuleName(formation, result.module);
 
-  const subject = `MSADS Révision — Résultats ${isExam ? 'Examen' : 'Quiz'} — ${profile?.name ?? ''}`;
+  const subject = `${formation.appTitle} — Résultats ${isExam ? 'Examen' : 'Quiz'} — ${profile?.name ?? ''}`;
 
   const lines = [
     'Bonjour,',
     '',
-    `Voici mes résultats de la session de révision MSADS du ${new Date(result.date).toLocaleDateString('fr-FR')} :`,
+    `Voici mes résultats de la session de révision ${formation.shortName} du ${new Date(result.date).toLocaleDateString('fr-FR')} :`,
     '',
     `• Apprenant : ${profile?.name ?? '—'}`,
     `• Mode : ${isExam ? 'Examen' : 'Quiz chronométré'}`,
-    `• Module : ${moduleName}`,
+    `• ${formation.modulePrefix === 'CCP' ? 'CCP' : 'Module'} : ${moduleName}`,
     isExam
       ? `• Note : ${note}/20 (${result.score}/${result.total} bonnes réponses)`
       : `• Score : ${result.points ?? 0} points (${result.score}/${result.total} bonnes réponses)`,

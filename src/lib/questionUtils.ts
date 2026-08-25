@@ -1,10 +1,7 @@
-import type { Question } from '../types';
-import questionsData from '../data/questions.json';
+import type { Formation, Question } from '../types';
 
-export const allQuestions: Question[] = questionsData as Question[];
-
-export function getQuestionsByModule(module: number): Question[] {
-  return allQuestions.filter(q => q.module === module);
+export function getQuestionsByModule(formation: Formation, module: number): Question[] {
+  return formation.questions.filter(q => q.module === module);
 }
 
 export function shuffleArray<T>(array: T[]): T[] {
@@ -16,20 +13,28 @@ export function shuffleArray<T>(array: T[]): T[] {
   return arr;
 }
 
-export function pickQuestions(module: number | 'all', count: number): Question[] {
-  const pool = module === 'all' ? allQuestions : getQuestionsByModule(module);
+export function pickQuestions(formation: Formation, module: number | 'all', count: number): Question[] {
+  const pool = module === 'all' ? formation.questions : getQuestionsByModule(formation, module);
   return shuffleArray(pool).slice(0, count);
 }
 
-export function getModuleStats(history: { module: number | 'all'; score: number; total: number }[]) {
+export function getModuleName(formation: Formation, module: number | 'all'): string {
+  if (module === 'all') return formation.allModulesLabel;
+  return formation.modules.find(m => m.id === module)?.name ?? `${formation.modulePrefix}${module}`;
+}
+
+export function getModuleStats(
+  formation: Formation,
+  history: { module: number | 'all'; score: number; total: number }[],
+) {
   const stats: Record<number, { attempts: number; avgScore: number; bestScore: number }> = {};
-  for (let m = 1; m <= 6; m++) {
-    const moduleResults = history.filter(h => h.module === m);
+  for (const m of formation.modules) {
+    const moduleResults = history.filter(h => h.module === m.id);
     if (moduleResults.length === 0) {
-      stats[m] = { attempts: 0, avgScore: 0, bestScore: 0 };
+      stats[m.id] = { attempts: 0, avgScore: 0, bestScore: 0 };
     } else {
       const scores = moduleResults.map(h => (h.score / h.total) * 20);
-      stats[m] = {
+      stats[m.id] = {
         attempts: moduleResults.length,
         avgScore: Math.round((scores.reduce((a, b) => a + b, 0) / scores.length) * 10) / 10,
         bestScore: Math.max(...scores),

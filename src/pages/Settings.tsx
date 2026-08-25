@@ -1,20 +1,23 @@
 import { useState } from 'react';
-import { ChevronLeft, Volume2, VolumeX, Type, RotateCcw } from 'lucide-react';
+import { ChevronLeft, Volume2, VolumeX, Type, RotateCcw, GraduationCap } from 'lucide-react';
 import { useProfileStore } from '../stores/useProfileStore';
+import { useFormationStore } from '../stores/useFormationStore';
 import Button from '../components/ui/Button';
 import Card from '../components/ui/Card';
 import Modal from '../components/ui/Modal';
 
 interface Props {
   onBack: () => void;
+  onChangeFormation: () => void;
   soundEnabled: boolean;
   onToggleSound: () => void;
   fontSize: number;
   onFontSize: (size: number) => void;
 }
 
-export default function Settings({ onBack, soundEnabled, onToggleSound, fontSize, onFontSize }: Props) {
+export default function Settings({ onBack, onChangeFormation, soundEnabled, onToggleSound, fontSize, onFontSize }: Props) {
   const profile = useProfileStore(s => s.getActiveProfile());
+  const formation = useFormationStore(s => s.formation);
   const resetProfile = useProfileStore(s => s.resetProfile);
   const [showReset, setShowReset] = useState(false);
 
@@ -82,6 +85,22 @@ export default function Settings({ onBack, soundEnabled, onToggleSound, fontSize
           </div>
         </Card>
 
+        {/* Formation */}
+        <Card>
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <GraduationCap size={20} className="text-violet-400" />
+              <div>
+                <p className="font-semibold">Formation</p>
+                <p className="text-sm text-white/50">{formation?.shortName ?? '—'}</p>
+              </div>
+            </div>
+            <Button variant="secondary" size="sm" onClick={onChangeFormation}>
+              Changer
+            </Button>
+          </div>
+        </Card>
+
         {/* Reset */}
         <Card>
           <div className="flex items-center justify-between">
@@ -100,11 +119,18 @@ export default function Settings({ onBack, soundEnabled, onToggleSound, fontSize
 
         {/* Info */}
         <Card className="text-center text-white/40 text-sm">
-          <p className="font-bold text-white/60 mb-1">MSADS Révision v1.0</p>
+          <p className="font-bold text-white/60 mb-1">{formation?.appTitle ?? 'Révision TP'} v1.1</p>
           <p>Application de révision pour le Titre Professionnel</p>
-          <p>Médiateur Social Accès aux Droits et Services</p>
-          <p className="mt-2">RNCP36241 - Niveau 4</p>
-          <p>150 questions - 6 modules thématiques</p>
+          <p>{formation?.fullName}</p>
+          {formation && [formation.rncp, formation.level].filter(Boolean).length > 0 && (
+            <p className="mt-2">{[formation.rncp, formation.level].filter(Boolean).join(' - ')}</p>
+          )}
+          {formation && (
+            <p>
+              {formation.questions.length} questions - {formation.modules.length}{' '}
+              {formation.modulePrefix === 'CCP' ? 'CCP' : 'modules thématiques'}
+            </p>
+          )}
         </Card>
       </div>
 
