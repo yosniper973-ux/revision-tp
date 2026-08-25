@@ -42,7 +42,7 @@ un `latest.json` dans la release ; l'app interroge
 
 ## Pièges connus
 
-- **Ne pas changer `identifier` dans `src-tauri/tauri.conf.json`.** Sous Windows il détermine le dossier de données WebView2, donc les profils déjà enregistrés chez les apprenants. Il vaut historiquement `com.educentre.msads-revision`.
+- **`identifier` dans `src-tauri/tauri.conf.json`** vaut historiquement `com.educentre.msads-revision`. Sous Windows il détermine le dossier de données WebView2, donc les profils enregistrés sur le poste : le changer efface les profils des apprenants déjà équipés. La promo MSADS d'origine a terminé sa formation et n'utilise plus l'app, donc la contrainte ne mord plus aujourd'hui — mais elle redeviendra bloquante **dès que la première promo sera équipée**. Si on veut un identifiant cohérent avec le nom actuel, c'est maintenant ou jamais.
 - **Le reset CSS de `src/index.css` doit rester dans `@layer base`.** Hors couche, `* { margin:0; padding:0 }` l'emporte sur les utilitaires Tailwind et annule tous les `p-*` / `m-*`.
 - Dans la version de `lucide-react` installée, l'icône `Home` s'appelle `House`.
 
