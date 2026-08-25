@@ -1,13 +1,13 @@
 import { useState, useMemo, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, ArrowRight, ChevronLeft, Info } from 'lucide-react';
-import { pickQuestions } from '../lib/questionUtils';
+import { pickQuestions, getModuleName } from '../lib/questionUtils';
+import { useFormationStore } from '../stores/useFormationStore';
 import { useSound } from '../hooks/useSound';
 import QuestionRenderer from '../components/questions/QuestionRenderer';
 import ProgressBar from '../components/ui/ProgressBar';
 import Button from '../components/ui/Button';
 import Confetti from '../components/ui/Confetti';
-import { MODULE_NAMES } from '../types';
 import type { Question, AnswerDetail, GameResult } from '../types';
 
 interface Props {
@@ -17,7 +17,8 @@ interface Props {
 }
 
 export default function ExamGame({ module, onFinish, onBack }: Props) {
-  const questions = useMemo(() => pickQuestions(module, 20), [module]);
+  const formation = useFormationStore(s => s.formation)!;
+  const questions = useMemo(() => pickQuestions(formation, module, 20), [formation, module]);
   const [current, setCurrent] = useState(0);
   const [answers, setAnswers] = useState<Map<number, AnswerDetail>>(new Map());
   const [showExplanation, setShowExplanation] = useState(false);
@@ -70,7 +71,7 @@ export default function ExamGame({ module, onFinish, onBack }: Props) {
   };
 
   const answered = answers.size;
-  const moduleName = module === 'all' ? 'Tous modules' : MODULE_NAMES[module];
+  const moduleName = getModuleName(formation, module);
 
   return (
     <div className="h-full flex flex-col">

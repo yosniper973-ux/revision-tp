@@ -1,22 +1,51 @@
 import { useState } from 'react';
-import { ChevronLeft, Volume2, VolumeX, Type, RotateCcw } from 'lucide-react';
+import { ChevronLeft, Volume2, VolumeX, Type, RotateCcw, GraduationCap, Users } from 'lucide-react';
 import { useProfileStore } from '../stores/useProfileStore';
+import { useFormationStore } from '../stores/useFormationStore';
+import { useTeacherStore } from '../stores/useTeacherStore';
 import Button from '../components/ui/Button';
 import Card from '../components/ui/Card';
 import Modal from '../components/ui/Modal';
 
 interface Props {
   onBack: () => void;
+  onChangeFormation: () => void;
   soundEnabled: boolean;
   onToggleSound: () => void;
   fontSize: number;
   onFontSize: (size: number) => void;
 }
 
-export default function Settings({ onBack, soundEnabled, onToggleSound, fontSize, onFontSize }: Props) {
+export default function Settings({ onBack, onChangeFormation, soundEnabled, onToggleSound, fontSize, onFontSize }: Props) {
   const profile = useProfileStore(s => s.getActiveProfile());
+  const formation = useFormationStore(s => s.formation);
+  const teacherMode = useTeacherStore(s => s.teacherMode);
+  const unlockTeacherMode = useTeacherStore(s => s.unlockTeacherMode);
+  const disableTeacherMode = useTeacherStore(s => s.disableTeacherMode);
+  const [showUnlock, setShowUnlock] = useState(false);
+  const [password, setPassword] = useState('');
+  const [unlockError, setUnlockError] = useState(false);
   const resetProfile = useProfileStore(s => s.resetProfile);
   const [showReset, setShowReset] = useState(false);
+
+  const handleToggleTeacher = () => {
+    if (teacherMode) {
+      disableTeacherMode();
+      return;
+    }
+    setPassword('');
+    setUnlockError(false);
+    setShowUnlock(true);
+  };
+
+  const handleUnlock = () => {
+    if (unlockTeacherMode(password)) {
+      setShowUnlock(false);
+      setPassword('');
+    } else {
+      setUnlockError(true);
+    }
+  };
 
   const handleReset = () => {
     if (profile) {
@@ -82,6 +111,43 @@ export default function Settings({ onBack, soundEnabled, onToggleSound, fontSize
           </div>
         </Card>
 
+        {/* Formation */}
+        <Card>
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <GraduationCap size={20} className="text-violet-400" />
+              <div>
+                <p className="font-semibold">Formation</p>
+                <p className="text-sm text-white/50">{formation?.shortName ?? '—'}</p>
+              </div>
+            </div>
+            <Button variant="secondary" size="sm" onClick={onChangeFormation}>
+              Changer
+            </Button>
+          </div>
+        </Card>
+
+        {/* Mode formateur */}
+        <Card>
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <Users size={20} className={teacherMode ? 'text-violet-400' : 'text-white/40'} />
+              <div>
+                <p className="font-semibold">Mode formateur</p>
+                <p className="text-sm text-white/50">
+                  {teacherMode ? 'Activé sur ce poste' : 'Réservé à la formatrice, protégé par mot de passe'}
+                </p>
+              </div>
+            </div>
+            <button
+              onClick={handleToggleTeacher}
+              className={`w-14 h-7 rounded-full transition-colors relative cursor-pointer ${teacherMode ? 'bg-violet-500' : 'bg-white/20'}`}
+            >
+              <div className={`w-5 h-5 rounded-full bg-white absolute top-1 transition-transform ${teacherMode ? 'translate-x-8' : 'translate-x-1'}`} />
+            </button>
+          </div>
+        </Card>
+
         {/* Reset */}
         <Card>
           <div className="flex items-center justify-between">
@@ -100,13 +166,44 @@ export default function Settings({ onBack, soundEnabled, onToggleSound, fontSize
 
         {/* Info */}
         <Card className="text-center text-white/40 text-sm">
-          <p className="font-bold text-white/60 mb-1">MSADS Révision v1.0</p>
+          <p className="font-bold text-white/60 mb-1">{formation?.appTitle ?? 'Révision TP'} v1.1</p>
           <p>Application de révision pour le Titre Professionnel</p>
-          <p>Médiateur Social Accès aux Droits et Services</p>
-          <p className="mt-2">RNCP36241 - Niveau 4</p>
-          <p>150 questions - 6 modules thématiques</p>
+          <p>{formation?.fullName}</p>
+          {formation && [formation.rncp, formation.level].filter(Boolean).length > 0 && (
+            <p className="mt-2">{[formation.rncp, formation.level].filter(Boolean).join(' - ')}</p>
+          )}
+          {formation && (
+            <p>
+              {formation.questions.length} questions - {formation.modules.length}{' '}
+              {formation.modulePrefix === 'CCP' ? 'CCP' : 'modules thématiques'}
+            </p>
+          )}
         </Card>
       </div>
+
+      <Modal isOpen={showUnlock} onClose={() => setShowUnlock(false)} title="Mode formateur">
+        <p className="text-white/70 mb-4">
+          Saisis le mot de passe pour activer le suivi des apprenants sur ce poste.
+        </p>
+        <input
+          type="password"
+          value={password}
+          autoFocus
+          onChange={e => { setPassword(e.target.value); setUnlockError(false); }}
+          onKeyDown={e => { if (e.key === 'Enter') handleUnlock(); }}
+          placeholder="Mot de passe"
+          className="w-full px-4 py-3 bg-white/10 border border-white/15 rounded-xl outline-none focus:border-violet-400 transition-colors mb-2"
+        />
+        {unlockError && <p className="text-sm text-red-400 mb-2">Mot de passe incorrect.</p>}
+        <div className="flex gap-3 mt-4">
+          <Button variant="secondary" onClick={() => setShowUnlock(false)} className="flex-1">
+            Annuler
+          </Button>
+          <Button onClick={handleUnlock} disabled={!password.trim()} className="flex-1">
+            Activer
+          </Button>
+        </div>
+      </Modal>
 
       <Modal isOpen={showReset} onClose={() => setShowReset(false)} title="Réinitialiser le profil">
         <p className="text-white/70 mb-6">

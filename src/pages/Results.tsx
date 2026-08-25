@@ -1,16 +1,17 @@
 import { useMemo } from 'react';
 import { motion } from 'framer-motion';
-import { Trophy, Target, ArrowRight, Home as HomeIcon, Zap, ChevronDown, Info, FileDown, Mail } from 'lucide-react';
+import { Trophy, Target, ArrowRight, Home as HomeIcon, Zap, ChevronDown, Info, FileDown, Mail, Send } from 'lucide-react';
 import Button from '../components/ui/Button';
 import Card from '../components/ui/Card';
 import Confetti from '../components/ui/Confetti';
 import { getRecommendation } from '../lib/scoring';
-import { allQuestions } from '../lib/questionUtils';
+import { getModuleName } from '../lib/questionUtils';
 import { downloadResultsPdf, shareResultsByEmail } from '../lib/pdfExport';
-import { MODULE_NAMES } from '../types';
+import { shareReportByEmail } from '../lib/resultsExport';
 import type { GameResult } from '../types';
 import { BADGES } from '../data/badges';
 import { useProfileStore } from '../stores/useProfileStore';
+import { useFormationStore } from '../stores/useFormationStore';
 import { useState } from 'react';
 
 interface Props {
@@ -27,10 +28,11 @@ export default function Results({ result, newBadges, onHome, onRetry }: Props) {
   const [showDetails, setShowDetails] = useState(false);
   const isPerfect = result.score === result.total;
   const profile = useProfileStore(s => s.getActiveProfile());
+  const formation = useFormationStore(s => s.formation)!;
 
   const handleExportPdf = () => {
     try {
-      downloadResultsPdf({ result, profile });
+      downloadResultsPdf({ result, profile, formation });
     } catch (err) {
       console.error('Erreur export PDF :', err);
       alert('Impossible de générer le PDF. Vérifie la console pour plus de détails.');
@@ -39,14 +41,25 @@ export default function Results({ result, newBadges, onHome, onRetry }: Props) {
 
   const handleShareEmail = () => {
     try {
-      shareResultsByEmail({ result, profile });
+      shareResultsByEmail({ result, profile, formation });
     } catch (err) {
       console.error('Erreur partage mail :', err);
       alert('Impossible d\'ouvrir le client mail. Vérifie la console pour plus de détails.');
     }
   };
 
-  const moduleName = result.module === 'all' ? 'Tous modules' : MODULE_NAMES[result.module as number];
+  const handleSendToTeacher = () => {
+    if (!profile) return;
+    try {
+      const filename = shareReportByEmail(profile, formation);
+      alert(`Le fichier « ${filename} » a été téléchargé.\n\nTon client mail va s'ouvrir : pense à joindre ce fichier avant d'envoyer.`);
+    } catch (err) {
+      console.error('Erreur envoi formatrice :', err);
+      alert('Impossible de générer le fichier de résultats. Vérifie la console pour plus de détails.');
+    }
+  };
+
+  const moduleName = getModuleName(formation, result.module);
 
   const earnedBadges = BADGES.filter(b => newBadges.includes(b.id));
 
@@ -147,7 +160,7 @@ export default function Results({ result, newBadges, onHome, onRetry }: Props) {
               className="space-y-2 mt-2"
             >
               {result.details.map((detail, i) => {
-                const q = allQuestions.find(q => q.id === detail.questionId);
+                const q = formation.questions.find(q => q.id === detail.questionId);
                 if (!q) return null;
                 return (
                   <div
@@ -181,6 +194,12 @@ export default function Results({ result, newBadges, onHome, onRetry }: Props) {
         </Button>
         <Button variant="secondary" onClick={handleShareEmail} className="flex-1">
           <Mail size={18} className="inline mr-2" /> Envoyer par mail
+        </Button>
+      </div>
+
+      <div className="flex justify-center max-w-md mx-auto mb-6">
+        <Button onClick={handleSendToTeacher} className="flex-1">
+          <Send size={18} className="inline mr-2" /> Envoyer mes résultats à ma formatrice
         </Button>
       </div>
 

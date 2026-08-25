@@ -1,7 +1,8 @@
 import { useState, useMemo, useCallback, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft } from 'lucide-react';
-import { pickQuestions } from '../lib/questionUtils';
+import { pickQuestions, getModuleName } from '../lib/questionUtils';
+import { useFormationStore } from '../stores/useFormationStore';
 import { calcQuizPoints } from '../lib/scoring';
 import { useTimer } from '../hooks/useTimer';
 import { useSound } from '../hooks/useSound';
@@ -9,7 +10,6 @@ import QuestionRenderer from '../components/questions/QuestionRenderer';
 import TimerBar from '../components/game/TimerBar';
 import ScoreDisplay from '../components/game/ScoreDisplay';
 import Confetti from '../components/ui/Confetti';
-import { MODULE_NAMES } from '../types';
 import type { AnswerDetail, GameResult } from '../types';
 
 const QUESTION_COUNT = 20;
@@ -22,7 +22,8 @@ interface Props {
 }
 
 export default function QuizGame({ module, onFinish, onBack }: Props) {
-  const questions = useMemo(() => pickQuestions(module, QUESTION_COUNT), [module]);
+  const formation = useFormationStore(s => s.formation)!;
+  const questions = useMemo(() => pickQuestions(formation, module, QUESTION_COUNT), [formation, module]);
   const [current, setCurrent] = useState(0);
   const [answers, setAnswers] = useState<AnswerDetail[]>([]);
   const [totalPoints, setTotalPoints] = useState(0);
@@ -100,7 +101,7 @@ export default function QuizGame({ module, onFinish, onBack }: Props) {
   if (gameOver) return null;
 
   const question = questions[current];
-  const moduleName = module === 'all' ? 'Tous modules' : MODULE_NAMES[module];
+  const moduleName = getModuleName(formation, module);
 
   return (
     <div className="h-full flex flex-col">

@@ -1,8 +1,10 @@
 import { useState, useCallback, useEffect } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useProfileStore } from './stores/useProfileStore';
+import { useFormationStore } from './stores/useFormationStore';
 import { useSound } from './hooks/useSound';
 import SplashScreen from './pages/SplashScreen';
+import FormationSelect from './pages/FormationSelect';
 import ProfileSelect from './pages/ProfileSelect';
 import ProfileCreate from './pages/ProfileCreate';
 import Home from './pages/Home';
@@ -12,10 +14,13 @@ import Results from './pages/Results';
 import Dashboard from './pages/Dashboard';
 import Leaderboard from './pages/Leaderboard';
 import Settings from './pages/Settings';
+import Promo from './pages/Promo';
+import UpdateBanner from './components/UpdateBanner';
 import type { GameResult } from './types';
 
 type Screen =
   | 'splash'
+  | 'formation-select'
   | 'profile-select'
   | 'profile-create'
   | 'home'
@@ -24,7 +29,8 @@ type Screen =
   | 'results'
   | 'dashboard'
   | 'leaderboard'
-  | 'settings';
+  | 'settings'
+  | 'promo';
 
 export default function App() {
   const [screen, setScreen] = useState<Screen>('splash');
@@ -36,6 +42,9 @@ export default function App() {
   const { setEnabled } = useSound();
 
   const { activeProfileId, addResult, getActiveProfile } = useProfileStore();
+  const formation = useFormationStore(s => s.formation);
+  /** Vrai quand on change de formation depuis les paramètres : permet de revenir en arrière. */
+  const [changingFormation, setChangingFormation] = useState(false);
 
   useEffect(() => {
     setEnabled(soundEnabled);
@@ -46,12 +55,21 @@ export default function App() {
   }, [fontSize]);
 
   const handleSplashDone = useCallback(() => {
-    if (activeProfileId) {
-      setScreen('home');
-    } else {
-      setScreen('profile-select');
-    }
-  }, [activeProfileId]);
+    if (!formation) setScreen('formation-select');
+    else if (activeProfileId) setScreen('home');
+    else setScreen('profile-select');
+  }, [formation, activeProfileId]);
+
+  const handleFormationSelected = useCallback(() => {
+    setChangingFormation(false);
+    // Chaque formation a ses propres profils : on reprend celui déjà actif s'il existe.
+    setScreen(useProfileStore.getState().activeProfileId ? 'home' : 'profile-select');
+  }, []);
+
+  const handleChangeFormation = useCallback(() => {
+    setChangingFormation(true);
+    setScreen('formation-select');
+  }, []);
 
   const handleStartExam = useCallback((module: number | 'all') => {
     setGameModule(module);
@@ -77,6 +95,7 @@ export default function App() {
 
   return (
     <div className="h-full">
+      <UpdateBanner />
       <AnimatePresence mode="wait">
         <motion.div
           key={screen}
@@ -87,7 +106,14 @@ export default function App() {
           className="h-full"
         >
           {screen === 'splash' && (
-            <SplashScreen onDone={handleSplashDone} />
+            <SplashScreen formation={formation} onDone={handleSplashDone} />
+          )}
+
+          {screen === 'formation-select' && (
+            <FormationSelect
+              onSelect={handleFormationSelected}
+              onBack={changingFormation ? () => setScreen('settings') : undefined}
+            />
           )}
 
           {screen === 'profile-select' && (
@@ -112,6 +138,7 @@ export default function App() {
               onLeaderboard={() => setScreen('leaderboard')}
               onSettings={() => setScreen('settings')}
               onLogout={() => setScreen('profile-select')}
+              onPromo={() => setScreen('promo')}
             />
           )}
 
@@ -151,9 +178,14 @@ export default function App() {
             <Leaderboard onBack={() => setScreen('home')} />
           )}
 
+          {screen === 'promo' && (
+            <Promo onBack={() => setScreen('home')} />
+          )}
+
           {screen === 'settings' && (
             <Settings
               onBack={() => setScreen('home')}
+              onChangeFormation={handleChangeFormation}
               soundEnabled={soundEnabled}
               onToggleSound={() => setSoundEnabled(!soundEnabled)}
               fontSize={fontSize}
