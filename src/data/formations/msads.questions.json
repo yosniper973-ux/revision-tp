@@ -1,0 +1,2054 @@
+[
+  {
+    "id": "M1-Q001",
+    "module": 1,
+    "type": "qcm_single",
+    "difficulty": 1,
+    "question": "Quel document constitue la référence fondatrice du cadre déontologique de la médiation sociale en France ?",
+    "options": [
+      "La Charte de référence de la médiation sociale visée par le Comité Interministériel des Villes du 1er octobre 2001",
+      "Le Code de déontologie des travailleurs sociaux de 1998",
+      "La Convention européenne de médiation civile de 2008",
+      "Le référentiel HAS de la médiation en santé de 2017"
+    ],
+    "correct": [0],
+    "keywords": [],
+    "explanation": "La Charte de référence de la médiation sociale, visée par le Comité Interministériel des Villes du 1er octobre 2001, est le texte fondateur qui définit le cadre déontologique de la médiation sociale en France."
+  },
+  {
+    "id": "M1-Q002",
+    "module": 1,
+    "type": "true_false",
+    "difficulty": 1,
+    "question": "Le médiateur social accès aux droits et services (MSADS) peut donner son avis personnel et conseiller les personnes qu'il accompagne.",
+    "options": ["Vrai", "Faux"],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Faux. Selon le REAC, le MSADS doit « ne pas donner son avis, ne pas conseiller ». Il adopte et maintient une posture de tiers neutre et impartial, sans pouvoir de décision."
+  },
+  {
+    "id": "M1-Q003",
+    "module": 1,
+    "type": "open_text",
+    "difficulty": 2,
+    "question": "Citez les trois qualificatifs qui définissent la posture du médiateur social selon le REAC (position de tiers...).",
+    "options": [],
+    "correct": [],
+    "keywords": ["neutre", "impartial", "indépendant"],
+    "explanation": "Le REAC définit le médiateur social comme occupant une « position de tiers, impartial, neutre et indépendant ». Ces trois qualités garantissent la posture professionnelle du médiateur."
+  },
+  {
+    "id": "M1-Q004",
+    "module": 1,
+    "type": "drag_drop",
+    "difficulty": 2,
+    "question": "Associez chaque principe à sa description correcte :",
+    "options": [
+      {"left": "Neutralité", "right": "Le médiateur ne prend pas parti et n'émet pas de jugement sur la situation"},
+      {"left": "Impartialité", "right": "Le médiateur ne favorise aucune des parties en présence"},
+      {"left": "Confidentialité", "right": "Les échanges lors de la médiation ne sont pas divulgués à des tiers"},
+      {"left": "Libre consentement", "right": "Les personnes acceptent volontairement d'entrer en médiation et peuvent l'arrêter à tout moment"}
+    ],
+    "correct": [0, 1, 2, 3],
+    "keywords": [],
+    "explanation": "Ces quatre principes garantissent le processus de médiation sociale selon la Charte de 2001 et la norme AFNOR."
+  },
+  {
+    "id": "M1-Q005",
+    "module": 1,
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": "Le médiateur social accès aux droits et services respecte les règles déontologiques de la médiation et les limites de sa fonction, dans le cadre défini par son ___. Il prend en compte les nouveaux modes de ___ et notamment des réseaux sociaux.",
+    "options": ["employeur", "communication"],
+    "correct": ["employeur", "communication"],
+    "keywords": [],
+    "explanation": "Extrait fidèle du REAC (fiche emploi type) : le MSADS exerce dans le cadre défini par son employeur et doit intégrer les évolutions des modes de communication."
+  },
+  {
+    "id": "M1-Q006",
+    "module": 1,
+    "type": "qcm_single",
+    "difficulty": 1,
+    "question": "Quel est le niveau de qualification du titre professionnel MSADS selon le Cadre national des certifications ?",
+    "options": ["Niveau 3", "Niveau 4", "Niveau 5", "Niveau 6"],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Le titre professionnel Médiateur social accès aux droits et services est de Niveau 4 selon le Cadre national des certifications 2019."
+  },
+  {
+    "id": "M1-Q007",
+    "module": 1,
+    "type": "qcm_single",
+    "difficulty": 1,
+    "question": "Combien d'activités types composent le titre professionnel MSADS ?",
+    "options": ["2 activités types", "3 activités types", "4 activités types", "5 activités types"],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Le titre MSADS est composé de 3 activités types : 1) Participer à une veille sociale et s'inscrire dans les réseaux professionnels d'un territoire ; 2) Assurer un service de médiation sociale ; 3) Faciliter et organiser des activités supports à la médiation sociale."
+  },
+  {
+    "id": "M1-Q008",
+    "module": 1,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Parmi ces propositions, lesquelles sont des compétences transversales de l'emploi de MSADS selon le REAC ? (3 réponses)",
+    "options": [
+      "Respecter les principes fondamentaux de la médiation sociale",
+      "Faire preuve d'innovation et de créativité",
+      "Maîtriser les outils informatiques avancés",
+      "Actualiser ses compétences",
+      "Diriger une équipe de médiateurs"
+    ],
+    "correct": [0, 1, 3],
+    "keywords": [],
+    "explanation": "Les trois compétences transversales du MSADS sont : respecter les principes fondamentaux de la médiation sociale, faire preuve d'innovation et de créativité, et actualiser ses compétences."
+  },
+  {
+    "id": "M1-Q009",
+    "module": 1,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Quelle norme complète la Charte de 2001 pour encadrer le métier de la médiation sociale ?",
+    "options": [
+      "La norme ISO 9001 de management de la qualité",
+      "La norme AFNOR « cadre du métier de la médiation sociale »",
+      "La norme NF X50-056 de la médiation familiale",
+      "La norme européenne EN 16500 sur la médiation"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "La norme AFNOR « cadre du métier de la médiation sociale » complète la Charte de référence de 2001 pour définir les contours professionnels de la médiation sociale."
+  },
+  {
+    "id": "M1-Q010",
+    "module": 1,
+    "type": "true_false",
+    "difficulty": 1,
+    "question": "La médiation sociale est centrée sur la régulation des rapports sociaux.",
+    "options": ["Vrai", "Faux"],
+    "correct": [0],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC précise que la médiation sociale est « centrée sur la régulation des rapports sociaux » et repose sur une approche spécifique de résolution des tensions entre concitoyens et de mise en relation entre les personnes et les institutions."
+  },
+  {
+    "id": "M1-Q011",
+    "module": 1,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Dans quels contextes d'intervention la médiation sociale peut-elle s'exercer selon le REAC ? (3 réponses)",
+    "options": [
+      "Médiation sociale urbaine et rurale",
+      "Espaces publics ou privés, quartiers, écoles",
+      "Médiation chantier et énergie",
+      "Médiation commerciale entre entreprises",
+      "Arbitrage juridique devant les tribunaux"
+    ],
+    "correct": [0, 1, 2],
+    "keywords": [],
+    "explanation": "Selon le REAC, la médiation sociale s'exerce dans des contextes variés : urbain, rural, espaces publics/privés, quartiers, écoles, collèges, lycées, médiation chantier, énergie, à l'hôpital..."
+  },
+  {
+    "id": "M1-Q012",
+    "module": 1,
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": "La médiation sociale est le « ___ » du métier du MSADS, il se doit de respecter le processus de médiation sociale, incarner la ___ du médiateur et respecter le cadre ___ de la médiation sociale.",
+    "options": ["cœur", "posture", "déontologique"],
+    "correct": ["cœur", "posture", "déontologique"],
+    "keywords": [],
+    "explanation": "Citation du REAC : « La médiation sociale est le cœur du métier du MSADS, il se doit de respecter le processus de médiation sociale, incarner la posture du médiateur et respecter le cadre déontologique. »"
+  },
+  {
+    "id": "M1-Q013",
+    "module": 1,
+    "type": "qcm_single",
+    "difficulty": 1,
+    "question": "Quelle fiche ROME correspond au métier de MSADS ?",
+    "options": [
+      "K1201 - Action sociale",
+      "K1204 - Médiation sociale et facilitation de la vie en société",
+      "K1301 - Accompagnement médicosocial",
+      "K1205 - Information sociale"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "La fiche ROME de rattachement du MSADS est K1204 « Médiation sociale et facilitation de la vie en société »."
+  },
+  {
+    "id": "M1-Q014",
+    "module": 1,
+    "type": "true_false",
+    "difficulty": 1,
+    "question": "Le titre professionnel MSADS est soumis à une réglementation d'activités spécifique.",
+    "options": ["Vrai", "Faux"],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Faux. Le REAC indique « Sans objet » à la rubrique « Réglementation d'activités ». Le titre MSADS n'est pas soumis à une réglementation spécifique."
+  },
+  {
+    "id": "M1-Q015",
+    "module": 1,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Combien de compétences professionnelles le titre MSADS comporte-t-il au total ?",
+    "options": ["10 compétences", "12 compétences", "14 compétences", "16 compétences"],
+    "correct": [2],
+    "keywords": [],
+    "explanation": "Le titre MSADS comporte 14 compétences professionnelles réparties sur 3 activités types (3 CP pour l'AT1, 8 CP pour l'AT2, 3 CP pour l'AT3)."
+  },
+  {
+    "id": "M1-Q016",
+    "module": 1,
+    "type": "open_text",
+    "difficulty": 2,
+    "question": "Quel est le code NSF (nomenclature des spécialités de formation) du titre MSADS ?",
+    "options": [],
+    "correct": [],
+    "keywords": ["332t"],
+    "explanation": "Le code NSF du titre MSADS est 332t — « Aide, conseil, orientation, assistance sociale, éducateur »."
+  },
+  {
+    "id": "M1-Q017",
+    "module": 1,
+    "type": "drag_drop",
+    "difficulty": 2,
+    "question": "Associez chaque activité type à son numéro :",
+    "options": [
+      {"left": "AT1", "right": "Participer à une veille sociale et s'inscrire dans les réseaux professionnels d'un territoire"},
+      {"left": "AT2", "right": "Assurer un service de médiation sociale"},
+      {"left": "AT3", "right": "Faciliter et organiser des activités supports à la médiation sociale"}
+    ],
+    "correct": [0, 1, 2],
+    "keywords": [],
+    "explanation": "Les trois activités types du MSADS structurent l'ensemble du titre professionnel et correspondent chacune à un certificat de compétences professionnelles (CCP)."
+  },
+  {
+    "id": "M1-Q018",
+    "module": 1,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Parmi ces types d'emplois, lesquels sont accessibles par le détenteur du titre MSADS ? (3 réponses)",
+    "options": [
+      "Médiateur social en milieu scolaire",
+      "Médiateur de ville",
+      "Médiateur social énergie",
+      "Médiateur judiciaire",
+      "Médiateur bancaire"
+    ],
+    "correct": [0, 1, 2],
+    "keywords": [],
+    "explanation": "Selon le REAC, les emplois accessibles incluent : médiateur social, médiateur social en milieu scolaire, en santé, social et culturel, énergie, chantier, et médiateur de ville."
+  },
+  {
+    "id": "M1-Q019",
+    "module": 1,
+    "type": "true_false",
+    "difficulty": 1,
+    "question": "Le MSADS favorise l'inclusion des personnes par son activité de médiation destinée à tout public.",
+    "options": ["Vrai", "Faux"],
+    "correct": [0],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC précise que le MSADS « favorise l'inclusion des personnes par son activité de médiation destinée à tout public »."
+  },
+  {
+    "id": "M1-Q020",
+    "module": 1,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Quel est le code titre du MSADS dans le système des titres professionnels ?",
+    "options": ["TP-00486", "TP-00512", "TP-00321", "TP-00654"],
+    "correct": [0],
+    "keywords": [],
+    "explanation": "Le code titre du MSADS est TP-00486, millésime 05, validé le 22/02/2022."
+  },
+  {
+    "id": "M1-Q021",
+    "module": 1,
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": "Dans le cadre ___ de la médiation sociale, le médiateur social accès aux droits et services contribue à entretenir et faciliter les rapports sociaux physiques et ___.",
+    "options": ["déontologique", "virtuels"],
+    "correct": ["déontologique", "virtuels"],
+    "keywords": [],
+    "explanation": "Extrait du REAC : « Dans le cadre déontologique de la médiation sociale, le MSADS contribue à entretenir et faciliter les rapports sociaux physiques et virtuels. »"
+  },
+  {
+    "id": "M1-Q022",
+    "module": 1,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Quels sont les principaux secteurs d'activité concernés par le titre MSADS ? (3 réponses)",
+    "options": [
+      "L'intervention sociale",
+      "Le logement social et l'habitat",
+      "Les établissements scolaires",
+      "L'industrie pharmaceutique",
+      "Le commerce international"
+    ],
+    "correct": [0, 1, 2],
+    "keywords": [],
+    "explanation": "Les secteurs d'activité du MSADS incluent : l'intervention sociale, le logement social/habitat, les établissements scolaires, la santé, les transports, les territoires/villes/communes."
+  },
+  {
+    "id": "M1-Q023",
+    "module": 1,
+    "type": "open_text",
+    "difficulty": 2,
+    "question": "Quel sigle désigne le titre professionnel Médiateur social accès aux droits et services ?",
+    "options": [],
+    "correct": [],
+    "keywords": ["MSADS"],
+    "explanation": "Le sigle officiel est MSADS : Médiateur Social Accès aux Droits et Services."
+  },
+  {
+    "id": "M1-Q024",
+    "module": 1,
+    "type": "true_false",
+    "difficulty": 2,
+    "question": "Le REAC 2021 a profondément modifié la structure du titre MSADS en passant de 3 à 4 activités types.",
+    "options": ["Vrai", "Faux"],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Faux. Le REAC 2021 préserve la structure à 3 activités types. Ce sont les intitulés et descriptions des compétences qui ont été actualisés."
+  },
+  {
+    "id": "M1-Q025",
+    "module": 1,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Quel est l'objectif principal du REAC dans le système des titres professionnels ?",
+    "options": [
+      "Fixer les barèmes de rémunération des médiateurs",
+      "Décrire les repères pour une représentation concrète du métier et des compétences regroupées en activités dans un but de certification",
+      "Définir les programmes de formation obligatoires",
+      "Établir les règles disciplinaires de la profession"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Selon le glossaire du REAC, celui-ci « décrit les repères pour une représentation concrète du métier et des compétences qui sont regroupées en activités dans un but de certification »."
+  },
+  {
+    "id": "M2-Q001",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 1,
+    "question": "Quelle est la posture fondamentale du médiateur social lors d'un entretien de médiation ?",
+    "options": [
+      "Position d'autorité pour imposer des solutions",
+      "Position de tiers neutre, impartial et sans pouvoir de décision",
+      "Position de conseiller expert qui oriente les choix des parties",
+      "Position d'arbitre qui tranche le conflit"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Selon le REAC, le médiateur social doit adopter une « position de tiers impartial et sans pouvoir de décision ». Il ne tranche pas, n'arbitre pas et ne conseille pas."
+  },
+  {
+    "id": "M2-Q002",
+    "module": 2,
+    "type": "true_false",
+    "difficulty": 1,
+    "question": "Le médiateur social doit adopter et maintenir une juste distance professionnelle.",
+    "options": ["Vrai", "Faux"],
+    "correct": [0],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC mentionne explicitement « adopter et maintenir une juste distance professionnelle » comme savoir-faire relationnel essentiel du MSADS."
+  },
+  {
+    "id": "M2-Q003",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 1,
+    "question": "Que signifie l'expression « aller vers » dans le contexte de la médiation sociale ?",
+    "options": [
+      "Se rendre dans les administrations à la place des personnes",
+      "Aller à la rencontre des personnes de manière proactive, y compris sur le terrain et à domicile",
+      "Envoyer des courriers d'invitation aux personnes",
+      "Publier des annonces sur les réseaux sociaux"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Le REAC insiste sur la démarche d'« aller vers les personnes », de « prendre contact » et d'« assurer une présence active de proximité ». Le médiateur se déplace, y compris au domicile des personnes."
+  },
+  {
+    "id": "M2-Q004",
+    "module": 2,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Quelles sont les composantes de l'écoute active que le MSADS doit maîtriser selon le REAC ? (3 réponses)",
+    "options": [
+      "Le questionnement",
+      "La reformulation",
+      "La relance et la synthèse",
+      "L'interprétation des propos",
+      "La suggestion de solutions"
+    ],
+    "correct": [0, 1, 2],
+    "keywords": [],
+    "explanation": "Le REAC décrit les « techniques d'écoute active : questionnement, relances, reformulation, synthèse ». L'interprétation et la suggestion de solutions ne font pas partie de l'écoute active."
+  },
+  {
+    "id": "M2-Q005",
+    "module": 2,
+    "type": "open_text",
+    "difficulty": 2,
+    "question": "Selon le REAC, que doit distinguer le médiateur social dans les propos des personnes qu'il accompagne ? (trois éléments)",
+    "options": [],
+    "correct": [],
+    "keywords": ["faits", "opinions", "émotions"],
+    "explanation": "Le REAC insiste sur la capacité du MSADS à « distinguer faits, opinions, sentiments/émotions ». C'est un savoir-faire technique essentiel pour l'analyse des situations."
+  },
+  {
+    "id": "M2-Q006",
+    "module": 2,
+    "type": "true_false",
+    "difficulty": 1,
+    "question": "Le médiateur social peut refuser une intervention de médiation si la situation ne relève pas de la médiation sociale.",
+    "options": ["Vrai", "Faux"],
+    "correct": [0],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC précise que le médiateur doit « orienter la personne vers un interlocuteur plus adapté à la situation en cas de demande hors des limites de la médiation sociale » et qu'il peut « si nécessaire, refuser une demande et proposer une autre orientation »."
+  },
+  {
+    "id": "M2-Q007",
+    "module": 2,
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": "Le MSADS doit pratiquer l'___ active, adopter une attitude de ___ et de non-jugement, et respecter le cadre de ___ des personnes.",
+    "options": ["écoute", "bienveillance", "référence"],
+    "correct": ["écoute", "bienveillance", "référence"],
+    "keywords": [],
+    "explanation": "Le REAC mentionne la « pratique de l'écoute active », l'« attitude de bienveillance et de non-jugement » et le respect du « cadre de référence des personnes » comme éléments essentiels de la posture."
+  },
+  {
+    "id": "M2-Q008",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Que doit faire le médiateur social face à ses propres émotions lors d'un entretien ?",
+    "options": [
+      "Les exprimer ouvertement pour créer un lien avec la personne",
+      "Les ignorer totalement pour rester professionnel",
+      "Les reconnaître et les gérer, se distancier de ses propres vécus émotionnels et affectifs",
+      "Les noter dans un rapport pour sa hiérarchie"
+    ],
+    "correct": [2],
+    "keywords": [],
+    "explanation": "Le REAC indique que le MSADS doit « reconnaître et gérer ses émotions » et « se distancier de ses propres vécus émotionnels et affectifs ». Il ne s'agit ni de les exprimer ni de les ignorer."
+  },
+  {
+    "id": "M2-Q009",
+    "module": 2,
+    "type": "drag_drop",
+    "difficulty": 2,
+    "question": "Associez chaque attitude du médiateur à sa description :",
+    "options": [
+      {"left": "Empathie", "right": "Comprendre le ressenti de l'autre sans s'identifier à lui"},
+      {"left": "Bienveillance", "right": "Adopter une attitude positive et sans jugement envers la personne"},
+      {"left": "Juste distance", "right": "Maintenir un équilibre entre implication professionnelle et préservation de soi"},
+      {"left": "Authenticité", "right": "S'exprimer avec sincérité tout en respectant le cadre professionnel"}
+    ],
+    "correct": [0, 1, 2, 3],
+    "keywords": [],
+    "explanation": "Le REAC détaille ces quatre attitudes comme des savoir-faire relationnels essentiels du MSADS : empathie, bienveillance/non-jugement, juste distance professionnelle, et authenticité."
+  },
+  {
+    "id": "M2-Q010",
+    "module": 2,
+    "type": "true_false",
+    "difficulty": 1,
+    "question": "Le médiateur social doit s'assurer du libre consentement de la personne avant d'engager une médiation.",
+    "options": ["Vrai", "Faux"],
+    "correct": [0],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC stipule de « s'assurer du libre consentement de la personne » et d'« accepter le refus de la personne d'entrer en médiation ou de l'arrêter à tout moment »."
+  },
+  {
+    "id": "M2-Q011",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 1,
+    "question": "Que signifie « faire avec » dans la posture du médiateur social ?",
+    "options": [
+      "Faire les démarches à la place de la personne",
+      "Associer la personne à chaque étape et respecter son autonomie",
+      "Déléguer les tâches à d'autres professionnels",
+      "Imposer un plan d'action préétabli"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Le principe de « faire avec » signifie associer la personne à l'analyse de la situation et à l'élaboration des solutions, en respectant son autonomie et ses choix. Le REAC parle d'« associer la personne à la définition de ses demandes »."
+  },
+  {
+    "id": "M2-Q012",
+    "module": 2,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Quels sont les savoir-faire relationnels que le MSADS doit mobiliser ? (3 réponses)",
+    "options": [
+      "Veiller à établir les conditions d'un climat de confiance",
+      "Adopter une attitude d'empathie",
+      "S'adapter aux codes et usages des personnes accueillies",
+      "Imposer son propre cadre de référence culturel",
+      "Prendre des décisions à la place des parties"
+    ],
+    "correct": [0, 1, 2],
+    "keywords": [],
+    "explanation": "Le REAC cite ces trois éléments parmi les savoir-faire relationnels essentiels. Le médiateur ne doit jamais imposer son cadre de référence ni prendre de décisions à la place des parties."
+  },
+  {
+    "id": "M2-Q013",
+    "module": 2,
+    "type": "open_text",
+    "difficulty": 2,
+    "question": "Quel principe du médiateur social garantit qu'il n'a pas de pouvoir de décision sur l'issue de la médiation ?",
+    "options": [],
+    "correct": [],
+    "keywords": ["impartialité", "tiers", "sans pouvoir"],
+    "explanation": "Le médiateur social est un « tiers impartial et sans pouvoir de décision ». C'est le principe d'impartialité, combiné à l'absence de pouvoir de décision, qui garantit que les parties restent maîtresses de la solution."
+  },
+  {
+    "id": "M2-Q014",
+    "module": 2,
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": "Le médiateur doit identifier ses propres ___ de compétences techniques et relationnelles et se ___ et gérer son implication personnelle.",
+    "options": ["limites", "préserver"],
+    "correct": ["limites", "préserver"],
+    "keywords": [],
+    "explanation": "Le REAC insiste sur l'identification de « ses propres limites de compétences techniques et relationnelles » et la nécessité de « se préserver et gérer son implication personnelle »."
+  },
+  {
+    "id": "M2-Q015",
+    "module": 2,
+    "type": "true_false",
+    "difficulty": 2,
+    "question": "Selon le REAC, le médiateur social doit décoder le langage non verbal de l'interlocuteur.",
+    "options": ["Vrai", "Faux"],
+    "correct": [0],
+    "keywords": [],
+    "explanation": "Vrai. « Décoder le langage non verbal de l'interlocuteur » fait partie des savoir-faire techniques du MSADS mentionnés dans les fiches compétences professionnelles."
+  },
+  {
+    "id": "M2-Q016",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Quelle démarche le REAC préconise-t-il pour que le MSADS améliore sa pratique professionnelle ?",
+    "options": [
+      "L'analyse de pratique professionnelle, seul ou en supervision",
+      "La lecture quotidienne de revues spécialisées",
+      "Le suivi d'une formation diplômante obligatoire chaque année",
+      "L'observation systématique de ses collègues"
+    ],
+    "correct": [0],
+    "keywords": [],
+    "explanation": "Le REAC consacre une compétence entière (CP11) à « Analyser sa pratique de médiateur social ». Cela s'exerce seul ou lors de supervisions, en s'appuyant sur une démarche réflexive."
+  },
+  {
+    "id": "M2-Q017",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 1,
+    "question": "Que doit respecter le médiateur social concernant les choix de la personne en situation de handicap ?",
+    "options": [
+      "Il doit orienter la personne vers des choix qu'il juge meilleurs",
+      "Il doit respecter les choix, les souhaits et les habitudes de vie de la personne",
+      "Il doit consulter la famille avant de prendre en compte les choix de la personne",
+      "Il doit suivre exclusivement les recommandations médicales"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Le REAC stipule de « respecter les choix, les souhaits et les habitudes de vie de la personne en situation de handicap ». Le médiateur n'impose pas sa vision."
+  },
+  {
+    "id": "M2-Q018",
+    "module": 2,
+    "type": "drag_drop",
+    "difficulty": 2,
+    "question": "Associez chaque concept à sa signification dans le contexte de la posture du médiateur :",
+    "options": [
+      {"left": "Cadre de référence", "right": "Ensemble des perceptions, représentations et valeurs propres à chaque personne"},
+      {"left": "Écoute active", "right": "Technique combinant questionnement, reformulation, relance et synthèse"},
+      {"left": "Congruence", "right": "Mise en cohérence des attitudes et des propos du médiateur"}
+    ],
+    "correct": [0, 1, 2],
+    "keywords": [],
+    "explanation": "Le REAC mentionne la « connaissance des notions de perception, de représentations et de cadre de référence », la maîtrise de l'écoute active, et la nécessité de « mettre en cohérence ses attitudes et ses propos »."
+  },
+  {
+    "id": "M2-Q019",
+    "module": 2,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Que doit faire le médiateur social en cas de situation hors de ses limites d'intervention ? (2 réponses)",
+    "options": [
+      "Refuser la demande en expliquant ses limites",
+      "Proposer une autre orientation adaptée",
+      "Tenter quand même d'intervenir",
+      "Ignorer la situation",
+      "Demander à un bénévole de prendre le relais"
+    ],
+    "correct": [0, 1],
+    "keywords": [],
+    "explanation": "Le REAC indique « si nécessaire, refuser une demande et proposer une autre orientation » et « orienter si besoin la personne vers un interlocuteur mieux adapté à ses besoins »."
+  },
+  {
+    "id": "M2-Q020",
+    "module": 2,
+    "type": "open_text",
+    "difficulty": 1,
+    "question": "Quel type de consentement le médiateur doit-il s'assurer d'obtenir avant toute médiation ?",
+    "options": [],
+    "correct": [],
+    "keywords": ["libre", "consentement"],
+    "explanation": "Le médiateur doit s'assurer du « libre consentement » de la personne. La personne peut refuser d'entrer en médiation ou l'arrêter à tout moment."
+  },
+  {
+    "id": "M2-Q021",
+    "module": 2,
+    "type": "true_false",
+    "difficulty": 2,
+    "question": "Le médiateur social peut accompagner physiquement une personne dans ses démarches auprès d'une structure si besoin.",
+    "options": ["Vrai", "Faux"],
+    "correct": [0],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC précise « l'accompagner physiquement si besoin » dans la CP8, tout en respectant l'autonomie de la personne."
+  },
+  {
+    "id": "M2-Q022",
+    "module": 2,
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": "Le médiateur social doit mettre en cohérence ses ___ et ses propos, adopter une posture ___ et bienveillante lors des entretiens.",
+    "options": ["attitudes", "neutre"],
+    "correct": ["attitudes", "neutre"],
+    "keywords": [],
+    "explanation": "Le REAC exige de « mettre en cohérence ses attitudes et ses propos » et d'« adopter une posture neutre et bienveillante lors des entretiens »."
+  },
+  {
+    "id": "M2-Q023",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Que signifie le concept d'éthique pour le MSADS selon le REAC ?",
+    "options": [
+      "Un ensemble de règles strictes à appliquer sans réflexion",
+      "Une dimension opérationnelle et réflexive liée à l'action",
+      "Un code de conduite imposé par l'employeur",
+      "Une formation obligatoire annuelle"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Le REAC définit l'éthique comme « dimension opérationnelle et réflexive liée à l'action ». Ce n'est pas un simple code de règles mais une démarche de réflexion continue sur sa pratique."
+  },
+  {
+    "id": "M2-Q024",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 1,
+    "question": "Le médiateur social doit-il respecter les références culturelles et cultuelles des personnes ?",
+    "options": [
+      "Oui, c'est un savoir-faire relationnel explicite du REAC",
+      "Non, il doit imposer un cadre unique de référence",
+      "Seulement si la hiérarchie l'autorise",
+      "Uniquement dans le cadre d'une médiation interculturelle"
+    ],
+    "correct": [0],
+    "keywords": [],
+    "explanation": "Le REAC mentionne explicitement « respecter les références culturelles et cultuelles des personnes » parmi les savoir-faire relationnels du MSADS."
+  },
+  {
+    "id": "M2-Q025",
+    "module": 2,
+    "type": "true_false",
+    "difficulty": 1,
+    "question": "Le médiateur social doit favoriser l'autonomie et la responsabilité des personnes qu'il accompagne.",
+    "options": ["Vrai", "Faux"],
+    "correct": [0],
+    "keywords": [],
+    "explanation": "Vrai. « Favoriser l'autonomie et la responsabilité des personnes » est un savoir-faire relationnel central du MSADS selon le REAC."
+  },
+  {
+    "id": "M3-Q001",
+    "module": 3,
+    "type": "qcm_single",
+    "difficulty": 1,
+    "question": "Qu'est-ce que la médiation dite « navette » ?",
+    "options": [
+      "Une médiation où le médiateur fait l'aller-retour entre les parties qui ne se rencontrent pas directement",
+      "Une médiation réalisée dans les transports en commun",
+      "Une médiation avec plusieurs médiateurs qui se relaient",
+      "Une médiation par écrit exclusivement, par échange de courriers"
+    ],
+    "correct": [0],
+    "keywords": [],
+    "explanation": "La médiation « navette » est une méthode où le médiateur fait l'aller-retour entre les parties. Le REAC la distingue de la médiation « table ronde » et de la médiation « en temps réel »."
+  },
+  {
+    "id": "M3-Q002",
+    "module": 3,
+    "type": "qcm_single",
+    "difficulty": 1,
+    "question": "Quel est l'objectif principal du processus de médiation sociale lors d'un conflit ?",
+    "options": [
+      "Imposer une solution juridique aux parties",
+      "Contribuer à l'émergence d'une solution acceptable par chacune des parties",
+      "Désigner un coupable et appliquer une sanction",
+      "Rédiger un contrat d'engagement entre les parties"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Le REAC précise que le médiateur doit « mettre en place les conditions favorables au dialogue et à la compréhension mutuelle afin de contribuer à l'émergence d'une solution acceptable par chacune des parties »."
+  },
+  {
+    "id": "M3-Q003",
+    "module": 3,
+    "type": "true_false",
+    "difficulty": 1,
+    "question": "Dans une médiation table ronde, les parties se rencontrent en présence du médiateur pour dialoguer.",
+    "options": ["Vrai", "Faux"],
+    "correct": [0],
+    "keywords": [],
+    "explanation": "Vrai. La médiation « table ronde » réunit les parties en présence du médiateur, contrairement à la « navette » où le médiateur fait l'intermédiaire sans que les parties se rencontrent."
+  },
+  {
+    "id": "M3-Q004",
+    "module": 3,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Quels éléments le médiateur doit-il repérer dans une situation de conflit selon le REAC ? (3 réponses)",
+    "options": [
+      "L'objet du conflit",
+      "Les enjeux de chaque partie",
+      "La position de chaque interlocuteur face au conflit",
+      "Le patrimoine financier des parties",
+      "Les antécédents judiciaires des parties"
+    ],
+    "correct": [0, 1, 2],
+    "keywords": [],
+    "explanation": "Le REAC demande d'« identifier et analyser la situation de conflit (l'objet, l'origine et les enjeux du conflit, la position de chaque interlocuteur face au conflit) »."
+  },
+  {
+    "id": "M3-Q005",
+    "module": 3,
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": "Le médiateur doit inciter les personnes à rechercher des ___ aux situations conflictuelles acceptables par ___.",
+    "options": ["solutions", "tous"],
+    "correct": ["solutions", "tous"],
+    "keywords": [],
+    "explanation": "Le REAC stipule : « Inciter les personnes à rechercher des solutions aux situations conflictuelles acceptables par tous. »"
+  },
+  {
+    "id": "M3-Q006",
+    "module": 3,
+    "type": "open_text",
+    "difficulty": 2,
+    "question": "Citez les trois modes de gestion des conflits en médiation sociale mentionnés dans le REAC.",
+    "options": [],
+    "correct": [],
+    "keywords": ["navette", "temps réel", "table ronde"],
+    "explanation": "Le REAC mentionne la « gestion des conflits dite navette, en temps réel, table ronde ». Ce sont les trois modalités d'intervention du médiateur en situation conflictuelle."
+  },
+  {
+    "id": "M3-Q007",
+    "module": 3,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Que doit faire le médiateur social pour rétablir la communication entre une personne et une structure ?",
+    "options": [
+      "Écrire directement à la structure au nom de la personne",
+      "Identifier les cadres de référence des deux parties afin de lever les incompréhensions",
+      "Contacter un avocat pour engager une procédure",
+      "Exiger que la structure modifie ses procédures"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Le REAC (CP7) précise qu'il faut « identifier les cadres de référence des deux parties afin de lever les incompréhensions et les obstacles à la communication entre les interlocuteurs »."
+  },
+  {
+    "id": "M3-Q008",
+    "module": 3,
+    "type": "drag_drop",
+    "difficulty": 2,
+    "question": "Associez chaque technique de communication à son rôle dans la médiation :",
+    "options": [
+      {"left": "Reformulation", "right": "Reprendre les propos de la personne pour vérifier la compréhension"},
+      {"left": "Questionnement", "right": "Explorer la situation en amenant la personne à développer ses propos"},
+      {"left": "Relance", "right": "Inviter la personne à poursuivre ou approfondir un point"},
+      {"left": "Synthèse", "right": "Résumer les éléments essentiels échangés lors de l'entretien"}
+    ],
+    "correct": [0, 1, 2, 3],
+    "keywords": [],
+    "explanation": "Le REAC détaille ces techniques de communication interpersonnelle comme des outils essentiels de l'entretien de médiation : « questionnement, reformulation, relance et synthèse »."
+  },
+  {
+    "id": "M3-Q009",
+    "module": 3,
+    "type": "true_false",
+    "difficulty": 2,
+    "question": "Le médiateur social peut arrêter une médiation si les conditions ne sont plus réunies.",
+    "options": ["Vrai", "Faux"],
+    "correct": [0],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC indique « si nécessaire, arrêter la médiation sociale ». Le médiateur peut mettre fin au processus quand les principes de la médiation ne sont plus respectés."
+  },
+  {
+    "id": "M3-Q010",
+    "module": 3,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Comment le médiateur doit-il prendre en compte la dimension interculturelle dans sa pratique ?",
+    "options": [
+      "En imposant les normes culturelles dominantes",
+      "En prenant en compte les cultures d'origines, cultures liées à la classe sociale et à l'âge",
+      "En ignorant les différences culturelles pour traiter tout le monde de façon identique",
+      "En demandant un traducteur systématiquement"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Le REAC mentionne « prendre en compte la dimension interculturelle dans sa pratique (cultures d'origines, cultures liées à la classe sociale, à l'âge…) »."
+  },
+  {
+    "id": "M3-Q011",
+    "module": 3,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Quelles connaissances relatives au conflit le MSADS doit-il posséder selon le REAC ? (3 réponses)",
+    "options": [
+      "La nature et la typologie des conflits",
+      "Les différentes formes d'agressivité et de violence",
+      "Les facteurs déclencheurs d'agressivité",
+      "Les techniques de self-défense",
+      "Le droit pénal appliqué aux conflits"
+    ],
+    "correct": [0, 1, 2],
+    "keywords": [],
+    "explanation": "Le REAC liste ces connaissances : « nature et typologie des conflits », « différentes formes d'agressivité et de violence », « facteurs déclencheurs d'agressivité », et aussi « techniques de gestion du stress »."
+  },
+  {
+    "id": "M3-Q012",
+    "module": 3,
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": "Le médiateur doit aider les personnes à distinguer les ___ des ressentis pour lever les ___ à la communication.",
+    "options": ["faits", "obstacles"],
+    "correct": ["faits", "obstacles"],
+    "keywords": [],
+    "explanation": "Le REAC (CP7) précise qu'il faut « aider les personnes à distinguer faits et ressentis » afin de « lever les incompréhensions et les obstacles à la communication »."
+  },
+  {
+    "id": "M3-Q013",
+    "module": 3,
+    "type": "qcm_single",
+    "difficulty": 1,
+    "question": "Lors d'un conflit entre deux personnes, quel rôle le médiateur social ne doit-il JAMAIS endosser ?",
+    "options": [
+      "Facilitateur du dialogue",
+      "Tiers favorisant la compréhension mutuelle",
+      "Juge ou arbitre qui tranche le différend",
+      "Garant du cadre de la médiation"
+    ],
+    "correct": [2],
+    "keywords": [],
+    "explanation": "Le médiateur est un « tiers impartial et sans pouvoir de décision ». Il ne juge pas, n'arbitre pas et ne tranche pas. Son rôle est de faciliter le dialogue et la compréhension mutuelle."
+  },
+  {
+    "id": "M3-Q014",
+    "module": 3,
+    "type": "true_false",
+    "difficulty": 2,
+    "question": "Le médiateur social peut exercer la médiation seul ou en binôme selon le REAC.",
+    "options": ["Vrai", "Faux"],
+    "correct": [0],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC précise que la CP6 « s'exerce seul ou en binôme, quotidiennement et dans la durée auprès de personnes ou de groupes »."
+  },
+  {
+    "id": "M3-Q015",
+    "module": 3,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Que signifie « poser le cadre de la médiation et le reposer si besoin » ?",
+    "options": [
+      "Décorer la salle de médiation",
+      "Rappeler les règles et principes de la médiation aux parties quand c'est nécessaire",
+      "Rédiger un nouveau contrat de médiation à chaque séance",
+      "Changer de lieu de médiation régulièrement"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Le REAC mentionne « poser le cadre de la médiation et le reposer si besoin ». Cela signifie rappeler les principes (neutralité, confidentialité, libre consentement) quand les parties s'en éloignent."
+  },
+  {
+    "id": "M3-Q016",
+    "module": 3,
+    "type": "open_text",
+    "difficulty": 2,
+    "question": "Quel est le terme utilisé dans le REAC pour désigner la technique de communication douce et respectueuse que le médiateur doit utiliser ?",
+    "options": [],
+    "correct": [],
+    "keywords": ["communication", "bienveillante"],
+    "explanation": "Le REAC mentionne les « techniques de communication bienveillante » comme un savoir requis pour le MSADS dans la gestion des situations conflictuelles."
+  },
+  {
+    "id": "M3-Q017",
+    "module": 3,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Que doit préparer le médiateur avant un entretien de médiation ? (2 réponses)",
+    "options": [
+      "Préparer le lieu favorisant le bon déroulement de la médiation",
+      "Préparer les éléments permettant la convivialité et la confidentialité des échanges",
+      "Préparer un jugement préalable sur la situation",
+      "Préparer des solutions à imposer aux parties",
+      "Préparer un rapport pour la police"
+    ],
+    "correct": [0, 1],
+    "keywords": [],
+    "explanation": "Le REAC précise de « préparer le lieu favorisant le bon déroulement de la médiation » et de « préparer les éléments permettant la convivialité et la confidentialité des échanges »."
+  },
+  {
+    "id": "M3-Q018",
+    "module": 3,
+    "type": "drag_drop",
+    "difficulty": 2,
+    "question": "Associez chaque connaissance à la situation où elle est mobilisée :",
+    "options": [
+      {"left": "Escalade de l'agressivité", "right": "Comprendre les mécanismes menant à la violence pour désamorcer"},
+      {"left": "Gestion du stress", "right": "Se préserver lors de situations émotionnellement intenses"},
+      {"left": "Dynamique des groupes", "right": "Animer une activité collective en comprenant les interactions"}
+    ],
+    "correct": [0, 1, 2],
+    "keywords": [],
+    "explanation": "Le REAC mentionne « l'escalade de l'agressivité, les réactions défensives », les « techniques de gestion du stress » et les « règles de base de la dynamique des groupes » comme des connaissances nécessaires."
+  },
+  {
+    "id": "M3-Q019",
+    "module": 3,
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": "Le médiateur doit organiser le cadre de l'intervention, soit en ___ soit en table ___.",
+    "options": ["navette", "ronde"],
+    "correct": ["navette", "ronde"],
+    "keywords": [],
+    "explanation": "Le REAC (CP6) précise : « Organiser le cadre de l'intervention (navette ou table ronde). »"
+  },
+  {
+    "id": "M3-Q020",
+    "module": 3,
+    "type": "true_false",
+    "difficulty": 1,
+    "question": "Le médiateur social doit gérer le temps de parole de chaque interlocuteur lors d'une médiation.",
+    "options": ["Vrai", "Faux"],
+    "correct": [0],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC mentionne « gérer le temps de parole de chaque interlocuteur » comme un savoir-faire organisationnel nécessaire à la conduite de la médiation."
+  },
+  {
+    "id": "M3-Q021",
+    "module": 3,
+    "type": "qcm_single",
+    "difficulty": 1,
+    "question": "Qu'est-ce que la « compréhension mutuelle » recherchée dans le processus de médiation ?",
+    "options": [
+      "L'accord des parties sur un même point de vue",
+      "La capacité de chaque partie à comprendre le cadre de référence de l'autre",
+      "L'acceptation par une partie des arguments de l'autre",
+      "La traduction linguistique entre parties de langues différentes"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Le REAC parle de « mettre en place les conditions favorables au dialogue et à la compréhension mutuelle ». Il s'agit de permettre à chaque partie de comprendre la perception et le cadre de référence de l'autre."
+  },
+  {
+    "id": "M3-Q022",
+    "module": 3,
+    "type": "open_text",
+    "difficulty": 1,
+    "question": "Comment appelle-t-on l'entretien initial où le médiateur présente le cadre de la médiation à la personne ?",
+    "options": [],
+    "correct": [],
+    "keywords": ["accueil", "entretien", "présentation"],
+    "explanation": "Le REAC parle d'« entretien d'accueil » ou d'« entretien de présentation du cadre de la médiation sociale ». C'est lors de ce premier contact que le médiateur se présente et explique son rôle."
+  },
+  {
+    "id": "M3-Q023",
+    "module": 3,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Que doit faire le médiateur quand une personne décide de se retirer d'une médiation ?",
+    "options": [
+      "Insister pour qu'elle reste",
+      "Respecter sa décision",
+      "Contacter sa famille pour la convaincre",
+      "Signaler son refus aux autorités"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Le REAC stipule de « respecter la décision des personnes de se retirer d'une médiation sociale ». Le libre consentement est un principe fondamental : la personne peut arrêter à tout moment."
+  },
+  {
+    "id": "M3-Q024",
+    "module": 3,
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": "Le médiateur doit apporter des ___ concernant les fonctionnements institutionnels, leurs codes et les ___ en lien avec la structure.",
+    "options": ["éclairages", "interlocuteurs"],
+    "correct": ["éclairages", "interlocuteurs"],
+    "keywords": [],
+    "explanation": "Le REAC (CP7) demande d'« apporter des éclairages concernant les fonctionnements institutionnels, leurs codes et les interlocuteurs en lien avec la structure »."
+  },
+  {
+    "id": "M3-Q025",
+    "module": 3,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Quels lieux sont mentionnés dans le REAC comme espaces possibles d'exercice de la médiation ? (3 réponses)",
+    "options": [
+      "Lieu dédié à l'activité de médiation",
+      "Locaux de structures partenaires",
+      "Domicile des personnes",
+      "Tribunal judiciaire",
+      "Cabinet d'avocat"
+    ],
+    "correct": [0, 1, 2],
+    "keywords": [],
+    "explanation": "Le REAC précise que le MSADS exerce « dans un lieu dédié à l'activité de médiation, dans les locaux de structures partenaires, dans l'espace public, ou au domicile des personnes »."
+  },
+  {
+    "id": "M4-Q001",
+    "module": 4,
+    "type": "qcm_single",
+    "difficulty": 1,
+    "question": "Que désigne le « non-recours aux droits » ?",
+    "options": [
+      "Le refus volontaire d'une personne de demander de l'aide",
+      "Le fait que des personnes ne bénéficient pas des droits et prestations auxquels elles sont éligibles",
+      "La suppression de droits sociaux par l'administration",
+      "Le renvoi d'une demande par un service administratif"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Le non-recours aux droits désigne le fait que des personnes éligibles à des prestations ou droits sociaux n'en bénéficient pas. Le REAC souligne que « ce non-recours aux droits représente un coût important pour les politiques sociales »."
+  },
+  {
+    "id": "M4-Q002",
+    "module": 4,
+    "type": "true_false",
+    "difficulty": 1,
+    "question": "La dématérialisation des services publics s'est largement développée depuis 2017 selon le REAC.",
+    "options": ["Vrai", "Faux"],
+    "correct": [0],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC précise que « la dématérialisation de l'administration et de ses services s'est largement développée depuis 2017 »."
+  },
+  {
+    "id": "M4-Q003",
+    "module": 4,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Quelle est la première étape pour le MSADS lorsqu'il accompagne une personne face à un service dématérialisé ?",
+    "options": [
+      "Réaliser les démarches en ligne à la place de la personne",
+      "Repérer la nature des obstacles empêchant l'accès aux services dématérialisés",
+      "Inscrire la personne à une formation en informatique",
+      "Contacter l'administration pour signaler le problème"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Le REAC (CP9) indique : « repérer la nature des obstacles empêchant l'accès aux services dématérialisés pour accomplir ses démarches administratives »."
+  },
+  {
+    "id": "M4-Q004",
+    "module": 4,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Que doit évaluer le MSADS concernant les compétences numériques d'une personne ? (2 réponses)",
+    "options": [
+      "L'écart entre les compétences numériques de la personne et celles nécessaires pour accéder aux services",
+      "Les ressources matérielles et besoins d'accompagnement nécessaires",
+      "Le nombre d'heures passées sur internet par jour",
+      "La marque et le modèle de son ordinateur",
+      "Son niveau d'études en informatique"
+    ],
+    "correct": [0, 1],
+    "keywords": [],
+    "explanation": "Le REAC demande d'« apprécier l'écart entre les compétences numériques de la personne et celles nécessaires pour accéder aux services » et d'« identifier les ressources matérielles et les besoins d'accompagnement nécessaires »."
+  },
+  {
+    "id": "M4-Q005",
+    "module": 4,
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": "La compétence « Faciliter l'accès aux droits et aux services ___ » répond au principe de « faire ___ » les personnes.",
+    "options": ["dématérialisés", "avec"],
+    "correct": ["dématérialisés", "avec"],
+    "keywords": [],
+    "explanation": "Le REAC précise que cette compétence « répond spécifiquement à cette problématique toujours d'actualité en respectant le principe de faire avec les personnes »."
+  },
+  {
+    "id": "M4-Q006",
+    "module": 4,
+    "type": "open_text",
+    "difficulty": 2,
+    "question": "Que doit connaître le MSADS en matière de sécurité informatique selon le REAC ?",
+    "options": [],
+    "correct": [],
+    "keywords": ["sécurité", "données", "personnelles"],
+    "explanation": "Le REAC mentionne la « connaissance des enjeux liés à la sécurité des données personnelles » comme un savoir nécessaire pour les CP8 et CP9."
+  },
+  {
+    "id": "M4-Q007",
+    "module": 4,
+    "type": "qcm_single",
+    "difficulty": 1,
+    "question": "Que doit faire le MSADS quand la personne n'a pas les compétences numériques suffisantes ?",
+    "options": [
+      "Faire les démarches à sa place définitivement",
+      "Lui proposer un parcours d'acquisition de compétences numériques ou l'orienter vers une structure spécialisée",
+      "Lui demander de revenir quand elle sera formée",
+      "Envoyer un courrier papier à l'administration"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Le REAC demande d'« élaborer avec la personne un parcours lui permettant d'acquérir les compétences numériques ou proposer un accompagnement par une structure spécialisée »."
+  },
+  {
+    "id": "M4-Q008",
+    "module": 4,
+    "type": "true_false",
+    "difficulty": 1,
+    "question": "Le MSADS peut accompagner une personne à rédiger des courriers et des mails.",
+    "options": ["Vrai", "Faux"],
+    "correct": [0],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC mentionne « accompagner à la rédaction de courriers et de mails » et « accompagner à la rédaction et l'envoi de courrier et de mail » comme savoir-faire technique."
+  },
+  {
+    "id": "M4-Q009",
+    "module": 4,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Comment le MSADS doit-il aider la personne face aux services dématérialisés ?",
+    "options": [
+      "En faisant systématiquement les démarches à sa place",
+      "En l'amenant à comprendre l'offre de services dématérialisés la concernant",
+      "En lui donnant son propre identifiant de connexion",
+      "En imprimant tous les formulaires pour elle"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Le REAC indique : « amener la personne à comprendre l'offre de services dématérialisés la concernant ». L'objectif est l'autonomie de la personne, pas la substitution."
+  },
+  {
+    "id": "M4-Q010",
+    "module": 4,
+    "type": "drag_drop",
+    "difficulty": 2,
+    "question": "Associez chaque concept du numérique à sa signification :",
+    "options": [
+      {"left": "Fracture numérique", "right": "Inégalité d'accès et de maîtrise des outils numériques dans la population"},
+      {"left": "Dématérialisation", "right": "Passage des démarches administratives du format papier au format numérique en ligne"},
+      {"left": "Non-recours aux droits", "right": "Situation où des personnes éligibles ne bénéficient pas des prestations auxquelles elles ont droit"},
+      {"left": "Inclusion numérique", "right": "Démarche visant à rendre le numérique accessible à tous les citoyens"}
+    ],
+    "correct": [0, 1, 2, 3],
+    "keywords": [],
+    "explanation": "Ces quatre concepts sont au cœur de l'action du MSADS dans le domaine de l'accès aux droits et au numérique. Le REAC les aborde à travers les CP8 et CP9."
+  },
+  {
+    "id": "M4-Q011",
+    "module": 4,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Quelles connaissances le MSADS doit-il avoir en matière d'accès aux droits ? (3 réponses)",
+    "options": [
+      "Connaissance de base des droits fondamentaux et des droits sociaux",
+      "Connaissance du langage et des procédures administratives courantes",
+      "Connaissance des lieux ressources et services publics dématérialisés",
+      "Connaissance approfondie du droit fiscal",
+      "Connaissance du droit commercial international"
+    ],
+    "correct": [0, 1, 2],
+    "keywords": [],
+    "explanation": "Le REAC liste ces connaissances dans les fiches CP8 et CP9 : droits fondamentaux et sociaux, langage et procédures administratives, lieux ressources et sites dématérialisés."
+  },
+  {
+    "id": "M4-Q012",
+    "module": 4,
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": "Le MSADS doit identifier les points d'accès ___ sur un territoire et utiliser les outils et ___ numériques pour les démarches.",
+    "options": ["numériques", "plateformes"],
+    "correct": ["numériques", "plateformes"],
+    "keywords": [],
+    "explanation": "Le REAC (CP9) demande d'« identifier les points d'accès numériques sur un territoire » et d'« utiliser les outils et plateformes numériques pour la recherche d'information et les démarches »."
+  },
+  {
+    "id": "M4-Q013",
+    "module": 4,
+    "type": "true_false",
+    "difficulty": 2,
+    "question": "Le MSADS doit vérifier l'accessibilité des services dématérialisés pour les personnes en situation de handicap.",
+    "options": ["Vrai", "Faux"],
+    "correct": [0],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC précise que le médiateur « s'assure de l'accessibilité des services dématérialisés » et doit « s'assurer de l'accessibilité des moyens de communication (LSF, FALC, pictogrammes) »."
+  },
+  {
+    "id": "M4-Q014",
+    "module": 4,
+    "type": "qcm_single",
+    "difficulty": 1,
+    "question": "Quel est le principe que le MSADS doit respecter lorsqu'il aide une personne à remplir un formulaire en ligne ?",
+    "options": [
+      "Remplir le formulaire aussi vite que possible à la place de la personne",
+      "Expliciter et au besoin accompagner la personne pour renseigner un formulaire, en respectant son autonomie",
+      "Demander à un collègue informaticien de le faire",
+      "Refuser d'aider si la personne ne sait pas lire"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Le REAC demande d'« expliciter et au besoin accompagner la personne pour renseigner un formulaire ». Le principe est toujours de « faire avec » et non de « faire à la place »."
+  },
+  {
+    "id": "M4-Q015",
+    "module": 4,
+    "type": "open_text",
+    "difficulty": 2,
+    "question": "Quel est le principe qui guide l'action du MSADS face à la dématérialisation des services publics ?",
+    "options": [],
+    "correct": [],
+    "keywords": ["faire avec"],
+    "explanation": "Le principe de « faire avec » guide l'action du MSADS. Le REAC précise que cette compétence répond à la problématique de la dématérialisation « en respectant le principe de faire avec les personnes »."
+  },
+  {
+    "id": "M4-Q016",
+    "module": 4,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Que doit faire le MSADS concernant les dysfonctionnements techniques qu'il repère sur les services en ligne ?",
+    "options": [
+      "Les ignorer car ce n'est pas de sa compétence",
+      "Relayer les dysfonctionnements auprès des partenaires et effectuer leur suivi",
+      "Créer lui-même un site web alternatif",
+      "Conseiller aux personnes d'abandonner la démarche en ligne"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Le REAC (CP3) demande de « relayer auprès des partenaires les dysfonctionnements techniques repérés et effectuer leur suivi »."
+  },
+  {
+    "id": "M4-Q017",
+    "module": 4,
+    "type": "true_false",
+    "difficulty": 1,
+    "question": "Le MSADS peut assurer une veille sur les réseaux sociaux afin de prévenir les risques de cyber harcèlement.",
+    "options": ["Vrai", "Faux"],
+    "correct": [0],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC indique que le MSADS « peut assurer également une veille sur les réseaux sociaux afin de prévenir les risques notamment de cyber harcèlement »."
+  },
+  {
+    "id": "M4-Q018",
+    "module": 4,
+    "type": "drag_drop",
+    "difficulty": 2,
+    "question": "Associez chaque étape de l'accompagnement numérique à son ordre logique :",
+    "options": [
+      {"left": "Étape 1", "right": "Repérer la nature des obstacles à l'accès aux services dématérialisés"},
+      {"left": "Étape 2", "right": "Apprécier l'écart entre les compétences numériques de la personne et celles nécessaires"},
+      {"left": "Étape 3", "right": "Amener la personne à comprendre l'offre de services dématérialisés"},
+      {"left": "Étape 4", "right": "Orienter vers un accompagnement adapté pour l'acquisition de compétences numériques"}
+    ],
+    "correct": [0, 1, 2, 3],
+    "keywords": [],
+    "explanation": "Le REAC (CP9) décrit ce processus séquentiel : repérer les obstacles, évaluer l'écart de compétences, faire comprendre l'offre, puis orienter si nécessaire."
+  },
+  {
+    "id": "M4-Q019",
+    "module": 4,
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": "Aujourd'hui, pour accéder à ses ___ et pour en disposer, tout citoyen devrait maîtriser les outils ___.",
+    "options": ["droits", "numériques"],
+    "correct": ["droits", "numériques"],
+    "keywords": [],
+    "explanation": "Citation du REAC : « pour accéder à ses droits et pour en disposer, tout citoyen devrait maîtriser les outils numériques »."
+  },
+  {
+    "id": "M4-Q020",
+    "module": 4,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Selon le REAC, que doit établir le MSADS avec la personne pour organiser ses démarches ?",
+    "options": [
+      "Un dossier médical partagé",
+      "Les étapes d'un plan d'action et les modalités de réalisation dans le respect de ses choix",
+      "Un contrat d'engagement signé par la personne",
+      "Un calendrier d'audiences devant les tribunaux"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Le REAC (CP8) demande d'« établir avec elle les étapes d'un plan d'action et les modalités de réalisation dans le respect de ses choix »."
+  },
+  {
+    "id": "M4-Q021",
+    "module": 4,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Quels outils de communication accessibles le MSADS doit-il connaître ? (3 réponses)",
+    "options": [
+      "La Langue des Signes Française (LSF)",
+      "Le Facile à Lire et à Comprendre (FALC)",
+      "Les pictogrammes",
+      "Le langage médical technique",
+      "Le braille informatisé"
+    ],
+    "correct": [0, 1, 2],
+    "keywords": [],
+    "explanation": "Le REAC mentionne « s'assurer de l'accessibilité des moyens de communication (LSF, FALC, pictogrammes) » comme savoir-faire technique du MSADS."
+  },
+  {
+    "id": "M4-Q022",
+    "module": 4,
+    "type": "open_text",
+    "difficulty": 1,
+    "question": "Quel type de connaissance le MSADS doit-il avoir concernant les procédures des administrations ?",
+    "options": [],
+    "correct": [],
+    "keywords": ["langage", "procédures", "administratives"],
+    "explanation": "Le REAC exige la « connaissance du langage et des procédures administratives courantes » pour accompagner efficacement les personnes dans leurs démarches."
+  },
+  {
+    "id": "M4-Q023",
+    "module": 4,
+    "type": "true_false",
+    "difficulty": 2,
+    "question": "Le MSADS doit rassurer la personne lors de l'accompagnement aux démarches numériques.",
+    "options": ["Vrai", "Faux"],
+    "correct": [0],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC (CP9) mentionne « rassurer la personne » parmi les savoir-faire relationnels nécessaires à l'accompagnement numérique."
+  },
+  {
+    "id": "M4-Q024",
+    "module": 4,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Que doit connaître le MSADS sur les processus d'exclusion selon le REAC ?",
+    "options": [
+      "Uniquement les processus d'exclusion économique",
+      "Les processus d'exclusion, d'inclusion et de précarité",
+      "Les processus judiciaires d'exclusion du territoire",
+      "Les processus d'exclusion scolaire uniquement"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Le REAC mentionne la « connaissance des processus d'exclusion, d'inclusion et de précarité » comme savoir requis pour les CP8 et CP9."
+  },
+  {
+    "id": "M4-Q025",
+    "module": 4,
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": "Une bonne part de la population n'est pas ___ ou équipée pour les usages numériques, ce qui engendre des difficultés d'accès aux ___.",
+    "options": ["autonome", "droits"],
+    "correct": ["autonome", "droits"],
+    "keywords": [],
+    "explanation": "Citation du REAC : « Une bonne part de la population n'est pas autonome ou équipée pour les usages numériques. Les difficultés d'accès aux droits de personnes en situation de vulnérabilité perdurent. »"
+  },
+  {
+    "id": "M5-Q001",
+    "module": 5,
+    "type": "qcm_single",
+    "difficulty": 1,
+    "question": "Qu'est-ce que la veille sociale selon le REAC ?",
+    "options": [
+      "La surveillance vidéo des espaces publics",
+      "Le recueil continu d'informations sur l'évolution d'un territoire pour ajuster son intervention aux besoins de la population",
+      "La rédaction d'articles de presse sur les problèmes sociaux",
+      "La distribution de questionnaires de satisfaction aux usagers"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Selon le REAC, la veille sociale consiste à « recueillir des informations spécifiques » et « actualiser les données sur le territoire d'activité » pour « ajuster son intervention aux besoins de la population »."
+  },
+  {
+    "id": "M5-Q002",
+    "module": 5,
+    "type": "true_false",
+    "difficulty": 1,
+    "question": "Le MSADS doit distinguer les faits des opinions lors du recueil d'informations sur le territoire.",
+    "options": ["Vrai", "Faux"],
+    "correct": [0],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC insiste à plusieurs reprises sur le fait de « discerner les faits et les opinions » et de « distinguer les faits des opinions » lors de la veille sociale."
+  },
+  {
+    "id": "M5-Q003",
+    "module": 5,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Quelles sont les actions du MSADS dans le cadre de la veille sociale ? (3 réponses)",
+    "options": [
+      "Rechercher des informations socio-économiques fiables et pertinentes",
+      "Établir un état des lieux des structures et dispositifs locaux",
+      "Partager les informations avec son réseau dans le respect de la confidentialité",
+      "Publier les informations recueillies sur les réseaux sociaux publics",
+      "Mener des enquêtes de police sur le territoire"
+    ],
+    "correct": [0, 1, 2],
+    "keywords": [],
+    "explanation": "Le REAC (AT1) décrit ces trois actions : recherche d'informations, état des lieux des structures/dispositifs, et partage dans le respect de la confidentialité."
+  },
+  {
+    "id": "M5-Q004",
+    "module": 5,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Que signifie « s'inscrire dans des réseaux professionnels d'un territoire » pour le MSADS ?",
+    "options": [
+      "Créer de nouveaux réseaux sociaux en ligne",
+      "Se faire connaître et reconnaître dans ses missions, s'insérer dans des réseaux et partenariats existants",
+      "Adhérer à un syndicat professionnel de médiateurs",
+      "Organiser des événements festifs pour les habitants"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Le REAC (CP2) précise de « se faire connaître et reconnaître dans ses missions de médiation sociale », « s'inscrire dans des réseaux et des partenariats existants » et « travailler sur des projets communs en complémentarité »."
+  },
+  {
+    "id": "M5-Q005",
+    "module": 5,
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": "Le MSADS doit appliquer une démarche ___ sur un territoire défini et utiliser les sources d'information ___.",
+    "options": ["diagnostic", "officielles"],
+    "correct": ["diagnostic", "officielles"],
+    "keywords": [],
+    "explanation": "Le REAC (CP1) demande d'« appliquer une démarche diagnostic sur un territoire défini » et d'« utiliser les sources d'information officielles (sites institutionnels, diagnostic territorial) »."
+  },
+  {
+    "id": "M5-Q006",
+    "module": 5,
+    "type": "open_text",
+    "difficulty": 2,
+    "question": "Comment appelle-t-on l'outil qui répertorie les acteurs mobilisables sur le territoire d'activité du MSADS ?",
+    "options": [],
+    "correct": [],
+    "keywords": ["répertoire", "opérationnel", "acteurs"],
+    "explanation": "Le REAC mentionne de « structurer un répertoire opérationnel des acteurs mobilisables sur le territoire d'activité » comme savoir-faire organisationnel du MSADS."
+  },
+  {
+    "id": "M5-Q007",
+    "module": 5,
+    "type": "true_false",
+    "difficulty": 1,
+    "question": "Le MSADS doit connaître les politiques publiques, notamment la politique de la ville.",
+    "options": ["Vrai", "Faux"],
+    "correct": [0],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC mentionne la « connaissance des politiques publiques, notamment de la politique de la ville » parmi les savoirs requis."
+  },
+  {
+    "id": "M5-Q008",
+    "module": 5,
+    "type": "qcm_single",
+    "difficulty": 1,
+    "question": "Quels types d'interlocuteurs le MSADS doit-il savoir communiquer avec sur le territoire ?",
+    "options": [
+      "Uniquement les professionnels du social",
+      "Uniquement les habitants du quartier",
+      "Des interlocuteurs diversifiés : élus, employeurs, collègues, professionnels, bénévoles",
+      "Uniquement les représentants de l'État"
+    ],
+    "correct": [2],
+    "keywords": [],
+    "explanation": "Le REAC demande de « communiquer avec des interlocuteurs diversifiés (élus, employeurs, collègues, professionnels, bénévoles) »."
+  },
+  {
+    "id": "M5-Q009",
+    "module": 5,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Quels éléments du territoire le MSADS doit-il identifier selon la CP1 ? (3 réponses)",
+    "options": [
+      "Les caractéristiques socio-économiques du territoire",
+      "Les problématiques spécifiques du territoire",
+      "L'accessibilité du territoire aux personnes en situation de handicap",
+      "La valeur immobilière des biens du quartier",
+      "Le taux de criminalité du secteur"
+    ],
+    "correct": [0, 1, 2],
+    "keywords": [],
+    "explanation": "Le REAC (CP1) demande d'identifier les « caractéristiques du territoire (histoire, indicateurs socio-économiques, vie sociale) », les « problématiques spécifiques » et « l'accessibilité des territoires aux personnes en situation de handicap »."
+  },
+  {
+    "id": "M5-Q010",
+    "module": 5,
+    "type": "drag_drop",
+    "difficulty": 2,
+    "question": "Associez chaque action de veille à son objectif :",
+    "options": [
+      {"left": "Diagnostic territorial", "right": "Identifier les caractéristiques et problématiques spécifiques du territoire"},
+      {"left": "Cartographie des partenaires", "right": "Repérer et répertorier les acteurs et leurs champs de compétences"},
+      {"left": "Veille documentaire", "right": "Actualiser ses connaissances à partir de sources d'information fiables"},
+      {"left": "Présence active de proximité", "right": "Aller à la rencontre des habitants pour recueillir des informations de terrain"}
+    ],
+    "correct": [0, 1, 2, 3],
+    "keywords": [],
+    "explanation": "Le REAC décrit ces quatre volets de la veille sociale à travers les compétences CP1, CP2 et CP3 de l'activité type 1."
+  },
+  {
+    "id": "M5-Q011",
+    "module": 5,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Que doit faire le MSADS avec les informations recueillies lors de la veille sociale ?",
+    "options": [
+      "Les garder pour lui par souci de confidentialité absolue",
+      "Les mettre en forme et les transmettre aux autres acteurs pour contribuer aux diagnostics",
+      "Les publier intégralement sur les réseaux sociaux",
+      "Les envoyer directement aux médias locaux"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Le REAC (CP3) demande de « transmettre directement des données aux destinataires, ou les mettre en forme avant de les partager avec d'autres acteurs afin de contribuer à des diagnostics de la vie sociale »."
+  },
+  {
+    "id": "M5-Q012",
+    "module": 5,
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": "Le MSADS s'inscrit durablement dans un réseau ___ et repère les atouts et ___ du territoire d'activité.",
+    "options": ["partenarial", "faiblesses"],
+    "correct": ["partenarial", "faiblesses"],
+    "keywords": [],
+    "explanation": "Le REAC indique que le MSADS participe à la veille « afin de s'inscrire durablement dans un réseau partenarial » et doit « repérer les atouts et faiblesses du territoire d'activité »."
+  },
+  {
+    "id": "M5-Q013",
+    "module": 5,
+    "type": "true_false",
+    "difficulty": 2,
+    "question": "Le MSADS peut être amené à travailler le soir, le week-end ou les jours fériés dans le cadre de la veille sociale.",
+    "options": ["Vrai", "Faux"],
+    "correct": [0],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC précise qu'il « peut être amené à travailler le soir, le week-end ou les jours fériés (forums d'associations, conseils de quartiers, actions support...) »."
+  },
+  {
+    "id": "M5-Q014",
+    "module": 5,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Que doit respecter le MSADS lors du recueil d'informations auprès des habitants ?",
+    "options": [
+      "La vitesse de collecte pour être efficace",
+      "Les règles de confidentialité et de discrétion",
+      "Le nombre minimum de personnes interrogées",
+      "La présence obligatoire d'un témoin"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Le REAC précise que le MSADS doit « respecter les règles de confidentialité lors du recueil d'information » et « appliquer les principes de discrétion professionnelle et de confidentialité »."
+  },
+  {
+    "id": "M5-Q015",
+    "module": 5,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Quels sont les domaines de collaboration du MSADS avec les acteurs du territoire ? (3 réponses)",
+    "options": [
+      "L'emploi et le développement économique",
+      "La santé",
+      "L'éducation et la citoyenneté",
+      "La défense nationale",
+      "Le commerce extérieur"
+    ],
+    "correct": [0, 1, 2],
+    "keywords": [],
+    "explanation": "Le REAC mentionne que le MSADS « échange des informations et collabore avec les acteurs opérationnels dans les domaines de l'emploi, la santé, la prévention de la délinquance, l'accès aux droits, l'éducation et la citoyenneté... »"
+  },
+  {
+    "id": "M5-Q016",
+    "module": 5,
+    "type": "open_text",
+    "difficulty": 2,
+    "question": "Quel principe le MSADS applique-t-il quand il travaille avec d'autres acteurs du territoire sur des projets communs ?",
+    "options": [],
+    "correct": [],
+    "keywords": ["complémentarité"],
+    "explanation": "Le REAC précise de « travailler sur des projets communs en complémentarité avec d'autres acteurs du territoire sans s'y substituer ». Le principe de complémentarité est essentiel."
+  },
+  {
+    "id": "M5-Q017",
+    "module": 5,
+    "type": "qcm_single",
+    "difficulty": 1,
+    "question": "Quels sont les employeurs principaux des MSADS selon le REAC ?",
+    "options": [
+      "Uniquement les administrations d'État",
+      "Des associations, des collectivités territoriales, des bailleurs sociaux, des entreprises",
+      "Uniquement les hôpitaux et cliniques",
+      "Uniquement les établissements scolaires"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Le REAC précise que « les employeurs sont principalement des associations, des collectivités territoriales, des bailleurs sociaux, des entreprises »."
+  },
+  {
+    "id": "M5-Q018",
+    "module": 5,
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": "Le MSADS repère les ___ et les problématiques spécifiques de son territoire d'activité et les ___.",
+    "options": ["caractéristiques", "analyse"],
+    "correct": ["caractéristiques", "analyse"],
+    "keywords": [],
+    "explanation": "Le REAC (CP1) demande de « repérer les caractéristiques et les problématiques spécifiques de son territoire d'activité et les analyser »."
+  },
+  {
+    "id": "M5-Q019",
+    "module": 5,
+    "type": "true_false",
+    "difficulty": 1,
+    "question": "Le MSADS doit respecter les limites de sa fonction et le niveau de délégation donné par sa structure.",
+    "options": ["Vrai", "Faux"],
+    "correct": [0],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC mentionne à de nombreuses reprises de « respecter les limites de sa fonction » et d'« identifier le niveau de délégation donnée par sa structure »."
+  },
+  {
+    "id": "M5-Q020",
+    "module": 5,
+    "type": "drag_drop",
+    "difficulty": 2,
+    "question": "Associez chaque compétence de l'AT1 à sa description :",
+    "options": [
+      {"left": "CP1", "right": "Analyser les caractéristiques d'un territoire d'activité"},
+      {"left": "CP2", "right": "Identifier les acteurs en lien avec son activité et s'insérer dans des réseaux existants"},
+      {"left": "CP3", "right": "Contribuer à la veille sociale sur un territoire d'activité"}
+    ],
+    "correct": [0, 1, 2],
+    "keywords": [],
+    "explanation": "L'activité type 1 « Participer à une veille sociale et s'inscrire dans les réseaux professionnels d'un territoire » se décline en ces trois compétences professionnelles."
+  },
+  {
+    "id": "M5-Q021",
+    "module": 5,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Comment le MSADS doit-il présenter les données de sa veille sociale ?",
+    "options": [
+      "De façon approximative et rapide",
+      "De façon claire et synthétique, sous forme de représentation graphique, schéma, grille ou tableau",
+      "En rédigeant un roman détaillé",
+      "En laissant les données brutes sans traitement"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Le REAC demande de « réaliser une présentation claire et synthétique des données pertinentes » et de « réaliser une représentation graphique, schéma, grille, tableau »."
+  },
+  {
+    "id": "M5-Q022",
+    "module": 5,
+    "type": "open_text",
+    "difficulty": 1,
+    "question": "Quelle démarche le MSADS doit-il appliquer pour connaître son territoire selon la CP1 ?",
+    "options": [],
+    "correct": [],
+    "keywords": ["diagnostic", "territoire"],
+    "explanation": "Le MSADS doit « appliquer une démarche diagnostic sur un territoire défini ». Le diagnostic territorial est la démarche structurée de connaissance du territoire."
+  },
+  {
+    "id": "M5-Q023",
+    "module": 5,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Quels moyens de communication le MSADS doit-il maîtriser pour la veille sociale ? (2 réponses)",
+    "options": [
+      "Communication par téléphone, par mail, en ligne",
+      "Outils numériques et bureautiques",
+      "Communication par signaux de fumée",
+      "Pigeons voyageurs",
+      "Télépathie"
+    ],
+    "correct": [0, 1],
+    "keywords": [],
+    "explanation": "Le REAC mentionne « communiquer par téléphone, par mail, en ligne » et la maîtrise des « outils numériques et bureautiques »."
+  },
+  {
+    "id": "M5-Q024",
+    "module": 5,
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": "Le MSADS doit mobiliser son ___ et se mobiliser pour son réseau, en respectant les principes de ___ professionnelle.",
+    "options": ["réseau", "discrétion"],
+    "correct": ["réseau", "discrétion"],
+    "keywords": [],
+    "explanation": "Le REAC mentionne « mobiliser son réseau et se mobiliser pour son réseau » et « appliquer les principes de discrétion professionnelle et de confidentialité »."
+  },
+  {
+    "id": "M5-Q025",
+    "module": 5,
+    "type": "true_false",
+    "difficulty": 2,
+    "question": "La veille sociale du MSADS peut être formelle ou informelle.",
+    "options": ["Vrai", "Faux"],
+    "correct": [0],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC précise que « la veille sociale s'exerce, de manière formelle ou informelle, sur le territoire d'activité, au quotidien ou à l'occasion de manifestations »."
+  },
+  {
+    "id": "M6-Q001",
+    "module": 6,
+    "type": "qcm_single",
+    "difficulty": 1,
+    "question": "Quelle loi fondamentale encadre les droits des personnes handicapées en France ?",
+    "options": [
+      "La loi du 30 juin 1975",
+      "La loi n° 2005-102 du 11 février 2005 pour l'égalité des droits et des chances, la participation et la citoyenneté des personnes handicapées",
+      "La loi du 2 janvier 2002 rénovant l'action sociale",
+      "La loi du 5 mars 2007 sur la protection juridique des majeurs"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "La loi n° 2005-102 du 11 février 2005, dite « loi handicap », est le texte fondamental. Le REAC y fait référence à de nombreuses reprises dans les savoirs requis du MSADS."
+  },
+  {
+    "id": "M6-Q002",
+    "module": 6,
+    "type": "true_false",
+    "difficulty": 1,
+    "question": "La CIDPH (Convention Internationale des Droits des Personnes Handicapées) a été ratifiée par la France et est entrée en vigueur le 20 mars 2010.",
+    "options": ["Vrai", "Faux"],
+    "correct": [0],
+    "keywords": [],
+    "explanation": "Vrai. Le glossaire du REAC précise : « Ratifiée par la France, la Convention est entrée en vigueur le 20 mars 2010. »"
+  },
+  {
+    "id": "M6-Q003",
+    "module": 6,
+    "type": "qcm_single",
+    "difficulty": 1,
+    "question": "Que signifie l'acronyme MDPH ?",
+    "options": [
+      "Mission Départementale de Prévention du Handicap",
+      "Maison Départementale des Personnes Handicapées",
+      "Ministère Délégué aux Personnes Handicapées",
+      "Mutuelle Départementale pour les Personnes Handicapées"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "MDPH signifie Maison Départementale des Personnes Handicapées. Selon le REAC, les MDPH ont été créées par la loi du 11 février 2005."
+  },
+  {
+    "id": "M6-Q004",
+    "module": 6,
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": "L'accessibilité ___ désigne l'accès « à tout pour tous », permettant aux personnes handicapées de circuler, d'accéder aux locaux et de bénéficier des prestations avec la plus grande ___ possible.",
+    "options": ["universelle", "autonomie"],
+    "correct": ["universelle", "autonomie"],
+    "keywords": [],
+    "explanation": "Le glossaire du REAC définit l'accessibilité universelle comme l'accès « à tout pour tous » permettant aux personnes handicapées d'agir « avec la plus grande autonomie possible »."
+  },
+  {
+    "id": "M6-Q005",
+    "module": 6,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Quelles notions liées au handicap le MSADS doit-il connaître selon le REAC ? (3 réponses)",
+    "options": [
+      "Autonomie et auto-détermination des personnes handicapées",
+      "Pouvoir d'agir et citoyenneté des personnes handicapées",
+      "Accessibilité universelle et compensation",
+      "Techniques de rééducation fonctionnelle",
+      "Prescription médicale et posologie"
+    ],
+    "correct": [0, 1, 2],
+    "keywords": [],
+    "explanation": "Le REAC liste : « autonomie, auto-détermination, auto-représentation, citoyenneté, pouvoir d'agir des personnes handicapées » et « accessibilité universelle, compensation, inclusion, égalité des droits et des chances »."
+  },
+  {
+    "id": "M6-Q006",
+    "module": 6,
+    "type": "open_text",
+    "difficulty": 2,
+    "question": "Selon la loi de 2005, que constitue un handicap ?",
+    "options": [],
+    "correct": [],
+    "keywords": ["limitation", "activité", "restriction", "participation"],
+    "explanation": "Selon l'article L.114 : « Constitue un handicap toute limitation d'activité ou restriction de participation à la vie en société subie dans son environnement par une personne en raison d'une altération substantielle, durable ou définitive. »"
+  },
+  {
+    "id": "M6-Q007",
+    "module": 6,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Que signifie FALC dans le contexte de l'accessibilité ?",
+    "options": [
+      "Formation à l'Accessibilité des Lieux Collectifs",
+      "Facile à Lire et à Comprendre",
+      "Fichier d'Aide à la Lecture Corrigée",
+      "Format Adapté pour la Langue et la Communication"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "FALC signifie « Facile à Lire et à Comprendre ». Le REAC mentionne le FALC avec la LSF et les pictogrammes comme moyens de communication accessibles."
+  },
+  {
+    "id": "M6-Q008",
+    "module": 6,
+    "type": "true_false",
+    "difficulty": 1,
+    "question": "Le MSADS doit connaître les principales mesures de protection juridique comme la tutelle et la curatelle.",
+    "options": ["Vrai", "Faux"],
+    "correct": [0],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC mentionne la « connaissance des principales mesures de protection juridique (tutelle, curatelle...) et de leurs conséquences pour la personne » à de nombreuses reprises."
+  },
+  {
+    "id": "M6-Q009",
+    "module": 6,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Que désigne la « société inclusive » selon le REAC ?",
+    "options": [
+      "Une société réservée aux personnes handicapées",
+      "Une société qui favorise le maintien à domicile et l'intégration de toutes les personnes, y compris en situation de handicap",
+      "Un établissement spécialisé pour personnes handicapées",
+      "Un programme gouvernemental de subventions"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Le REAC indique que l'évolution législative « favorise le maintien à domicile » et « conduit à l'émergence de la notion de société inclusive ». C'est une société qui inclut toutes les personnes dans la vie sociale."
+  },
+  {
+    "id": "M6-Q010",
+    "module": 6,
+    "type": "drag_drop",
+    "difficulty": 2,
+    "question": "Associez chaque sigle à sa signification :",
+    "options": [
+      {"left": "MDPH", "right": "Maison Départementale des Personnes Handicapées"},
+      {"left": "CIDPH", "right": "Convention Internationale des Droits des Personnes Handicapées"},
+      {"left": "FALC", "right": "Facile à Lire et à Comprendre"},
+      {"left": "LSF", "right": "Langue des Signes Française"}
+    ],
+    "correct": [0, 1, 2, 3],
+    "keywords": [],
+    "explanation": "Ces quatre sigles sont essentiels dans le domaine de l'inclusion et du handicap. Le REAC les mentionne régulièrement dans les savoirs requis du MSADS."
+  },
+  {
+    "id": "M6-Q011",
+    "module": 6,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Quelles missions ont les MDPH selon le REAC ? (3 réponses)",
+    "options": [
+      "Accueillir et informer les personnes handicapées",
+      "Accompagner et conseiller les personnes handicapées et leurs proches",
+      "Attribuer des droits aux personnes handicapées",
+      "Fournir des soins médicaux directs",
+      "Employer les personnes handicapées"
+    ],
+    "correct": [0, 1, 2],
+    "keywords": [],
+    "explanation": "Le glossaire du REAC précise que les MDPH « accueillent, informent, accompagnent et conseillent les personnes handicapées et leurs proches, leur attribuent des droits » et « sensibilisent l'ensemble des citoyens au handicap »."
+  },
+  {
+    "id": "M6-Q012",
+    "module": 6,
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": "La loi de 2005 met en œuvre le principe du droit à ___ des conséquences du handicap, quels que soient l'origine et la nature de la ___.",
+    "options": ["compensation", "déficience"],
+    "correct": ["compensation", "déficience"],
+    "keywords": [],
+    "explanation": "Le glossaire du REAC précise : « La loi met en œuvre le principe nouveau du droit à compensation des conséquences du handicap, quels que soient l'origine et la nature de la déficience. »"
+  },
+  {
+    "id": "M6-Q013",
+    "module": 6,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Que doit connaître le MSADS concernant les représentations du handicap ?",
+    "options": [
+      "Les statistiques nationales sur le handicap",
+      "Les représentations du handicap et l'impact de ces représentations sur la relation avec des personnes handicapées",
+      "Les causes médicales de chaque type de handicap",
+      "Les techniques de rééducation"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Le REAC mentionne la « connaissance des représentations du handicap et de l'impact de ces représentations sur la relation avec des personnes handicapées »."
+  },
+  {
+    "id": "M6-Q014",
+    "module": 6,
+    "type": "true_false",
+    "difficulty": 1,
+    "question": "Le MSADS doit faciliter l'inclusion des personnes en situation de handicap dans les activités supports à la médiation sociale.",
+    "options": ["Vrai", "Faux"],
+    "correct": [0],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC (CP12) demande de « faciliter l'inclusion des personnes en situation de handicap dans les activités support à la médiation sociale en utilisant des documents accessibles au plus grand nombre »."
+  },
+  {
+    "id": "M6-Q015",
+    "module": 6,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Quand la CIDPH a-t-elle été adoptée par l'Assemblée générale des Nations-Unies ?",
+    "options": [
+      "Le 10 décembre 1948",
+      "Le 13 décembre 2006",
+      "Le 11 février 2005",
+      "Le 20 mars 2010"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Le glossaire du REAC précise : « Le 13 décembre 2006, l'Assemblée générale des Nations-Unies adoptait la Convention relative aux droits des personnes handicapées (CIDPH). »"
+  },
+  {
+    "id": "M6-Q016",
+    "module": 6,
+    "type": "open_text",
+    "difficulty": 2,
+    "question": "Quel est le concept qui désigne la prise en compte de la dimension environnementale dans la compréhension du handicap ?",
+    "options": [],
+    "correct": [],
+    "keywords": ["situation", "handicap", "environnement"],
+    "explanation": "Le REAC mentionne la « notion de situation de handicap et de ses multiples modalités d'expression, et de la dimension environnementale du handicap ». Le handicap n'est pas seulement lié à la déficience mais à l'interaction avec l'environnement."
+  },
+  {
+    "id": "M6-Q017",
+    "module": 6,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Quels types d'altérations peuvent constituer un handicap selon la définition de la loi de 2005 ? (3 réponses)",
+    "options": [
+      "Altérations physiques ou sensorielles",
+      "Altérations mentales ou cognitives",
+      "Altérations psychiques ou polyhandicap",
+      "Altérations esthétiques",
+      "Altérations professionnelles"
+    ],
+    "correct": [0, 1, 2],
+    "keywords": [],
+    "explanation": "La loi définit le handicap comme résultant d'une « altération d'une ou plusieurs fonctions physiques, sensorielles, mentales, cognitives ou psychiques, d'un polyhandicap ou d'un trouble de santé invalidant »."
+  },
+  {
+    "id": "M6-Q018",
+    "module": 6,
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": "Le MSADS doit respecter le ___ des personnes en situation de handicap et faciliter leur accueil en prenant en compte l'___ des lieux.",
+    "options": ["rythme", "accessibilité"],
+    "correct": ["rythme", "accessibilité"],
+    "keywords": [],
+    "explanation": "Le REAC mentionne « respecter le rythme des personnes en situation de handicap » et « faciliter l'accueil des personnes en situation de handicap en prenant en compte l'accessibilité des lieux »."
+  },
+  {
+    "id": "M6-Q019",
+    "module": 6,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Quelle est la différence entre la tutelle et la curatelle ?",
+    "options": [
+      "La tutelle est pour les mineurs, la curatelle pour les majeurs",
+      "La tutelle implique une représentation totale, la curatelle est une mesure d'assistance plus souple",
+      "La tutelle est temporaire, la curatelle est définitive",
+      "Il n'y a aucune différence, ce sont des synonymes"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Le REAC mentionne la connaissance des « principales mesures de protection juridique (tutelle, curatelle...) et de leurs conséquences pour la personne ». La tutelle est plus protectrice (représentation), la curatelle est une assistance."
+  },
+  {
+    "id": "M6-Q020",
+    "module": 6,
+    "type": "true_false",
+    "difficulty": 2,
+    "question": "Le MSADS doit connaître les travaux de la commission nationale pour un consensus sur la définition de la maltraitance et la promotion de la bientraitance.",
+    "options": ["Vrai", "Faux"],
+    "correct": [0],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC (CP3) mentionne la « connaissance des travaux de la commission nationale pour un consensus sur la définition de la maltraitance, des situations de vulnérabilité et la promotion de la démarche de bientraitance 2021 »."
+  },
+  {
+    "id": "M6-Q021",
+    "module": 6,
+    "type": "drag_drop",
+    "difficulty": 2,
+    "question": "Associez chaque mesure de protection juridique à sa caractéristique :",
+    "options": [
+      {"left": "Tutelle", "right": "Mesure de représentation : un tuteur agit au nom de la personne protégée"},
+      {"left": "Curatelle", "right": "Mesure d'assistance : la personne est accompagnée mais conserve une partie de ses droits"},
+      {"left": "Sauvegarde de justice", "right": "Mesure temporaire et urgente de protection, la personne conserve l'exercice de ses droits"}
+    ],
+    "correct": [0, 1, 2],
+    "keywords": [],
+    "explanation": "Le REAC demande la connaissance des « principales mesures de protection juridique et de leurs conséquences pour la personne ». Tutelle, curatelle et sauvegarde de justice sont les trois principales mesures."
+  },
+  {
+    "id": "M6-Q022",
+    "module": 6,
+    "type": "qcm_single",
+    "difficulty": 1,
+    "question": "Comment le MSADS doit-il adapter sa communication avec les personnes en situation de handicap ?",
+    "options": [
+      "En parlant plus fort systématiquement",
+      "En adaptant sa communication aux interlocuteurs et aux situations, en utilisant des moyens accessibles (LSF, FALC, pictogrammes)",
+      "En communiquant uniquement par écrit",
+      "En demandant à un tiers de communiquer à sa place"
+    ],
+    "correct": [1],
+    "keywords": [],
+    "explanation": "Le REAC demande d'« adapter sa communication aux interlocuteurs et aux situations » et de « s'assurer de l'accessibilité des moyens de communication (LSF, FALC, pictogrammes) »."
+  },
+  {
+    "id": "M6-Q023",
+    "module": 6,
+    "type": "open_text",
+    "difficulty": 1,
+    "question": "Quel organisme créé par la loi de 2005 accueille, informe et accompagne les personnes handicapées dans chaque département ?",
+    "options": [],
+    "correct": [],
+    "keywords": ["MDPH", "maison", "départementale"],
+    "explanation": "La MDPH (Maison Départementale des Personnes Handicapées) a été créée par la loi du 11 février 2005 dans chaque département pour accueillir, informer et accompagner les personnes handicapées."
+  },
+  {
+    "id": "M6-Q024",
+    "module": 6,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Que doit vérifier le MSADS pour l'accessibilité lors d'une activité support ? (2 réponses)",
+    "options": [
+      "L'accessibilité des lieux de l'activité",
+      "L'accessibilité des documents utilisés (accessibles au plus grand nombre)",
+      "Le niveau de diplôme des participants",
+      "La couleur des murs de la salle",
+      "La température de la pièce"
+    ],
+    "correct": [0, 1],
+    "keywords": [],
+    "explanation": "Le REAC demande de « faciliter l'accueil des personnes en situation de handicap en prenant en compte l'accessibilité des lieux » et que « les documents utilisés respectent l'accessibilité au plus grand nombre »."
+  },
+  {
+    "id": "M6-Q025",
+    "module": 6,
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": "Les médiateurs sociaux doivent prendre en compte des spécificités ___ et techniques liées aux différentes situations de ___.",
+    "options": ["relationnelles", "handicap"],
+    "correct": ["relationnelles", "handicap"],
+    "keywords": [],
+    "explanation": "Citation du REAC : « les médiateurs sociaux accès droits et services doivent prendre en compte des spécificités relationnelles et techniques liées aux différentes situations de handicap »."
+  }
+]
