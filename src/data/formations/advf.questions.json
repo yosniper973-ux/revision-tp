@@ -1,1 +1,2768 @@
-[]
+[
+  {
+    "id": "C1-Q001",
+    "module": 1,
+    "type": "qcm_single",
+    "difficulty": 1,
+    "question": "Dès son arrivée chez le particulier, quelle est la première démarche attendue de l'ADVF pour construire une relation professionnelle ?",
+    "options": [
+      "Se présenter, expliquer son rôle, sa mission et les limites du cadre de son intervention",
+      "Commencer immédiatement le ménage pour ne pas perdre de temps",
+      "Faire le tour du logement seul afin d'évaluer le travail",
+      "Demander au particulier de s'absenter pendant la prestation"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC demande de se présenter au particulier et d'expliquer son rôle, sa mission et les limites du cadre de son intervention. C'est ce qui pose la relation professionnelle et évite les malentendus sur ce qui relève ou non de la prestation."
+  },
+  {
+    "id": "C1-Q002",
+    "module": 1,
+    "type": "true_false",
+    "difficulty": 1,
+    "question": "L'ADVF peut accepter toutes les tâches demandées par le particulier, même si elles dépassent le cadre prévu de son intervention.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct": [
+      1
+    ],
+    "keywords": [],
+    "explanation": "Faux. L'ADVF travaille dans les limites du cadre de son intervention et doit savoir « refuser si nécessaire une demande de manière courtoise ». Si le besoin évolue, il en informe les interlocuteurs compétents pour faire évoluer le cadre."
+  },
+  {
+    "id": "C1-Q003",
+    "module": 1,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Quels statuts d'intervention l'ADVF doit-il connaître pour situer son cadre contractuel ?",
+    "options": [
+      "Prestataire, mandataire, mise à disposition et emploi direct",
+      "Titulaire, stagiaire, vacataire et intérimaire",
+      "Salarié, bénévole, auto-entrepreneur et fonctionnaire",
+      "Public, privé, associatif et coopératif"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC cite la connaissance des statuts prestataire, mandataire, mise à disposition et emploi direct. Le statut détermine notamment qui est l'employeur et quelle convention collective s'applique."
+  },
+  {
+    "id": "C1-Q004",
+    "module": 1,
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": "Avant toute intervention, et à chaque fois que nécessaire, l'ADVF réalise l'hygiène des ___ et porte une tenue vestimentaire ___.",
+    "options": [
+      "mains",
+      "appropriée"
+    ],
+    "correct": [
+      "mains",
+      "appropriée"
+    ],
+    "keywords": [],
+    "explanation": "L'hygiène des mains et le port d'une tenue appropriée figurent dans les savoir-faire de chacune des compétences du titre. Ce sont les deux gestes de base de la prévention des contaminations."
+  },
+  {
+    "id": "C1-Q005",
+    "module": 1,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Selon les critères de performance de la compétence « Établir une relation professionnelle dans le cadre d'une prestation d'entretien », quels éléments sont attendus ? (3 réponses)",
+    "options": [
+      "Les consignes sont comprises et reformulées",
+      "L'intervention est organisée avec le particulier",
+      "Les priorités sont établies en fonction des attentes du particulier et du temps alloué",
+      "Le particulier signe une attestation de satisfaction à chaque passage",
+      "La durée de l'intervention est systématiquement réduite"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "keywords": [],
+    "explanation": "Les critères de performance sont : les consignes comprises et reformulées, l'intervention organisée avec le particulier, les priorités établies selon les attentes et le temps alloué, et les informations transmises aux interlocuteurs concernés."
+  },
+  {
+    "id": "C1-Q006",
+    "module": 1,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Le temps alloué ne permet pas de réaliser toutes les tâches demandées. Quelle est la conduite professionnelle attendue ?",
+    "options": [
+      "Établir les priorités avec le particulier et convenir de ce qui sera fait",
+      "Faire toutes les tâches rapidement, quitte à bâcler",
+      "Choisir seul les tâches à supprimer sans en parler",
+      "Dépasser systématiquement son horaire sans le signaler"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC demande de vérifier avec le particulier la faisabilité des tâches dans le temps alloué et d'établir avec lui les priorités. La décision se prend avec le particulier, jamais unilatéralement."
+  },
+  {
+    "id": "C1-Q007",
+    "module": 1,
+    "type": "true_false",
+    "difficulty": 1,
+    "question": "En fin d'intervention, l'ADVF doit transmettre aux interlocuteurs concernés les observations inhabituelles qu'il a constatées.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Vrai. « Transmettre en fin d'intervention les informations ou les observations inhabituelles aux interlocuteurs concernés » est un savoir-faire attendu, notamment via les documents professionnels comme le cahier de liaison."
+  },
+  {
+    "id": "C1-Q008",
+    "module": 1,
+    "type": "open_text",
+    "difficulty": 2,
+    "question": "Citez deux documents professionnels que l'ADVF utilise pour suivre son intervention et transmettre les informations.",
+    "options": [],
+    "correct": [],
+    "keywords": [
+      "fiche de mission",
+      "cahier de liaison"
+    ],
+    "explanation": "Le REAC mentionne « l'usage des documents professionnels : fiches de mission, cahier de liaison… ». Ces supports assurent la continuité de l'intervention entre les différents intervenants."
+  },
+  {
+    "id": "C1-Q009",
+    "module": 1,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Dans quel ordre logique organiser le nettoyage d'une pièce pour éviter de resalir ce qui vient d'être nettoyé ?",
+    "options": [
+      "Du plus propre vers le plus sale, et du haut vers le bas",
+      "Du plus sale vers le plus propre, et du bas vers le haut",
+      "En commençant toujours par les sanitaires puis la cuisine",
+      "Peu importe, seul le résultat final compte"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "La règle professionnelle est d'aller du plus propre vers le plus sale et du haut vers le bas : les poussières et salissures tombent vers le sol, qui est nettoyé en dernier. Elle évite les contaminations croisées."
+  },
+  {
+    "id": "C1-Q010",
+    "module": 1,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Que signifie « réaliser un essuyage humide » plutôt qu'un dépoussiérage à sec ?",
+    "options": [
+      "Passer une lavette humide qui capte les poussières au lieu de les remettre en suspension dans l'air",
+      "Laver abondamment la surface à grande eau",
+      "Utiliser exclusivement un produit désinfectant",
+      "Frotter énergiquement avec une brosse sèche"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "L'essuyage humide retient les poussières sur la lavette au lieu de les disperser dans l'air. C'est la technique recommandée, notamment en présence de personnes fragiles ou allergiques."
+  },
+  {
+    "id": "C1-Q011",
+    "module": 1,
+    "type": "true_false",
+    "difficulty": 2,
+    "question": "Nettoyer et désinfecter sont deux opérations équivalentes que l'on peut indifféremment remplacer l'une par l'autre.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct": [
+      1
+    ],
+    "keywords": [],
+    "explanation": "Faux. Le nettoyage élimine les salissures visibles ; la désinfection réduit les micro-organismes. Une désinfection n'est efficace que sur une surface préalablement nettoyée : les deux opérations sont complémentaires, pas interchangeables."
+  },
+  {
+    "id": "C1-Q012",
+    "module": 1,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Quelles surfaces relèvent en priorité d'un nettoyage suivi d'une désinfection au domicile ? (3 réponses)",
+    "options": [
+      "Les équipements sanitaires et les éviers",
+      "Les points de contact comme les poignées et les interrupteurs",
+      "Les poubelles",
+      "Les rideaux du salon",
+      "Les livres de la bibliothèque"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "keywords": [],
+    "explanation": "Le REAC cite le nettoyage et la désinfection si nécessaire des équipements sanitaires et éviers, des surfaces et points de contact, et des poubelles. Ce sont les zones où la charge microbienne et le risque de transmission manuportée sont les plus élevés."
+  },
+  {
+    "id": "C1-Q013",
+    "module": 1,
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": "Les produits doivent être ___ et les matériels utilisés conformément à leur mode d'___.",
+    "options": [
+      "dosés",
+      "emploi"
+    ],
+    "correct": [
+      "dosés",
+      "emploi"
+    ],
+    "keywords": [],
+    "explanation": "Critère de performance du REAC : « Les produits sont dosés et les équipements, les matériels et les produits sont utilisés conformément aux modes d'emploi ». Un surdosage n'améliore pas l'efficacité et augmente les risques et le coût."
+  },
+  {
+    "id": "C1-Q014",
+    "module": 1,
+    "type": "true_false",
+    "difficulty": 1,
+    "question": "Mélanger de l'eau de Javel avec un produit détartrant acide permet d'obtenir un nettoyant plus efficace.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct": [
+      1
+    ],
+    "keywords": [],
+    "explanation": "Faux, et c'est dangereux. Le mélange de Javel et d'un acide dégage du chlore gazeux toxique. Les produits ne se mélangent jamais : chacun s'utilise seul, selon son mode d'emploi."
+  },
+  {
+    "id": "C1-Q015",
+    "module": 1,
+    "type": "qcm_single",
+    "difficulty": 1,
+    "question": "Que recouvre la notion d'« écogestes » dans l'entretien du logement ?",
+    "options": [
+      "Des pratiques limitant l'impact environnemental : juste dosage, économie d'eau et d'énergie, tri des déchets",
+      "Des gestes de premiers secours en cas d'accident",
+      "Des techniques de portage de charges lourdes",
+      "Des règles de politesse envers le particulier"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Les écogestes visent à réduire l'impact environnemental de la prestation : doser juste, limiter la consommation d'eau et d'énergie, trier et évacuer correctement les déchets. L'ADVF peut aussi proposer au particulier des produits et techniques cohérents avec cette démarche."
+  },
+  {
+    "id": "C1-Q016",
+    "module": 1,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Quelle précaution l'ADVF prend-il pour aérer le logement pendant son intervention ?",
+    "options": [
+      "Aérer en tenant compte de la présence et du confort du particulier",
+      "Ouvrir toutes les fenêtres en grand quelles que soient les circonstances",
+      "Ne jamais aérer pour éviter les courants d'air",
+      "Aérer uniquement en été"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC précise « aérer le logement en tenant compte de la présence du particulier ». L'aération renouvelle l'air et évacue les vapeurs de produits, mais elle ne doit pas mettre la personne en inconfort ou en danger."
+  },
+  {
+    "id": "C1-Q017",
+    "module": 1,
+    "type": "drag_drop",
+    "difficulty": 2,
+    "question": "Associez chaque famille de produits d'entretien à son usage principal :",
+    "options": [
+      {
+        "left": "Détergent",
+        "right": "Décoller et éliminer les salissures d'une surface"
+      },
+      {
+        "left": "Désinfectant",
+        "right": "Réduire le nombre de micro-organismes présents sur une surface"
+      },
+      {
+        "left": "Détartrant",
+        "right": "Dissoudre les dépôts de calcaire"
+      },
+      {
+        "left": "Abrasif",
+        "right": "Décaper mécaniquement une salissure incrustée"
+      }
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "keywords": [],
+    "explanation": "Le REAC demande la connaissance de la classification des produits ménagers selon leur usage, leur stockage et les risques liés à leur utilisation. Confondre ces familles conduit à un produit inefficace ou à une surface abîmée."
+  },
+  {
+    "id": "C1-Q018",
+    "module": 1,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Que signifie le sigle TMS, dont la prévention concerne directement l'ADVF ?",
+    "options": [
+      "Troubles musculo-squelettiques",
+      "Techniques de maintien à la surface",
+      "Traitement mécanisé des sols",
+      "Tri des matériaux souillés"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Les troubles musculo-squelettiques sont la première cause de maladie professionnelle dans l'aide à domicile. Le REAC demande de « respecter les mesures de prévention des risques de TMS » et d'appliquer les principes de sécurité physique et d'économie d'effort."
+  },
+  {
+    "id": "C1-Q019",
+    "module": 1,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Quels principes de sécurité physique et d'économie d'effort l'ADVF applique-t-il pour soulever une charge au sol ? (3 réponses)",
+    "options": [
+      "Plier les genoux et garder le dos droit",
+      "Rapprocher la charge de son corps",
+      "Écarter les pieds pour élargir son polygone de sustentation",
+      "Se pencher en avant en gardant les jambes tendues",
+      "Effectuer une rotation du buste en soulevant"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "keywords": [],
+    "explanation": "Plier les genoux, garder le dos droit, rapprocher la charge et élargir son appui protègent la colonne vertébrale. Se pencher jambes tendues ou tourner le buste charge les disques intervertébraux et provoque les lombalgies."
+  },
+  {
+    "id": "C1-Q020",
+    "module": 1,
+    "type": "open_text",
+    "difficulty": 2,
+    "question": "Quel organisme, cité dans le REAC, publie des supports d'information sur la prévention des accidents du travail et des maladies professionnelles destinés aux aides à domicile ?",
+    "options": [],
+    "correct": [],
+    "keywords": [
+      "INRS"
+    ],
+    "explanation": "L'INRS (Institut national de recherche et de sécurité) produit des guides et supports de prévention spécifiquement destinés au secteur de l'aide à domicile. Le REAC en fait un savoir attendu."
+  },
+  {
+    "id": "C1-Q021",
+    "module": 1,
+    "type": "true_false",
+    "difficulty": 2,
+    "question": "Les accidents survenant pendant les trajets entre deux interventions font partie des risques que l'ADVF doit connaître et prévenir.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC cite la « connaissance des risques d'accidents de trajet et des moyens de prévention ainsi que des modalités de déclaration en cas d'accident du travail ». L'ADVF doit organiser ses temps de trajet pour prévenir ces risques."
+  },
+  {
+    "id": "C1-Q022",
+    "module": 1,
+    "type": "qcm_single",
+    "difficulty": 1,
+    "question": "Le matériel d'entretien du particulier tombe en panne pendant l'intervention. Que fait l'ADVF ?",
+    "options": [
+      "Il en informe le particulier et le signale aux interlocuteurs concernés",
+      "Il tente de le réparer lui-même avec les outils trouvés sur place",
+      "Il ne dit rien pour ne pas inquiéter le particulier",
+      "Il achète un matériel de remplacement à ses frais"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC demande d'« informer le particulier en cas de besoin de réapprovisionnement ou de défaillance technique du matériel ». La réparation ne relève pas du cadre de l'intervention."
+  },
+  {
+    "id": "C1-Q023",
+    "module": 1,
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": "Avant de quitter le domicile, l'ADVF range les matériels et les produits en respectant les règles de ___, vérifie la fermeture des portes et des ___, et remet l'alarme si nécessaire.",
+    "options": [
+      "sécurité",
+      "fenêtres"
+    ],
+    "correct": [
+      "sécurité",
+      "fenêtres"
+    ],
+    "keywords": [],
+    "explanation": "Ces gestes de fin d'intervention figurent explicitement dans les savoir-faire organisationnels de la compétence « Entretenir le logement ». Ils protègent à la fois le domicile et les occupants, notamment les enfants vis-à-vis des produits."
+  },
+  {
+    "id": "C1-Q024",
+    "module": 1,
+    "type": "qcm_single",
+    "difficulty": 1,
+    "question": "Pourquoi le REAC insiste-t-il sur la « connaissance de l'attachement du particulier à son logement, à ses meubles et à ses objets personnels » ?",
+    "options": [
+      "Parce que le domicile a une dimension symbolique et affective que l'intervention doit respecter",
+      "Parce que l'ADVF doit estimer la valeur marchande des biens",
+      "Parce qu'il doit conseiller le particulier sur sa décoration",
+      "Parce qu'il est responsable financièrement de tous les objets"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC évoque « les dimensions symboliques et imaginaires du domicile et de sa fonction protectrice ». Intervenir chez quelqu'un, c'est entrer dans son espace intime : le respect des objets et des habitudes fait partie de la qualité de service."
+  },
+  {
+    "id": "C1-Q025",
+    "module": 1,
+    "type": "true_false",
+    "difficulty": 1,
+    "question": "L'ADVF est tenu à des règles de discrétion concernant ce qu'il voit et entend au domicile du particulier.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Vrai. « Respecter des règles de discrétion » est un savoir-faire relationnel présent dans toutes les compétences du titre. Ce qui relève de la vie privée du particulier et de son entourage ne se divulgue pas."
+  },
+  {
+    "id": "C1-Q026",
+    "module": 1,
+    "type": "qcm_single",
+    "difficulty": 1,
+    "question": "Quelle est la première opération lors de l'entretien du linge, avant tout lavage ?",
+    "options": [
+      "Trier le linge selon les caractéristiques des tissus et les symboles d'entretien",
+      "Repasser le linge encore sale pour le défroisser",
+      "Faire tremper l'ensemble du linge dans de l'eau de Javel",
+      "Plier le linge selon les habitudes du particulier"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le tri conditionne tout le reste : il se fait selon le type de textile, la couleur, le degré de salissure et les recommandations des symboles d'entretien. Un tri raté abîme le linge de façon irréversible."
+  },
+  {
+    "id": "C1-Q027",
+    "module": 1,
+    "type": "drag_drop",
+    "difficulty": 3,
+    "question": "Associez chaque symbole d'entretien du linge à sa signification :",
+    "options": [
+      {
+        "left": "Une cuve",
+        "right": "Conditions de lavage et température maximale"
+      },
+      {
+        "left": "Un triangle",
+        "right": "Possibilité de blanchiment (javellisation)"
+      },
+      {
+        "left": "Un carré",
+        "right": "Conditions de séchage"
+      },
+      {
+        "left": "Un fer à repasser",
+        "right": "Température maximale de repassage"
+      },
+      {
+        "left": "Un cercle",
+        "right": "Nettoyage professionnel, notamment à sec"
+      }
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "keywords": [],
+    "explanation": "Ces cinq symboles composent l'étiquetage normalisé d'entretien des textiles. Une croix sur l'un d'eux signifie que le traitement correspondant est interdit."
+  },
+  {
+    "id": "C1-Q028",
+    "module": 1,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Sur une étiquette de linge, que signifie un symbole barré d'une croix ?",
+    "options": [
+      "Le traitement correspondant est interdit pour ce textile",
+      "Le traitement doit être réalisé deux fois",
+      "Le traitement est recommandé en priorité",
+      "L'étiquette n'est plus valable"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "La croix sur un symbole signifie l'interdiction du traitement. Par exemple un fer barré indique un textile qui ne doit pas être repassé."
+  },
+  {
+    "id": "C1-Q029",
+    "module": 1,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Sur quels critères l'ADVF trie-t-il le linge avant lavage ? (3 réponses)",
+    "options": [
+      "La nature du textile",
+      "La couleur du linge",
+      "Le degré de salissure",
+      "La marque du vêtement",
+      "Le prix d'achat du vêtement"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "keywords": [],
+    "explanation": "Le tri combine la nature du textile (qui détermine température et programme), la couleur (pour éviter les décolorations) et le degré de salissure. Le REAC parle de trier « en fonction des caractéristiques des tissus »."
+  },
+  {
+    "id": "C1-Q030",
+    "module": 1,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Sur le symbole du fer à repasser, que signifient trois points ?",
+    "options": [
+      "Température élevée, adaptée au coton et au lin",
+      "Température basse, réservée aux synthétiques",
+      "Repassage interdit",
+      "Repassage uniquement à la vapeur"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Les points indiquent la température maximale : un point pour les synthétiques, deux pour la laine et la soie, trois pour le coton et le lin. Le REAC demande de « tenir compte des caractéristiques des températures de repassage en fonction des matières »."
+  },
+  {
+    "id": "C1-Q031",
+    "module": 1,
+    "type": "true_false",
+    "difficulty": 2,
+    "question": "Une tache doit de préférence être traitée avant le passage du linge en machine et avant tout séchage à chaud.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Vrai. La chaleur du lavage à haute température ou du séchage fixe la tache dans les fibres et la rend beaucoup plus difficile à éliminer. Le détachage précède le lavage."
+  },
+  {
+    "id": "C1-Q032",
+    "module": 1,
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": "Le REAC attend de l'ADVF qu'il maîtrise les techniques de repassage dites complexes, comme la ___, le drap et la ___.",
+    "options": [
+      "chemise",
+      "nappe"
+    ],
+    "correct": [
+      "chemise",
+      "nappe"
+    ],
+    "keywords": [],
+    "explanation": "Le REAC cite explicitement « maitriser les techniques de repassage complexes (chemise, drap, nappe) ». Ces pièces demandent un ordre de repassage précis pour éviter de refroisser ce qui vient d'être fait."
+  },
+  {
+    "id": "C1-Q033",
+    "module": 1,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "L'ADVF repère un vêtement dont une couture est décousue. Quelle est la conduite attendue ?",
+    "options": [
+      "Effectuer le travail de couture simple s'il relève de son intervention, ou le signaler au particulier",
+      "Jeter le vêtement pour éviter tout litige",
+      "Le laver malgré tout sans rien dire",
+      "Le confier de sa propre initiative à un professionnel de la retouche"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC demande de « repérer les travaux de couture simples nécessaires, les effectuer ou les signaler » et de « signaler les vêtements ou linges abîmés ». La décision de faire réparer appartient au particulier."
+  },
+  {
+    "id": "C1-Q034",
+    "module": 1,
+    "type": "open_text",
+    "difficulty": 2,
+    "question": "Citez deux écogestes applicables à l'entretien du linge.",
+    "options": [],
+    "correct": [],
+    "keywords": [
+      "basse température",
+      "charge complète",
+      "séchage à l air libre",
+      "juste dosage"
+    ],
+    "explanation": "Laver à basse température, remplir correctement le tambour, privilégier le séchage à l'air libre plutôt qu'au sèche-linge et doser justement la lessive réduisent nettement la consommation d'eau, d'énergie et de produit."
+  },
+  {
+    "id": "C1-Q035",
+    "module": 1,
+    "type": "true_false",
+    "difficulty": 1,
+    "question": "L'ADVF peut ranger le linge propre selon sa propre logique, sans tenir compte des habitudes du particulier.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct": [
+      1
+    ],
+    "keywords": [],
+    "explanation": "Faux. Le REAC demande de « plier tous types de vêtements conformément aux choix du particulier » et de « ranger le linge en fonction des habitudes du particulier ». La personne doit pouvoir retrouver ses affaires sans effort."
+  },
+  {
+    "id": "C1-Q036",
+    "module": 1,
+    "type": "qcm_single",
+    "difficulty": 3,
+    "question": "Quel risque principal justifie de ne jamais surcharger un fer ou une centrale vapeur et de respecter leur notice ?",
+    "options": [
+      "Le risque de brûlure et le risque électrique",
+      "Le risque de perte de garantie commerciale",
+      "Le risque de décoloration du linge",
+      "Le risque de bruit excessif"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Les fers et centrales vapeur cumulent chaleur intense, vapeur sous pression et électricité. Le REAC demande de respecter les recommandations et notices d'emploi du matériel d'entretien du linge, et d'informer le particulier des risques liés à l'entretien de son linge."
+  },
+  {
+    "id": "C1-Q037",
+    "module": 1,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Quels contrôles l'ADVF effectue-t-il pour évaluer la qualité de sa prestation d'entretien ? (3 réponses)",
+    "options": [
+      "Observer et contrôler visuellement le résultat de son travail",
+      "Auto-évaluer la conformité de sa prestation à la demande",
+      "Évaluer la qualité de la prestation avec le particulier",
+      "Comparer son travail à celui du précédent intervenant",
+      "Demander une note écrite au particulier"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "keywords": [],
+    "explanation": "Le REAC associe systématiquement trois niveaux : le contrôle visuel du résultat, l'auto-évaluation de la conformité à la demande, et l'évaluation partagée avec le particulier, suivie d'un ajustement en accord avec lui si nécessaire."
+  },
+  {
+    "id": "C1-Q038",
+    "module": 1,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Quel est le mode de transmission le plus fréquent des micro-organismes au domicile, que l'hygiène des mains vise à interrompre ?",
+    "options": [
+      "La transmission manuportée",
+      "La transmission par voie sanguine",
+      "La transmission par piqûre d'insecte",
+      "La transmission par les ondes"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Les mains et les points de contact assurent l'essentiel de la transmission des micro-organismes au domicile. C'est pourquoi l'hygiène des mains et le nettoyage des points de contact reviennent dans toutes les compétences."
+  },
+  {
+    "id": "C1-Q039",
+    "module": 1,
+    "type": "fill_blank",
+    "difficulty": 1,
+    "question": "L'ADVF trie et évacue les ___ et les eaux ___ en respectant les consignes du particulier et les écogestes.",
+    "options": [
+      "déchets",
+      "usées"
+    ],
+    "correct": [
+      "déchets",
+      "usées"
+    ],
+    "keywords": [],
+    "explanation": "Formulation issue des savoir-faire de la compétence « Entretenir le logement » : « Trier et évacuer les déchets et les eaux usées en respectant les consignes et les écogestes »."
+  },
+  {
+    "id": "C1-Q040",
+    "module": 1,
+    "type": "open_text",
+    "difficulty": 3,
+    "question": "Le particulier demande à l'ADVF de nettoyer les vitres extérieures d'un premier étage en montant sur une chaise. Que doit-il faire et pourquoi ?",
+    "options": [],
+    "correct": [],
+    "keywords": [
+      "refuser",
+      "risque",
+      "chute",
+      "sécurité",
+      "courtoise"
+    ],
+    "explanation": "L'ADVF doit refuser cette demande de manière courtoise : le travail en hauteur sur un support instable expose à un risque de chute grave. Il identifie les situations à risques, informe le particulier du danger et propose une alternative ou signale le besoin aux interlocuteurs compétents."
+  },
+  {
+    "id": "C2-Q001",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 1,
+    "question": "Quel est l'objectif premier de la prise de contact de l'ADVF avec la personne accompagnée et son entourage ?",
+    "options": [
+      "Construire une relation de confiance et recueillir ses attentes, ses besoins et ses habitudes",
+      "Établir la liste des tâches ménagères à effectuer en priorité",
+      "Évaluer le niveau de ressources financières du foyer",
+      "Faire signer un contrat de prestation"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC indique qu'il s'agit de « construire une relation de confiance » en prenant connaissance des attentes, besoins et habitudes de la personne, afin d'optimiser la qualité de l'intervention."
+  },
+  {
+    "id": "C2-Q002",
+    "module": 2,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Quels critères de performance sont attendus pour la compétence « Établir une relation professionnelle avec la personne et son entourage » ? (3 réponses)",
+    "options": [
+      "Les attentes de la personne et de son entourage sont reformulées",
+      "Les éléments caractéristiques de la situation de la personne sont repérés",
+      "Les priorités sont établies en accord avec la personne ou son entourage",
+      "Le diagnostic médical de la personne est posé",
+      "Le budget mensuel de la personne est établi"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "keywords": [],
+    "explanation": "Reformuler les attentes, repérer les éléments caractéristiques de la situation et établir les priorités en accord avec la personne font partie des critères de performance. Poser un diagnostic ne relève pas de l'ADVF."
+  },
+  {
+    "id": "C2-Q003",
+    "module": 2,
+    "type": "true_false",
+    "difficulty": 1,
+    "question": "Face à une situation imprévue ou à une évolution de l'état de la personne, l'ADVF réévalue seul les tâches à effectuer.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct": [
+      1
+    ],
+    "keywords": [],
+    "explanation": "Faux. Le REAC demande de « réévaluer avec la personne et son entourage les tâches à effectuer ». La personne reste actrice des décisions qui la concernent."
+  },
+  {
+    "id": "C2-Q004",
+    "module": 2,
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": "L'ADVF laisse faire la personne afin de ne pas renforcer sa ___, et sollicite sa ___ aux actes du quotidien selon ses capacités.",
+    "options": [
+      "dépendance",
+      "participation"
+    ],
+    "correct": [
+      "dépendance",
+      "participation"
+    ],
+    "keywords": [],
+    "explanation": "« Laisser faire la personne afin de ne pas renforcer sa dépendance » est un savoir-faire répété dans plusieurs compétences. Faire à la place de la personne ce qu'elle peut encore faire accélère la perte d'autonomie."
+  },
+  {
+    "id": "C2-Q005",
+    "module": 2,
+    "type": "drag_drop",
+    "difficulty": 2,
+    "question": "Associez chaque numéro d'urgence à son service :",
+    "options": [
+      {
+        "left": "15",
+        "right": "SAMU, urgences médicales"
+      },
+      {
+        "left": "18",
+        "right": "Sapeurs-pompiers, incendies et secours"
+      },
+      {
+        "left": "17",
+        "right": "Police ou gendarmerie"
+      },
+      {
+        "left": "112",
+        "right": "Numéro d'urgence unique européen"
+      },
+      {
+        "left": "114",
+        "right": "Urgences accessibles par SMS aux personnes sourdes ou malentendantes"
+      }
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "keywords": [],
+    "explanation": "La « connaissance des numéros d'urgence et des personnes à prévenir » est un savoir exigé par le REAC. Le 114 est le numéro d'urgence accessible par écrit, essentiel pour les personnes sourdes ou malentendantes."
+  },
+  {
+    "id": "C2-Q006",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Quelle certification, citée par le référentiel d'évaluation, valide la compétence « Prévenir les risques, mettre en place un relais et faire face aux situations d'urgence » ?",
+    "options": [
+      "Le certificat APS-ASD ou le certificat SST en cours de validité",
+      "Le permis de conduire catégorie B",
+      "Le diplôme d'État d'aide-soignant",
+      "L'attestation de formation aux gestes d'hygiène"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le référentiel d'évaluation précise que cette compétence est validée par la présentation du certificat « acteur prévention secours du secteur de l'aide et du soin à domicile » (APS-ASD) ou du certificat « sauveteur secouriste du travail » (SST) en cours de validité."
+  },
+  {
+    "id": "C2-Q007",
+    "module": 2,
+    "type": "open_text",
+    "difficulty": 2,
+    "question": "Que signifie le sigle APS-ASD ?",
+    "options": [],
+    "correct": [],
+    "keywords": [
+      "acteur prévention secours",
+      "aide",
+      "soin",
+      "domicile"
+    ],
+    "explanation": "APS-ASD signifie « acteur prévention secours du secteur de l'aide et du soin à domicile ». C'est la certification de prévention et de secours adaptée aux spécificités du travail au domicile."
+  },
+  {
+    "id": "C2-Q008",
+    "module": 2,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Selon les critères de performance de la compétence liée aux situations d'urgence, qu'attend-on de l'ADVF ? (4 réponses)",
+    "options": [
+      "Les signes traduisant une situation d'urgence sont reconnus",
+      "La personne est protégée",
+      "Le service d'urgence le plus adapté est alerté",
+      "Les instructions des services d'urgence sont suivies",
+      "Le traitement médical adapté est administré"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "keywords": [],
+    "explanation": "Reconnaître les signes, protéger, alerter le service adapté, transmettre des informations claires, suivre les instructions et appliquer les gestes de premiers secours sont les critères attendus. Administrer un traitement relève du soin médical, hors du cadre de l'ADVF."
+  },
+  {
+    "id": "C2-Q009",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Lors d'un appel aux services d'urgence, quelle attitude est attendue de l'ADVF ?",
+    "options": [
+      "Transmettre des informations claires et suivre les instructions données",
+      "Raccrocher rapidement pour libérer la ligne",
+      "Déplacer la personne avant d'appeler",
+      "Attendre l'arrivée de la famille avant d'alerter"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Les critères de performance sont explicites : « Les informations transmises aux interlocuteurs sont claires » et « Les instructions des services d'urgence sont suivies ». Le régulateur guide les gestes à effectuer jusqu'à l'arrivée des secours."
+  },
+  {
+    "id": "C2-Q010",
+    "module": 2,
+    "type": "true_false",
+    "difficulty": 2,
+    "question": "L'ADVF est autorisé à administrer lui-même des médicaments prescrits à la personne, dès lors que la famille le lui demande.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct": [
+      1
+    ],
+    "keywords": [],
+    "explanation": "Faux. Le REAC parle d'« aide à la prise de médicaments, sans se substituer à l'aide médicale », et exige la connaissance de la réglementation sur la délégation des soins. L'aide à la prise se distingue de l'administration d'un traitement, qui relève du soin."
+  },
+  {
+    "id": "C2-Q011",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Que doit faire l'ADVF face à une suspicion de maltraitance envers la personne accompagnée ?",
+    "options": [
+      "Appliquer la conduite à tenir établie et alerter les interlocuteurs compétents",
+      "Confronter directement l'auteur présumé des faits",
+      "Attendre d'avoir la preuve formelle des faits",
+      "Ne rien dire au nom du secret professionnel"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC demande d'« appliquer la conduite à tenir établie en cas de situation de fragilité, d'isolement, d'inconfort ou de maltraitance ». La discrétion professionnelle ne couvre jamais une situation de danger pour une personne vulnérable."
+  },
+  {
+    "id": "C2-Q012",
+    "module": 2,
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": "La démarche de ___ consiste à placer le respect, la dignité et les choix de la personne au centre de l'accompagnement, en prévention de toute forme de ___.",
+    "options": [
+      "bientraitance",
+      "maltraitance"
+    ],
+    "correct": [
+      "bientraitance",
+      "maltraitance"
+    ],
+    "keywords": [],
+    "explanation": "La « connaissance de la démarche de bientraitance » et des « notions de vulnérabilité et de maltraitance » sont des savoirs attendus dans presque toutes les compétences du titre."
+  },
+  {
+    "id": "C2-Q013",
+    "module": 2,
+    "type": "qcm_multi",
+    "difficulty": 3,
+    "question": "Quels risques une immobilisation prolongée fait-elle courir à la personne ? (3 réponses)",
+    "options": [
+      "L'apparition d'escarres aux points d'appui",
+      "La fonte musculaire et l'enraidissement des articulations",
+      "L'aggravation de la perte d'autonomie",
+      "L'amélioration de la circulation sanguine",
+      "Le renforcement de la densité osseuse"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "keywords": [],
+    "explanation": "Le REAC demande d'« identifier les risques d'une immobilisation prolongée et adopter les mesures de prévention ». Escarres, fonte musculaire, raideurs articulaires et perte d'autonomie en sont les conséquences principales."
+  },
+  {
+    "id": "C2-Q014",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "À quoi sert principalement le changement régulier de position d'une personne alitée ?",
+    "options": [
+      "Prévenir l'apparition d'escarres aux points d'appui",
+      "Faciliter le ménage de la chambre",
+      "Réduire la consommation de linge",
+      "Accélérer la digestion"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Les escarres apparaissent là où la pression prolongée réduit la circulation sanguine : sacrum, talons, hanches. Varier les appuis reste la mesure de prévention la plus efficace."
+  },
+  {
+    "id": "C2-Q015",
+    "module": 2,
+    "type": "true_false",
+    "difficulty": 1,
+    "question": "L'ADVF doit s'assurer que la personne est en sécurité avant de quitter le domicile.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Vrai. « S'assurer de la sécurité de la personne avant de quitter le domicile » revient dans plusieurs compétences du référentiel. La fin de l'intervention comprend cette vérification."
+  },
+  {
+    "id": "C2-Q016",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Que signifie « passer le relais » dans le cadre de l'intervention de l'ADVF ?",
+    "options": [
+      "Solliciter les interlocuteurs compétents quand la situation dépasse le cadre de sa fonction",
+      "Transmettre son travail au prochain intervenant pour finir plus tôt",
+      "Confier ses tâches à un membre de la famille",
+      "Renoncer définitivement à intervenir chez la personne"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC demande d'« identifier les situations nécessitant un relais » et de « passer le relais si nécessaire ». Reconnaître la limite de sa fonction est une compétence professionnelle, pas un échec."
+  },
+  {
+    "id": "C2-Q017",
+    "module": 2,
+    "type": "open_text",
+    "difficulty": 2,
+    "question": "Citez deux signes qui peuvent alerter l'ADVF sur une situation de fragilité ou d'isolement chez la personne accompagnée.",
+    "options": [],
+    "correct": [],
+    "keywords": [
+      "repli",
+      "isolement",
+      "dénutrition",
+      "hygiène",
+      "tristesse",
+      "perte de poids",
+      "absence de visite"
+    ],
+    "explanation": "Repli sur soi, absence de visites, négligence de l'hygiène ou du logement, perte de poids, tristesse persistante sont autant de signaux. Le REAC demande d'« identifier une situation de fragilité, d'isolement ou d'inconfort »."
+  },
+  {
+    "id": "C2-Q018",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Que recouvre la notion de « juste posture professionnelle » attendue de l'ADVF ?",
+    "options": [
+      "Une relation d'aide bienveillante qui préserve la distance professionnelle",
+      "Une position corporelle ergonomique lors des gestes techniques",
+      "Un ton autoritaire permettant de se faire respecter",
+      "Une relation amicale sans limite avec la personne"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC associe « maintenir une juste posture professionnelle » à « se préserver et gérer son implication personnelle ». Il s'agit de rester chaleureux sans glisser vers une relation personnelle qui brouillerait le cadre."
+  },
+  {
+    "id": "C2-Q019",
+    "module": 2,
+    "type": "true_false",
+    "difficulty": 2,
+    "question": "Reconnaître et gérer ses propres émotions fait partie des savoir-faire attendus de l'ADVF.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC cite « reconnaitre et gérer ses émotions » et « se préserver et gérer son implication personnelle ». L'accompagnement de personnes vulnérables expose à une charge émotionnelle qu'il faut savoir réguler."
+  },
+  {
+    "id": "C2-Q020",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Comment l'ADVF contribue-t-il au maintien du lien social de la personne ?",
+    "options": [
+      "En facilitant ses sorties, ses rencontres et la réalisation de ses projets",
+      "En occupant lui-même tout le temps disponible de la personne",
+      "En limitant les visites extérieures pour préserver son repos",
+      "En choisissant à sa place les activités adaptées"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC cite l'accompagnement lors des études ou formations, des activités professionnelles, des rendez-vous médicaux, des rencontres amicales et des sorties culturelles. L'ADVF facilite le lien, il ne s'y substitue pas."
+  },
+  {
+    "id": "C2-Q021",
+    "module": 2,
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": "L'ADVF recueille les centres d'___ de la personne et identifie avec elle les obstacles et les ___ de son environnement.",
+    "options": [
+      "intérêt",
+      "ressources"
+    ],
+    "correct": [
+      "intérêt",
+      "ressources"
+    ],
+    "keywords": [],
+    "explanation": "Ces savoir-faire figurent dans la compétence « Aider la personne dans la réalisation de ses projets et à maintenir un lien social ». Le projet part de ce qui intéresse la personne, pas de ce que l'intervenant juge bon pour elle."
+  },
+  {
+    "id": "C2-Q022",
+    "module": 2,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Dans quelles démarches l'ADVF peut-il aider la personne, à sa demande et dans les limites de sa fonction ? (3 réponses)",
+    "options": [
+      "Les démarches administratives simples",
+      "La gestion de son courrier",
+      "La gestion du budget alloué aux achats courants",
+      "La signature d'actes notariés à sa place",
+      "La gestion de ses placements financiers"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "keywords": [],
+    "explanation": "Le REAC cite l'aide aux démarches administratives simples, à la gestion du courrier et au budget des achats courants, toujours à la demande de la personne. Les actes juridiques ou patrimoniaux sont hors du cadre."
+  },
+  {
+    "id": "C2-Q023",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 3,
+    "question": "Que désigne la notion de « projet de vie » dans l'accompagnement de la personne ?",
+    "options": [
+      "Ce que la personne souhaite pour son avenir, que l'ADVF contribue à rendre possible",
+      "Le planning hebdomadaire des interventions à domicile",
+      "Le protocole de soins établi par le médecin traitant",
+      "Le contrat de prestation signé avec la structure"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC parle de « la notion de projet de vie et de la part de l'accompagnement de l'ADVF dans sa réalisation ». Le projet appartient à la personne ; l'ADVF en facilite la réalisation."
+  },
+  {
+    "id": "C2-Q024",
+    "module": 2,
+    "type": "true_false",
+    "difficulty": 2,
+    "question": "Proposer des activités de stimulation adaptées contribue au maintien et au développement de l'autonomie de la personne.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC demande de « mettre en place des activités et des sorties pour stimuler la personne » et de « proposer des activités contribuant au maintien et au développement de l'autonomie »."
+  },
+  {
+    "id": "C2-Q025",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "La personne demande à l'ADVF de l'accompagner dans l'utilisation d'une tablette numérique. Quelle est la bonne attitude ?",
+    "options": [
+      "L'accompagner dans cet usage, à sa demande, en la laissant faire au maximum",
+      "Refuser car cela ne relève pas de l'aide à domicile",
+      "Utiliser l'appareil à sa place pour aller plus vite",
+      "Lui déconseiller les outils numériques à son âge"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC cite « accompagner, à la demande, la personne dans l'utilisation des outils numériques ». Comme pour les autres actes, on laisse faire la personne afin de ne pas renforcer sa dépendance."
+  },
+  {
+    "id": "C2-Q026",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Quel principe guide l'ADVF lorsque la personne exprime un souhait contraire à ce qu'il aurait choisi pour elle ?",
+    "options": [
+      "Respecter les habitudes et les choix de la personne",
+      "Imposer la solution la plus rationnelle",
+      "Demander l'arbitrage de la famille systématiquement",
+      "Reporter l'intervention à une autre date"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "« Respecter les habitudes et les choix de la personne » est un savoir-faire relationnel constant du référentiel. Il s'articule avec le soutien du processus d'autodétermination."
+  },
+  {
+    "id": "C2-Q027",
+    "module": 2,
+    "type": "open_text",
+    "difficulty": 3,
+    "question": "Que désigne le processus d'autodétermination, cité dans le REAC ?",
+    "options": [],
+    "correct": [],
+    "keywords": [
+      "capacité",
+      "agir",
+      "prendre des décisions",
+      "choix"
+    ],
+    "explanation": "Le REAC le définit comme « la capacité à agir et à prendre des décisions ». Soutenir l'autodétermination, c'est permettre à la personne de rester actrice de ses choix, y compris lorsqu'ils diffèrent de l'avis de l'entourage."
+  },
+  {
+    "id": "C2-Q028",
+    "module": 2,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Quels comportements relèvent du respect de la personne accompagnée ? (4 réponses)",
+    "options": [
+      "Respecter son rythme",
+      "Respecter ses références culturelles et cultuelles",
+      "Respecter son intimité et sa pudeur",
+      "Respecter les règles de discrétion",
+      "Décider à sa place pour lui éviter la fatigue"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "keywords": [],
+    "explanation": "Ces quatre savoir-faire relationnels traversent l'ensemble des compétences du titre. Décider à la place de la personne va à l'inverse de la démarche de bientraitance."
+  },
+  {
+    "id": "C2-Q029",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Avec qui l'ADVF est-il amené à collaborer autour de la situation de la personne ?",
+    "options": [
+      "Des équipes pluridisciplinaires et pluriprofessionnelles",
+      "Uniquement son responsable de secteur",
+      "Exclusivement la famille de la personne",
+      "Personne, son intervention étant strictement individuelle"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC demande de « collaborer avec des équipes pluridisciplinaires et pluriprofessionnelles » et d'identifier les différents interlocuteurs en lien avec la situation de la personne."
+  },
+  {
+    "id": "C2-Q030",
+    "module": 2,
+    "type": "true_false",
+    "difficulty": 2,
+    "question": "L'ADVF doit connaître les principales mesures de protection juridique et leurs conséquences sur sa propre fonction.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC cite la « connaissance des principales mesures de protection juridiques et de leurs conséquences pour la personne et pour la fonction de l'ADVF ». Une mesure de protection modifie qui décide et qui signe."
+  },
+  {
+    "id": "C2-Q031",
+    "module": 2,
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": "Avant chaque acte, l'ADVF installe la personne en veillant à son ___, son bien-être et à sa ___, en tenant compte de ses spécificités.",
+    "options": [
+      "confort",
+      "sécurité"
+    ],
+    "correct": [
+      "confort",
+      "sécurité"
+    ],
+    "keywords": [],
+    "explanation": "Cette formulation revient dans les compétences 5 à 9 du REAC. L'installation conditionne à la fois le confort de la personne et la sécurité du geste."
+  },
+  {
+    "id": "C2-Q032",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Quel est l'intérêt principal de préparer et sécuriser l'environnement avant un acte d'accompagnement ?",
+    "options": [
+      "Prévenir les risques pour la personne et pour l'intervenant",
+      "Gagner du temps sur la durée totale de l'intervention",
+      "Éviter d'avoir à ranger ensuite",
+      "Limiter le nombre de déplacements dans le logement"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "« Préparer, sécuriser l'environnement et veiller à son accessibilité » puis « anticiper les risques pour assurer la sécurité de la personne et sa propre sécurité » figurent parmi les savoir-faire organisationnels du référentiel."
+  },
+  {
+    "id": "C2-Q033",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 3,
+    "question": "Quels sont les risques psychosociaux auxquels l'ADVF est particulièrement exposé dans son métier ?",
+    "options": [
+      "L'isolement professionnel, la charge émotionnelle et l'usure liée à la relation d'aide",
+      "Les seules chutes de plain-pied",
+      "Uniquement les risques chimiques liés aux produits",
+      "Exclusivement le bruit et les vibrations"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC cite la « connaissance des risques psychosociaux potentiels et des moyens de prévention ». Travailler seul au domicile d'autrui, auprès de personnes vulnérables, expose à l'isolement et à une forte charge émotionnelle."
+  },
+  {
+    "id": "C2-Q034",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Dans quelles limites l'ADVF intervient-il pour l'aide à la toilette ?",
+    "options": [
+      "Il aide la personne à faire sa toilette, hors prescription médicale",
+      "Il réalise tous les soins d'hygiène y compris ceux prescrits",
+      "Il pose les pansements et applique les crèmes médicamenteuses",
+      "Il remplace l'infirmier lorsque celui-ci est indisponible"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC précise « aider la personne à faire sa toilette (hors prescription médicale) ». Ce qui relève d'une prescription est du ressort des professionnels de santé."
+  },
+  {
+    "id": "C2-Q035",
+    "module": 2,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Quels critères de performance sont attendus pour l'aide à la toilette, à l'habillage et aux déplacements ? (4 réponses)",
+    "options": [
+      "Les limites de sa fonction sont respectées",
+      "L'intimité et la pudeur de la personne sont respectées",
+      "Les règles d'hygiène sont respectées tout au long de l'intervention",
+      "L'aide apportée respecte la sécurité de la personne et de l'intervenant",
+      "La toilette est réalisée le plus rapidement possible"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "keywords": [],
+    "explanation": "Ces quatre critères figurent au référentiel, avec la prise en compte du confort de la personne. La rapidité n'est jamais un critère : c'est le rythme de la personne qui prime."
+  },
+  {
+    "id": "C2-Q036",
+    "module": 2,
+    "type": "true_false",
+    "difficulty": 1,
+    "question": "Pendant la toilette, l'ADVF doit préserver l'intimité et la pudeur de la personne, par exemple en ne découvrant que la partie du corps lavée.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Vrai. « Respecter l'intimité et la pudeur de la personne » est un critère de performance et un savoir-faire relationnel explicite. Découvrir progressivement préserve la dignité et limite le refroidissement."
+  },
+  {
+    "id": "C2-Q037",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Quel principe d'hygiène guide l'ordre d'une toilette complète ?",
+    "options": [
+      "Aller du plus propre vers le plus sale, en terminant par le siège",
+      "Commencer par le siège pour s'en débarrasser",
+      "Laver dans un ordre aléatoire selon la position de la personne",
+      "Laver deux fois chaque zone quel que soit l'ordre"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Aller du plus propre vers le plus sale évite de transporter des germes vers des zones saines. C'est la transposition à la toilette de la règle générale de prévention des contaminations croisées."
+  },
+  {
+    "id": "C2-Q038",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "La personne peut laver seule son visage mais pas son dos. Quelle est la conduite attendue ?",
+    "options": [
+      "La laisser laver son visage et l'aider uniquement pour ce qu'elle ne peut pas faire",
+      "Tout faire à sa place pour gagner du temps",
+      "Lui demander de tout faire seule pour la stimuler",
+      "Reporter la toilette au passage de l'infirmier"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC demande de « solliciter la participation de la personne en favorisant son autonomie » et de « laisser faire la personne afin de ne pas renforcer sa dépendance ». L'aide se limite à ce qui est nécessaire."
+  },
+  {
+    "id": "C2-Q039",
+    "module": 2,
+    "type": "drag_drop",
+    "difficulty": 2,
+    "question": "Associez chaque aide technique à sa fonction :",
+    "options": [
+      {
+        "left": "Barre d'appui",
+        "right": "Sécuriser les transferts et les changements de position"
+      },
+      {
+        "left": "Tapis antidérapant",
+        "right": "Prévenir les glissades dans la douche ou la baignoire"
+      },
+      {
+        "left": "Siège de douche",
+        "right": "Permettre de se laver en position assise"
+      },
+      {
+        "left": "Déambulateur",
+        "right": "Assurer l'équilibre lors de la marche"
+      },
+      {
+        "left": "Lève-personne",
+        "right": "Transférer une personne sans la porter"
+      }
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "keywords": [],
+    "explanation": "La « connaissance des aides techniques et des aménagements spécifiques adaptés aux diverses situations de handicap » est un savoir attendu. Ces équipements protègent la personne et préservent le dos de l'intervenant."
+  },
+  {
+    "id": "C2-Q040",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Pourquoi privilégier un lève-personne ou un drap de glisse plutôt que de porter la personne à bras ?",
+    "options": [
+      "Pour préserver la sécurité de la personne et prévenir les TMS de l'intervenant",
+      "Pour réduire la durée de l'intervention",
+      "Parce que le contact physique est interdit",
+      "Pour éviter d'avoir à demander l'accord de la personne"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC demande d'appliquer « les principes de sécurité physique et d'économie d'effort lors de chaque acte ». Le matériel adapté évite les chutes et protège la colonne vertébrale de l'ADVF."
+  },
+  {
+    "id": "C2-Q041",
+    "module": 2,
+    "type": "true_false",
+    "difficulty": 2,
+    "question": "L'ADVF doit observer les signes avant-coureurs des principales pathologies liées au vieillissement et transmettre ses observations.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC demande d'« observer des signes avant-coureurs des principales pathologies liées au vieillissement et à la dépendance » puis de « transmettre ces observations à la personne et si besoin aux interlocuteurs compétents ». Observer n'est pas diagnostiquer."
+  },
+  {
+    "id": "C2-Q042",
+    "module": 2,
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": "Les critères de performance de l'aide aux repas exigent que les grands principes de l'hygiène ___ soient respectés et que les repas proposés soient ___.",
+    "options": [
+      "alimentaire",
+      "équilibrés"
+    ],
+    "correct": [
+      "alimentaire",
+      "équilibrés"
+    ],
+    "keywords": [],
+    "explanation": "Le référentiel demande que « les grands principes de l'hygiène alimentaire sont respectés » et que « les repas proposés sont équilibrés et respectent les régimes prescrits le cas échéant »."
+  },
+  {
+    "id": "C2-Q043",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Que signifie « respecter la chaîne du froid » lors des courses ?",
+    "options": [
+      "Maintenir les produits réfrigérés et surgelés à basse température sans interruption jusqu'au domicile",
+      "Congeler tous les produits achetés dès le retour",
+      "Acheter uniquement des produits surgelés",
+      "Laisser les produits refroidir avant de les ranger"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC demande de « respecter la chaîne du froid et veiller à l'état de fraîcheur des aliments ». Une rupture, même brève, permet aux micro-organismes de se multiplier. Le sac isotherme et le rangement rapide sont les bons réflexes."
+  },
+  {
+    "id": "C2-Q044",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Quelle est la température recommandée pour la partie la plus froide d'un réfrigérateur ?",
+    "options": [
+      "Entre 0 et 4 °C",
+      "Entre 8 et 12 °C",
+      "Entre -18 et -20 °C",
+      "Entre 5 et 10 °C"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "La zone la plus froide se situe entre 0 et 4 °C : c'est là que se conservent viandes, poissons et produits frais entamés. Le congélateur, lui, doit être maintenu à -18 °C."
+  },
+  {
+    "id": "C2-Q045",
+    "module": 2,
+    "type": "true_false",
+    "difficulty": 2,
+    "question": "Un produit décongelé peut être recongelé sans risque s'il n'a pas été consommé.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct": [
+      1
+    ],
+    "keywords": [],
+    "explanation": "Faux. La décongélation permet aux micro-organismes de se multiplier ; les recongeler ne les détruit pas et le second cycle en fait proliférer davantage. Un produit décongelé se cuisine, il ne se recongèle pas en l'état."
+  },
+  {
+    "id": "C2-Q046",
+    "module": 2,
+    "type": "drag_drop",
+    "difficulty": 3,
+    "question": "Associez chaque mention d'étiquetage à sa signification :",
+    "options": [
+      {
+        "left": "DLC",
+        "right": "Date limite de consommation : le produit ne doit plus être consommé au-delà"
+      },
+      {
+        "left": "DDM",
+        "right": "Date de durabilité minimale : au-delà, le produit perd ses qualités sans danger immédiat"
+      },
+      {
+        "left": "Chaîne du froid",
+        "right": "Maintien continu de la température de conservation du producteur au consommateur"
+      }
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "keywords": [],
+    "explanation": "La DLC (« à consommer jusqu'au ») concerne les denrées périssables et engage la sécurité. La DDM (« à consommer de préférence avant ») porte sur la qualité gustative ou nutritionnelle."
+  },
+  {
+    "id": "C2-Q047",
+    "module": 2,
+    "type": "qcm_multi",
+    "difficulty": 3,
+    "question": "Quelles précautions limitent le risque de fausse route lors de l'aide au repas ? (4 réponses)",
+    "options": [
+      "Installer la personne assise, le buste bien redressé",
+      "Adapter la texture des aliments et des boissons si nécessaire",
+      "Respecter le rythme de la personne sans la presser",
+      "Créer un environnement calme, sans distraction pendant la déglutition",
+      "Faire parler la personne pendant qu'elle avale pour la stimuler"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "keywords": [],
+    "explanation": "Le REAC demande d'« adapter l'environnement de la personne afin de prévenir les soucis de déglutition et les fausses routes ». Faire parler la personne au moment où elle avale augmente au contraire le risque."
+  },
+  {
+    "id": "C2-Q048",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "L'ADVF observe que la personne tousse systématiquement après avoir bu. Que doit-il faire ?",
+    "options": [
+      "Transmettre cette observation aux interlocuteurs compétents",
+      "Augmenter la quantité de boisson pour l'habituer",
+      "Supprimer toute boisson lors des repas",
+      "Considérer que c'est normal avec l'âge"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC demande d'« observer des signes indiquant des difficultés relatives à la mastication, à la déglutition » et de transmettre les observations inhabituelles. La toux après déglutition est un signal d'alerte de fausse route."
+  },
+  {
+    "id": "C2-Q049",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Pourquoi la surveillance de l'hydratation est-elle particulièrement importante chez la personne âgée ?",
+    "options": [
+      "Parce que la sensation de soif diminue avec l'âge, ce qui expose à la déshydratation",
+      "Parce qu'elle boit spontanément trop d'eau",
+      "Parce que l'eau perturbe l'absorption des médicaments",
+      "Parce que l'hydratation n'a d'effet qu'en été"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "La diminution de la sensation de soif rend la déshydratation fréquente et parfois grave chez la personne âgée. Proposer régulièrement à boire fait partie de l'accompagnement quotidien."
+  },
+  {
+    "id": "C2-Q050",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "La personne suit un régime prescrit par son médecin mais réclame un aliment qui en est exclu. Que fait l'ADVF ?",
+    "options": [
+      "Respecter les consignes du régime prescrit et en informer les interlocuteurs compétents",
+      "Céder à la demande pour lui faire plaisir",
+      "Décider seul d'assouplir le régime",
+      "Refuser sèchement sans explication"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC demande de « respecter les consignes en cas de régime prescrit ». Si la demande persiste, l'ADVF signale la situation plutôt que de trancher seul, et sait « refuser une demande de manière courtoise »."
+  },
+  {
+    "id": "C2-Q051",
+    "module": 2,
+    "type": "true_false",
+    "difficulty": 1,
+    "question": "Favoriser le plaisir de manger et présenter les repas avec soin font partie des savoir-faire attendus de l'ADVF.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC cite « favoriser pour la personne le plaisir de manger », « présenter les repas avec soin et à température adéquate » et évoque la dimension culturelle et symbolique des repas."
+  },
+  {
+    "id": "C2-Q052",
+    "module": 2,
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": "Pour les courses, l'ADVF prévoit avec la personne un moyen de ___ adapté et sécurisé, puis rend compte des ___ effectuées.",
+    "options": [
+      "paiement",
+      "dépenses"
+    ],
+    "correct": [
+      "paiement",
+      "dépenses"
+    ],
+    "keywords": [],
+    "explanation": "Ces deux savoir-faire protègent autant la personne que l'intervenant. La traçabilité des dépenses évite toute suspicion et s'inscrit dans la prévention des situations de maltraitance financière."
+  },
+  {
+    "id": "C2-Q053",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Comment l'ADVF accompagne-t-il la personne lors des courses lorsqu'elle peut s'y rendre ?",
+    "options": [
+      "Il l'accompagne sans se substituer à elle",
+      "Il fait les courses seul pour aller plus vite",
+      "Il choisit les produits à sa place selon ce qui est le plus économique",
+      "Il laisse la personne y aller seule quel que soit son état"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC distingue « effectuer les courses seul ou avec la personne » et « accompagner la personne lors des courses sans se substituer à elle ». Sortir faire ses courses entretient l'autonomie et le lien social."
+  },
+  {
+    "id": "C2-Q054",
+    "module": 2,
+    "type": "open_text",
+    "difficulty": 2,
+    "question": "Citez deux précautions à respecter pour les repas livrés à domicile.",
+    "options": [],
+    "correct": [],
+    "keywords": [
+      "conservation",
+      "réfrigérateur",
+      "remise en température",
+      "date",
+      "chaîne du froid"
+    ],
+    "explanation": "Le REAC demande de « préparer les repas livrés à domicile » et de « veiller à leur conservation » : rangement immédiat au froid, vérification des dates, remise en température suffisante avant le service."
+  },
+  {
+    "id": "C2-Q055",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Que désigne l'expression « situation de handicap » ?",
+    "options": [
+      "La rencontre entre les caractéristiques d'une personne et un environnement inadapté",
+      "Une maladie chronique invalidante",
+      "Un statut administratif attribué à vie",
+      "Une incapacité définitive et non compensable"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC cite « la notion de situation de handicap » et la classification internationale du fonctionnement de l'OMS. Le handicap ne se réduit pas à la déficience : il résulte de l'interaction entre la personne et son environnement, ce qui rend l'accessibilité déterminante."
+  },
+  {
+    "id": "C2-Q056",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 3,
+    "question": "Quelle loi du 11 février 2005 est citée par le REAC concernant les personnes handicapées ?",
+    "options": [
+      "La loi pour l'égalité des droits et des chances, la participation et la citoyenneté des personnes handicapées",
+      "La loi relative à l'adaptation de la société au vieillissement",
+      "La loi sur la protection juridique des majeurs",
+      "La loi relative aux droits des malades et à la fin de vie"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC cite la loi n° 2005-102 du 11 février 2005 « pour l'égalité des droits et des chances, la participation et la citoyenneté des personnes handicapées ». Elle a notamment créé les MDPH et le droit à compensation."
+  },
+  {
+    "id": "C2-Q057",
+    "module": 2,
+    "type": "open_text",
+    "difficulty": 2,
+    "question": "Que signifie le sigle MDPH ?",
+    "options": [],
+    "correct": [],
+    "keywords": [
+      "maison",
+      "départementale",
+      "personnes handicapées"
+    ],
+    "explanation": "La Maison départementale des personnes handicapées est le guichet unique départemental qui évalue les besoins, ouvre les droits et oriente les personnes. Le REAC la cite parmi les interlocuteurs à connaître."
+  },
+  {
+    "id": "C2-Q058",
+    "module": 2,
+    "type": "qcm_multi",
+    "difficulty": 3,
+    "question": "Quels dispositifs ou instances le REAC cite-t-il comme interlocuteurs en lien avec le handicap ? (3 réponses)",
+    "options": [
+      "La Maison départementale du handicap",
+      "Les Services d'accompagnement à la vie sociale (SAVS)",
+      "Les SAMSAH",
+      "Les caisses de retraite complémentaire",
+      "Les chambres de commerce"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "keywords": [],
+    "explanation": "Le REAC cite la Maison départementale du handicap, les clubs et associations, ainsi que les dispositifs du secteur médico-social : Services d'accompagnement à la vie sociale et SAMSAH."
+  },
+  {
+    "id": "C2-Q059",
+    "module": 2,
+    "type": "fill_blank",
+    "difficulty": 3,
+    "question": "La classification internationale du fonctionnement, du handicap et de la santé est un outil de référence élaboré par l'___, cité parmi les savoirs de l'ADVF sous le sigle ___.",
+    "options": [
+      "OMS",
+      "CIF"
+    ],
+    "correct": [
+      "OMS",
+      "CIF"
+    ],
+    "keywords": [],
+    "explanation": "La CIF, publiée par l'Organisation mondiale de la santé, décrit le fonctionnement de la personne dans son environnement plutôt que sa seule déficience. Le REAC en fait un savoir de base."
+  },
+  {
+    "id": "C2-Q060",
+    "module": 2,
+    "type": "true_false",
+    "difficulty": 2,
+    "question": "L'ADVF doit consulter la personne en situation de handicap quelle que soit la nature de sa déficience.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC énonce explicitement « consulter la personne en situation de handicap quelle que soit la nature de sa déficience ». Une déficience de communication ne prive pas la personne de son droit de décider."
+  },
+  {
+    "id": "C2-Q061",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Comment l'ADVF adapte-t-il sa communication auprès d'une personne en situation de handicap ?",
+    "options": [
+      "Il choisit les moyens de communication adaptés au handicap et reformule pour s'assurer de la compréhension",
+      "Il s'adresse systématiquement à l'accompagnant plutôt qu'à la personne",
+      "Il parle plus fort dans toutes les situations",
+      "Il limite les échanges au strict nécessaire"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC demande la « connaissance des moyens de communication en fonction du handicap de la personne » et de « reformuler une demande si nécessaire pour s'assurer de la compréhension et de l'accord de la personne »."
+  },
+  {
+    "id": "C2-Q062",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Que doit respecter l'ADVF concernant les aménagements mis en place par la personne en situation de handicap ?",
+    "options": [
+      "Les modalités de compensation mises en place par et pour la personne",
+      "Uniquement les préconisations de la famille",
+      "Sa propre organisation, jugée plus efficace",
+      "Les habitudes du précédent intervenant"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC demande de « respecter les modalités de compensation mises en place par et pour la personne ». Déplacer un objet ou modifier une organisation peut désorganiser une autonomie patiemment construite."
+  },
+  {
+    "id": "C2-Q063",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 3,
+    "question": "Que désigne la notion d'accessibilité universelle ?",
+    "options": [
+      "La conception d'environnements utilisables par tous, sans adaptation spécifique",
+      "L'accès gratuit aux transports pour les personnes handicapées",
+      "L'obligation d'installer un ascenseur dans tout logement",
+      "L'accès à internet pour tous les foyers"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC cite « les notions d'accessibilité universelle et de compensation ». L'accessibilité universelle vise des environnements pensés dès l'origine pour tous ; la compensation intervient quand une adaptation individuelle reste nécessaire."
+  },
+  {
+    "id": "C2-Q064",
+    "module": 2,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Quel rôle le REAC reconnaît-il aux proches aidants et aidants familiaux ?",
+    "options": [
+      "Ce sont des acteurs de l'accompagnement dont l'ADVF doit connaître la fonction et le rôle",
+      "Ce sont des concurrents dont il faut limiter l'intervention",
+      "Ils n'ont aucun rôle dès qu'un professionnel intervient",
+      "Ils remplacent l'ADVF pendant ses congés"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC cite la « connaissance de la fonction et du rôle des proches aidants et des aidants familiaux », ainsi que « les systèmes d'interaction entre les membres de la famille ». L'ADVF s'inscrit dans cet environnement sans s'y substituer."
+  },
+  {
+    "id": "C2-Q065",
+    "module": 2,
+    "type": "open_text",
+    "difficulty": 3,
+    "question": "La personne accompagnée souhaite sortir seule alors que son entourage s'y oppose. Quels principes l'ADVF doit-il concilier ?",
+    "options": [],
+    "correct": [],
+    "keywords": [
+      "autodétermination",
+      "choix",
+      "sécurité",
+      "relais",
+      "transmettre"
+    ],
+    "explanation": "L'ADVF soutient l'autodétermination et respecte les choix de la personne, tout en anticipant les risques pour sa sécurité. Il ne tranche pas seul un désaccord familial : il organise la sortie selon les règles de sécurité et transmet la situation aux interlocuteurs compétents."
+  },
+  {
+    "id": "C3-Q001",
+    "module": 3,
+    "type": "qcm_single",
+    "difficulty": 1,
+    "question": "Auprès de qui l'ADVF recueille-t-il le cadre de son intervention lors d'une garde d'enfant à domicile ?",
+    "options": [
+      "Auprès du parent, qui définit les consignes et donne les autorisations nécessaires",
+      "Auprès de l'enfant lui-même, quel que soit son âge",
+      "Auprès du voisinage en cas d'absence du parent",
+      "Auprès de l'école de l'enfant"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "La compétence s'intitule « Définir avec le parent le cadre de l'intervention auprès de l'enfant ». Les critères de performance exigent que les informations et les autorisations nécessaires soient recueillies auprès du parent."
+  },
+  {
+    "id": "C3-Q002",
+    "module": 3,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Quelles informations l'ADVF recueille-t-il auprès du parent avant la garde ? (4 réponses)",
+    "options": [
+      "Les habitudes de vie de l'enfant",
+      "Les besoins de l'enfant",
+      "Les consignes parentales",
+      "Les personnes à prévenir en cas d'urgence",
+      "Le montant des revenus du foyer"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "keywords": [],
+    "explanation": "Le REAC demande de « recueillir auprès du parent les informations nécessaires à la garde de l'enfant », ses attentes, les besoins et habitudes de vie de l'enfant, ainsi que les numéros d'urgence et personnes à prévenir."
+  },
+  {
+    "id": "C3-Q003",
+    "module": 3,
+    "type": "true_false",
+    "difficulty": 1,
+    "question": "L'ADVF doit respecter les rites, les habitudes de vie et les principes éducatifs de la famille.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC le formule explicitement, en y ajoutant le respect des références culturelles et cultuelles de la famille. L'ADVF n'impose pas ses propres conceptions éducatives."
+  },
+  {
+    "id": "C3-Q004",
+    "module": 3,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Comment l'ADVF accompagne-t-il le moment de la séparation lors du départ du parent ?",
+    "options": [
+      "Il gère la séparation avec bienveillance et rassure l'enfant comme le parent si besoin",
+      "Il demande au parent de partir sans prévenir l'enfant",
+      "Il isole l'enfant jusqu'à ce qu'il cesse de pleurer",
+      "Il reporte son intervention si l'enfant pleure"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC demande de « gérer les séparations notamment lors du départ du parent », de « consoler l'enfant en cas de chagrin » et de « rassurer le parent en cas de vécu difficile de la séparation ». Partir sans le dire abîme la confiance de l'enfant."
+  },
+  {
+    "id": "C3-Q005",
+    "module": 3,
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": "L'ADVF communique avec l'enfant de façon adaptée et avec ___, en tenant compte de son ___ et de ses spécificités.",
+    "options": [
+      "bienveillance",
+      "âge"
+    ],
+    "correct": [
+      "bienveillance",
+      "âge"
+    ],
+    "keywords": [],
+    "explanation": "Cette formulation revient dans les quatre compétences du CCP 3. Le critère de performance associé précise que « le langage est adapté à l'âge et au niveau de compréhension de l'enfant »."
+  },
+  {
+    "id": "C3-Q006",
+    "module": 3,
+    "type": "open_text",
+    "difficulty": 2,
+    "question": "Que signifie le sigle PMI, service cité par le REAC parmi les interlocuteurs de l'enfance ?",
+    "options": [],
+    "correct": [],
+    "keywords": [
+      "protection maternelle et infantile"
+    ],
+    "explanation": "La Protection maternelle et infantile est un service départemental de prévention et de suivi médico-social de la femme enceinte, du nourrisson et du jeune enfant. Le REAC la cite parmi les interlocuteurs compétents."
+  },
+  {
+    "id": "C3-Q007",
+    "module": 3,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Quel numéro national permet de signaler une situation d'enfance en danger ?",
+    "options": [
+      "Le 119",
+      "Le 115",
+      "Le 3977",
+      "Le 116"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le 119 « Allô Enfance en danger » est le numéro national dédié, joignable gratuitement à toute heure. Le REAC demande la connaissance des interlocuteurs compétents en cas de suspicion de maltraitance."
+  },
+  {
+    "id": "C3-Q008",
+    "module": 3,
+    "type": "true_false",
+    "difficulty": 2,
+    "question": "En cas de suspicion de maltraitance sur l'enfant, l'ADVF doit d'abord réunir des preuves avant d'alerter qui que ce soit.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct": [
+      1
+    ],
+    "keywords": [],
+    "explanation": "Faux. Le REAC demande de « repérer une suspicion de situation de maltraitance » et d'alerter les interlocuteurs compétents. Il n'appartient pas à l'ADVF d'enquêter : le doute suffit à déclencher le signalement."
+  },
+  {
+    "id": "C3-Q009",
+    "module": 3,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "L'enfant refuse catégoriquement de ranger ses jouets. Quelle attitude est attendue de l'ADVF ?",
+    "options": [
+      "Faire face à l'opposition avec tact et bienveillance",
+      "Le punir en le privant de son goûter",
+      "Ranger à sa place sans rien dire",
+      "Menacer de tout raconter à ses parents"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC demande de « faire face au refus, à l'opposition d'un enfant avec tact et bienveillance ». L'opposition fait partie du développement normal de l'enfant ; elle appelle une réponse posée, jamais une punition improvisée."
+  },
+  {
+    "id": "C3-Q010",
+    "module": 3,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Selon les critères de performance, comment les risques doivent-ils être expliqués à l'enfant ?",
+    "options": [
+      "Dans un langage adapté à ses capacités de compréhension",
+      "En termes techniques précis pour être crédible",
+      "Uniquement par des interdits sans explication",
+      "En lui montrant des images accidentogènes"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le critère est explicite : « Les risques sont expliqués à l'enfant dans un langage adapté à ses capacités de compréhension ». Le REAC parle aussi de « favoriser la prise de conscience du danger chez l'enfant »."
+  },
+  {
+    "id": "C3-Q011",
+    "module": 3,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Quels sont les principaux risques d'accidents domestiques chez le jeune enfant ? (4 réponses)",
+    "options": [
+      "Les chutes",
+      "Les brûlures",
+      "Les intoxications par produits ménagers ou médicaments",
+      "L'étouffement et la noyade",
+      "Les troubles musculo-squelettiques"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "keywords": [],
+    "explanation": "Le REAC exige la connaissance « des risques d'accidents domestiques et des dangers potentiels selon l'âge de l'enfant ainsi que les moyens de prévention ». Les TMS concernent l'intervenant, pas l'enfant."
+  },
+  {
+    "id": "C3-Q012",
+    "module": 3,
+    "type": "true_false",
+    "difficulty": 1,
+    "question": "Un enfant en bas âge peut être laissé seul quelques instants dans son bain si l'eau est peu profonde.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct": [
+      1
+    ],
+    "keywords": [],
+    "explanation": "Faux. La noyade d'un jeune enfant peut survenir en quelques centimètres d'eau et en très peu de temps, sans bruit. La surveillance doit être permanente et directe pendant tout le bain."
+  },
+  {
+    "id": "C3-Q013",
+    "module": 3,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Quelle est la température recommandée de l'eau pour le bain d'un nourrisson ?",
+    "options": [
+      "Environ 37 °C, vérifiée avant de mettre l'enfant dans l'eau",
+      "Environ 42 °C pour qu'elle ne refroidisse pas trop vite",
+      "Environ 30 °C pour éviter tout risque de brûlure",
+      "La température n'a pas d'importance si le bain est court"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "L'eau du bain doit avoisiner 37 °C, soit la température corporelle. La peau du nourrisson est fine et brûle beaucoup plus vite que celle d'un adulte : la vérification préalable est systématique."
+  },
+  {
+    "id": "C3-Q014",
+    "module": 3,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Quelle règle de sécurité s'impose lors du change d'un nourrisson sur une table à langer ?",
+    "options": [
+      "Garder en permanence une main sur l'enfant et ne jamais le quitter des yeux",
+      "S'éloigner rapidement chercher le matériel manquant",
+      "Poser l'enfant sans l'attacher puis répondre au téléphone",
+      "Laisser un aîné surveiller le bébé pendant ce temps"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC demande de « sécuriser l'enfant lors du change, de la prise des repas et de la toilette ». Les chutes de table à langer sont fréquentes et graves : le matériel doit être préparé avant d'y installer l'enfant."
+  },
+  {
+    "id": "C3-Q015",
+    "module": 3,
+    "type": "qcm_multi",
+    "difficulty": 3,
+    "question": "Quelles mesures préviennent la mort inattendue du nourrisson ? (4 réponses)",
+    "options": [
+      "Coucher le bébé sur le dos",
+      "Utiliser un matelas ferme adapté au lit",
+      "Éviter oreiller, couette et tour de lit dans le couchage",
+      "Maintenir la chambre à une température modérée, autour de 18-20 °C",
+      "Coucher le bébé sur le ventre avec un coussin de calage"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "keywords": [],
+    "explanation": "Le REAC cite explicitement la « connaissance de la prévention de la mort subite du nourrisson ». Le couchage sur le dos, sur un matelas ferme, dans un lit dégagé et une chambre ni surchauffée ni encombrée constitue la base de cette prévention. La gigoteuse remplace couette et couverture."
+  },
+  {
+    "id": "C3-Q016",
+    "module": 3,
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": "Pour prévenir la mort inattendue du nourrisson, le bébé doit être couché sur le ___, dans une gigoteuse, sur un matelas ___.",
+    "options": [
+      "dos",
+      "ferme"
+    ],
+    "correct": [
+      "dos",
+      "ferme"
+    ],
+    "keywords": [],
+    "explanation": "Ces deux règles sont les piliers de la prévention. Un matelas mou ou un couchage encombré augmentent le risque d'obstruction des voies respiratoires."
+  },
+  {
+    "id": "C3-Q017",
+    "module": 3,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Pourquoi déconseille-t-on de réchauffer un biberon au four à micro-ondes ?",
+    "options": [
+      "Le chauffage est inégal et peut créer des zones brûlantes malgré un biberon tiède au toucher",
+      "Le micro-ondes détruit totalement les protéines du lait",
+      "Le biberon risque d'exploser systématiquement",
+      "Cela rend le lait indigeste de façon durable"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le micro-ondes chauffe de façon hétérogène : le contenant peut sembler tiède alors que le liquide contient des points très chauds, avec un risque de brûlure de la bouche et de l'œsophage. La température se vérifie toujours avant de donner le biberon."
+  },
+  {
+    "id": "C3-Q018",
+    "module": 3,
+    "type": "true_false",
+    "difficulty": 2,
+    "question": "Un reste de biberon entamé peut être conservé et redonné à l'enfant plusieurs heures plus tard.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct": [
+      1
+    ],
+    "keywords": [],
+    "explanation": "Faux. Au contact de la salive, le lait entamé se contamine rapidement. Un biberon commencé se jette après la tétée : c'est une règle de base de l'hygiène alimentaire du nourrisson."
+  },
+  {
+    "id": "C3-Q019",
+    "module": 3,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Que recouvre la « diversification alimentaire » chez le jeune enfant ?",
+    "options": [
+      "L'introduction progressive d'aliments autres que le lait, selon les consignes parentales et médicales",
+      "Le passage immédiat à l'alimentation de l'adulte",
+      "La suppression définitive du lait dès la première année",
+      "Le fait de varier les marques de lait infantile"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC cite la « connaissance des repères sur la diversification alimentaire, les notions de diététique, les régimes ». L'ADVF applique les consignes parentales et médicales, il ne décide pas seul de l'introduction d'un aliment."
+  },
+  {
+    "id": "C3-Q020",
+    "module": 3,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Comment l'ADVF installe-t-il l'enfant pour le repas ?",
+    "options": [
+      "Assis et sécurisé, à une place adaptée à son âge, en favorisant son autonomie",
+      "Debout pour qu'il puisse bouger librement",
+      "Dans son lit pour qu'il soit au calme",
+      "Sur les genoux de l'ADVF jusqu'à six ans"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC demande d'« installer l'enfant à table et l'aider à manger en fonction de l'âge et des spécificités, tout en favorisant son autonomie », et de le sécuriser lors de la prise des repas."
+  },
+  {
+    "id": "C3-Q021",
+    "module": 3,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Quels aliments présentent un risque d'étouffement élevé chez le jeune enfant et demandent une vigilance particulière ? (3 réponses)",
+    "options": [
+      "Les cacahuètes et fruits à coque entiers",
+      "Les petits fruits ronds entiers comme les raisins ou les tomates cerises",
+      "Les morceaux de saucisse ronds non coupés",
+      "La purée de légumes",
+      "La compote lisse"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "keywords": [],
+    "explanation": "Les aliments durs, petits et ronds peuvent obstruer les voies respiratoires. Les couper en morceaux adaptés relève de la prévention des risques que le REAC place au cœur de la compétence de sécurité de l'enfant."
+  },
+  {
+    "id": "C3-Q022",
+    "module": 3,
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": "L'ADVF crée un environnement favorable au ___ de l'enfant et respecte les ___ mis en place par la famille au moment du coucher.",
+    "options": [
+      "sommeil",
+      "rituels"
+    ],
+    "correct": [
+      "sommeil",
+      "rituels"
+    ],
+    "keywords": [],
+    "explanation": "Le REAC demande de « créer un environnement favorable au sommeil », d'« observer le sommeil de l'enfant » et de « lever et coucher l'enfant en fonction de son âge et en respectant les rituels ». Les rituels sécurisent l'endormissement."
+  },
+  {
+    "id": "C3-Q023",
+    "module": 3,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Que doit faire l'ADVF si un enfant malade est gardé à domicile ?",
+    "options": [
+      "Le surveiller selon les consignes parentales et transmettre ses observations",
+      "Décider seul d'administrer un médicament de l'armoire à pharmacie",
+      "Le conduire aux urgences dans tous les cas",
+      "Poursuivre les activités habituelles sans adaptation"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC demande de « surveiller l'enfant malade à domicile selon les consignes parentales » et de « donner les médicaments selon les prescriptions médicales et/ou les consignes parentales », dans le respect de la réglementation sur la délégation de soins."
+  },
+  {
+    "id": "C3-Q024",
+    "module": 3,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "L'enfant tombe et se fait une écorchure superficielle au genou. Que fait l'ADVF ?",
+    "options": [
+      "Il soigne cette blessure mineure selon les consignes parentales et en informe le parent",
+      "Il attend le retour du parent sans rien faire",
+      "Il appelle systématiquement le SAMU",
+      "Il applique un médicament de sa propre initiative"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC prévoit de « soigner les conséquences d'accidents mineurs (plaies superficielles, bosses, etc.) en respectant les consignes parentales et dans les limites du cadre de son intervention », puis de transmettre l'information."
+  },
+  {
+    "id": "C3-Q025",
+    "module": 3,
+    "type": "true_false",
+    "difficulty": 1,
+    "question": "Avant de quitter le domicile, l'ADVF doit s'assurer de la sécurité de l'enfant et passer le relais au parent.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC formule « s'assurer de la sécurité de l'enfant avant de quitter le domicile et passer le relai au parent ». La transmission de fin d'intervention fait partie intégrante de la prestation."
+  },
+  {
+    "id": "C3-Q026",
+    "module": 3,
+    "type": "drag_drop",
+    "difficulty": 3,
+    "question": "Associez chaque tranche d'âge au type de jeu qui lui correspond le mieux :",
+    "options": [
+      {
+        "left": "Le nourrisson",
+        "right": "Jeux sensoriels : hochets, mobiles, textures à explorer"
+      },
+      {
+        "left": "Le tout-petit qui marche",
+        "right": "Jeux moteurs et d'encastrement, premières manipulations"
+      },
+      {
+        "left": "L'enfant d'âge préscolaire",
+        "right": "Jeux symboliques : imitation, dînette, déguisements"
+      },
+      {
+        "left": "L'enfant d'âge scolaire",
+        "right": "Jeux de règles : jeux de société, jeux collectifs"
+      }
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "keywords": [],
+    "explanation": "Le REAC demande la « connaissance des différents types de jeux et activités et de leur place en fonction de l'âge et du développement de l'enfant ». Le jeu suit le développement : exploration sensorielle, puis motricité, puis imitation, puis règles partagées."
+  },
+  {
+    "id": "C3-Q027",
+    "module": 3,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Que désigne le développement psychomoteur de l'enfant ?",
+    "options": [
+      "L'acquisition progressive des capacités motrices et de leur coordination avec la perception",
+      "La croissance en taille et en poids uniquement",
+      "L'apprentissage de la lecture et de l'écriture",
+      "Le développement du langage exclusivement"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le développement psychomoteur recouvre la tenue de la tête, la station assise, la marche, la préhension et leur coordination avec la perception. Le REAC en fait un savoir attendu, aux côtés du développement affectif."
+  },
+  {
+    "id": "C3-Q028",
+    "module": 3,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Quelle attitude favorise l'acquisition de la propreté chez l'enfant ?",
+    "options": [
+      "Accompagner l'enfant à son rythme, sans forcer, en valorisant ses réussites",
+      "Imposer un calendrier strict quel que soit son développement",
+      "Punir les accidents pour accélérer l'apprentissage",
+      "Attendre que l'école s'en charge"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC cite les « connaissances sur l'acquisition de la propreté ». Cette acquisition dépend de la maturation physiologique de l'enfant : elle s'accompagne et se valorise, elle ne se force pas."
+  },
+  {
+    "id": "C3-Q029",
+    "module": 3,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Quels critères de performance sont attendus pour l'accompagnement de l'enfant dans ses apprentissages ? (4 réponses)",
+    "options": [
+      "Les situations propices aux apprentissages de base sont repérées",
+      "Les apprentissages sont encouragés et valorisés",
+      "Le langage est adapté à l'âge et au niveau de compréhension de l'enfant",
+      "Les jeux et les activités sont adaptés à l'âge et aux intérêts de l'enfant",
+      "Les résultats scolaires de l'enfant progressent"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "keywords": [],
+    "explanation": "Ces quatre critères figurent au référentiel, avec le respect des consignes du parent. L'ADVF crée les conditions favorables aux apprentissages ; il n'est pas comptable des résultats scolaires."
+  },
+  {
+    "id": "C3-Q030",
+    "module": 3,
+    "type": "true_false",
+    "difficulty": 2,
+    "question": "L'ADVF utilise les supports numériques avec l'enfant en respectant les consignes du parent.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC demande d'« utiliser les supports numériques en respectant les consignes du parent » et cite la « connaissance des recommandations gouvernementales pour l'usage raisonné des écrans par les jeunes et les enfants »."
+  },
+  {
+    "id": "C3-Q031",
+    "module": 3,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Quelle pratique correspond à un usage raisonné des écrans chez le jeune enfant ?",
+    "options": [
+      "Limiter le temps d'écran, choisir des contenus adaptés à son âge et l'accompagner pendant l'usage",
+      "Laisser l'écran allumé en fond sonore toute la journée",
+      "Utiliser l'écran comme moyen systématique de calmer l'enfant",
+      "Autoriser un écran juste avant le coucher pour favoriser l'endormissement"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Un usage raisonné suppose des durées limitées, des contenus adaptés et un accompagnement adulte. L'écran avant le coucher retarde l'endormissement, et l'écran comme moyen d'apaisement prive l'enfant d'apprendre à gérer ses émotions."
+  },
+  {
+    "id": "C3-Q032",
+    "module": 3,
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": "L'ADVF observe l'enfant dans son ___ et crée des conditions favorables au travail ___.",
+    "options": [
+      "environnement",
+      "scolaire"
+    ],
+    "correct": [
+      "environnement",
+      "scolaire"
+    ],
+    "keywords": [],
+    "explanation": "Ces savoir-faire relèvent de la compétence « Accompagner l'enfant dans ses apprentissages de base, dans sa socialisation et lors de ses activités ». Le REAC souligne aussi la « connaissance de la fonction de l'observation »."
+  },
+  {
+    "id": "C3-Q033",
+    "module": 3,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "L'ADVF garde une fratrie de trois enfants d'âges différents. Quelle attitude est attendue ?",
+    "options": [
+      "Se montrer disponible pour chaque enfant de la fratrie",
+      "S'occuper uniquement du plus jeune, plus fragile",
+      "Regrouper les enfants sur une même activité quels que soient leurs âges",
+      "Confier la surveillance des plus jeunes à l'aîné"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC demande de « se montrer disponible pour l'enfant ou chaque enfant de la fratrie » et de proposer des activités adaptées à l'âge de chacun. La surveillance ne se délègue jamais à un enfant."
+  },
+  {
+    "id": "C3-Q034",
+    "module": 3,
+    "type": "open_text",
+    "difficulty": 2,
+    "question": "Citez deux lieux ou services liés à la socialisation de l'enfant que l'ADVF doit connaître.",
+    "options": [],
+    "correct": [],
+    "keywords": [
+      "halte garderie",
+      "centre de loisirs",
+      "PMI",
+      "école",
+      "crèche"
+    ],
+    "explanation": "Le REAC cite la « connaissance des interlocuteurs liés à la socialisation : établissements, haltes garderies, centres de loisirs, PMI… ». L'ADVF peut être amené à accompagner l'enfant vers ces lieux."
+  },
+  {
+    "id": "C3-Q035",
+    "module": 3,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Que signifie « responsabiliser l'enfant et l'inciter à faire seul » ?",
+    "options": [
+      "L'encourager à réaliser lui-même ce qu'il est capable de faire, en le valorisant",
+      "Le laisser sans surveillance pour qu'il se débrouille",
+      "Lui confier des tâches d'adulte",
+      "Le sanctionner s'il n'y parvient pas"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Ce savoir-faire, cité dans deux compétences du CCP 3, rejoint la logique d'autonomie du titre : on soutient l'enfant dans ce qu'il peut faire seul, à son rythme et sous surveillance."
+  },
+  {
+    "id": "C3-Q036",
+    "module": 3,
+    "type": "true_false",
+    "difficulty": 1,
+    "question": "L'ADVF doit respecter la pudeur et l'intimité de l'enfant lors de la toilette et du change.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC demande explicitement de « respecter la pudeur et l'intimité de l'enfant ». Le respect du corps s'applique à tout âge et contribue à construire les repères de l'enfant."
+  },
+  {
+    "id": "C3-Q037",
+    "module": 3,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Comment l'ADVF entretient-il le matériel de puériculture ?",
+    "options": [
+      "Il en assure l'entretien courant en respectant les modes d'emploi",
+      "Il le remplace de sa propre initiative s'il le juge usé",
+      "Il n'y touche pas, ce n'est pas de son ressort",
+      "Il le nettoie avec le produit le plus puissant disponible"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC demande d'« assurer l'entretien courant du matériel de puériculture » et de « respecter les modes d'emploi du matériel de puériculture ». Le remplacement relève de la décision du parent."
+  },
+  {
+    "id": "C3-Q038",
+    "module": 3,
+    "type": "qcm_multi",
+    "difficulty": 2,
+    "question": "Quelles précautions l'ADVF prend-il lors d'une sortie avec l'enfant ? (3 réponses)",
+    "options": [
+      "Organiser la sortie selon les règles de sécurité",
+      "Disposer de l'autorisation du parent",
+      "Anticiper les risques pour la sécurité de l'enfant et la sienne",
+      "Modifier l'itinéraire sans en informer le parent"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "keywords": [],
+    "explanation": "Le REAC demande d'« organiser les sorties et les déplacements selon les règles de sécurité » et de recueillir les autorisations nécessaires, qui figurent parmi les critères de performance de la compétence sur le cadre de l'intervention."
+  },
+  {
+    "id": "C3-Q039",
+    "module": 3,
+    "type": "qcm_single",
+    "difficulty": 3,
+    "question": "Que doit connaître l'ADVF concernant la délégation des soins et la prise de médicaments de l'enfant ?",
+    "options": [
+      "La réglementation en vigueur, qui délimite ce qu'il peut faire ou non",
+      "Les posologies pédiatriques usuelles pour ajuster les doses",
+      "Les techniques d'injection",
+      "Les protocoles hospitaliers de service"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC cite la « connaissance de la règlementation en vigueur concernant la délégation des soins de l'enfant et de la prise des médicaments ». L'ADVF agit sur prescription médicale et consignes parentales, dans les limites de sa fonction."
+  },
+  {
+    "id": "C3-Q040",
+    "module": 3,
+    "type": "fill_blank",
+    "difficulty": 2,
+    "question": "En fin d'intervention, l'ADVF transmet au ___ les informations relatives à la sécurité ainsi que les observations ___.",
+    "options": [
+      "parent",
+      "inhabituelles"
+    ],
+    "correct": [
+      "parent",
+      "inhabituelles"
+    ],
+    "keywords": [],
+    "explanation": "Le REAC demande de « transmettre en fin d'intervention les informations ou les observations inhabituelles au parent et aux interlocuteurs concernés ». C'est la condition de la continuité de la prise en charge."
+  },
+  {
+    "id": "C3-Q041",
+    "module": 3,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Que fait l'ADVF s'il repère un retard ou une difficulté d'apprentissage chez l'enfant ?",
+    "options": [
+      "Il transmet son observation au parent, sans poser de diagnostic",
+      "Il établit lui-même un diagnostic et l'annonce au parent",
+      "Il garde l'information pour ne pas inquiéter",
+      "Il contacte directement un spécialiste"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC demande de « repérer les retards ou les difficultés d'apprentissage de l'enfant » et de transmettre. L'observation relève de l'ADVF, l'évaluation et le diagnostic relèvent des professionnels compétents."
+  },
+  {
+    "id": "C3-Q042",
+    "module": 3,
+    "type": "true_false",
+    "difficulty": 2,
+    "question": "Créer les conditions d'une collaboration avec le parent fait partie des savoir-faire attendus de l'ADVF.",
+    "options": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Vrai. Le REAC cite « créer les conditions d'une collaboration avec le parent » et « créer les conditions d'une coopération avec le parent ». L'ADVF intervient en soutien de la fonction parentale, jamais en substitution."
+  },
+  {
+    "id": "C3-Q043",
+    "module": 3,
+    "type": "open_text",
+    "difficulty": 3,
+    "question": "Le parent demande à l'ADVF de ne pas faire la sieste à l'enfant pour qu'il dorme mieux le soir, alors que l'enfant s'endort de fatigue. Comment l'ADVF doit-il se positionner ?",
+    "options": [],
+    "correct": [],
+    "keywords": [
+      "consignes parentales",
+      "respecter",
+      "rythme",
+      "transmettre",
+      "échanger"
+    ],
+    "explanation": "L'ADVF respecte les consignes parentales, qui cadrent son intervention, tout en respectant le rythme de l'enfant et en observant ce qu'il constate. Il échange avec le parent en lui transmettant ses observations, plutôt que de décider seul de passer outre."
+  },
+  {
+    "id": "C3-Q044",
+    "module": 3,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "Quel savoir le REAC associe-t-il à l'arrivée du handicap dans une famille ?",
+    "options": [
+      "La connaissance de son impact sur le parent, la fratrie et l'entourage",
+      "La connaissance des barèmes d'indemnisation",
+      "La maîtrise des techniques de rééducation",
+      "La connaissance des traitements médicamenteux"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC cite la « connaissance de l'impact de l'arrivée du handicap dans la famille (parent, fratrie, entourage) », ainsi que les aides techniques adaptées aux situations de handicap de l'enfant."
+  },
+  {
+    "id": "C3-Q045",
+    "module": 3,
+    "type": "qcm_single",
+    "difficulty": 2,
+    "question": "L'enfant pleure après le départ de son parent. Quelle réponse est la plus adaptée ?",
+    "options": [
+      "Le consoler, mettre des mots sur ce qu'il ressent et le rassurer sur le retour du parent",
+      "Lui dire d'arrêter de pleurer car il est grand",
+      "L'ignorer jusqu'à ce qu'il se calme seul",
+      "Lui promettre que son parent revient tout de suite, même si c'est faux"
+    ],
+    "correct": [
+      0
+    ],
+    "keywords": [],
+    "explanation": "Le REAC demande de « consoler l'enfant en cas de chagrin ou de vécu difficile » et de communiquer avec bienveillance. Une promesse fausse abîme la confiance ; nommer l'émotion et donner un repère fiable rassure durablement."
+  }
+]
