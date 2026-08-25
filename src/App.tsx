@@ -14,6 +14,7 @@ import Results from './pages/Results';
 import Dashboard from './pages/Dashboard';
 import Leaderboard from './pages/Leaderboard';
 import Settings from './pages/Settings';
+import Promo from './pages/Promo';
 import type { GameResult } from './types';
 
 type Screen =
@@ -27,7 +28,8 @@ type Screen =
   | 'results'
   | 'dashboard'
   | 'leaderboard'
-  | 'settings';
+  | 'settings'
+  | 'promo';
 
 export default function App() {
   const [screen, setScreen] = useState<Screen>('splash');
@@ -134,6 +136,7 @@ export default function App() {
               onLeaderboard={() => setScreen('leaderboard')}
               onSettings={() => setScreen('settings')}
               onLogout={() => setScreen('profile-select')}
+              onPromo={() => setScreen('promo')}
             />
           )}
 
@@ -171,6 +174,10 @@ export default function App() {
 
           {screen === 'leaderboard' && (
             <Leaderboard onBack={() => setScreen('home')} />
+          )}
+
+          {screen === 'promo' && (
+            <Promo onBack={() => setScreen('home')} />
           )}
 
           {screen === 'settings' && (

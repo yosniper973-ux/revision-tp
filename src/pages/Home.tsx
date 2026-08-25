@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion';
-import { Trophy, BarChart3, Settings as SettingsIcon, LogOut, Zap, GraduationCap } from 'lucide-react';
+import { Trophy, BarChart3, Settings as SettingsIcon, LogOut, Zap, GraduationCap, Users } from 'lucide-react';
 import { useProfileStore } from '../stores/useProfileStore';
 import { useFormationStore } from '../stores/useFormationStore';
+import { useTeacherStore } from '../stores/useTeacherStore';
 import Avatar from '../components/ui/Avatar';
 import Card from '../components/ui/Card';
 import Icon from '../lib/Icon';
@@ -14,11 +15,13 @@ interface Props {
   onLeaderboard: () => void;
   onSettings: () => void;
   onLogout: () => void;
+  onPromo: () => void;
 }
 
-export default function Home({ onStartExam, onStartQuiz, onDashboard, onLeaderboard, onSettings, onLogout }: Props) {
+export default function Home({ onStartExam, onStartQuiz, onDashboard, onLeaderboard, onSettings, onLogout, onPromo }: Props) {
   const profile = useProfileStore(s => s.getActiveProfile());
   const formation = useFormationStore(s => s.formation);
+  const teacherMode = useTeacherStore(s => s.teacherMode);
   if (!profile || !formation) return null;
 
   const examHistory = profile.history.filter(h => h.mode === 'exam');
@@ -38,6 +41,11 @@ export default function Home({ onStartExam, onStartQuiz, onDashboard, onLeaderbo
           </div>
         </div>
         <div className="flex gap-2">
+          {teacherMode && (
+            <button onClick={onPromo} className="p-2 hover:bg-white/10 rounded-lg transition-colors cursor-pointer" title="Suivi de promo">
+              <Users size={20} className="text-violet-300" />
+            </button>
+          )}
           <button onClick={onDashboard} className="p-2 hover:bg-white/10 rounded-lg transition-colors cursor-pointer" title="Tableau de bord">
             <BarChart3 size={20} className="text-white/60" />
           </button>
