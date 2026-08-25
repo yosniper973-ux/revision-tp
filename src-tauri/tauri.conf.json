@@ -1,7 +1,7 @@
 {
   "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
-  "productName": "MSADS Révision",
-  "version": "1.0.0",
+  "productName": "Révision TP",
+  "version": "1.1.0",
   "identifier": "com.educentre.msads-revision",
   "build": {
     "frontendDist": "../dist",
@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "MSADS Révision - Médiateur Social Accès aux Droits et Services",
+        "title": "Révision TP - Préparation aux titres professionnels",
         "width": 1200,
         "height": 800,
         "minWidth": 900,
