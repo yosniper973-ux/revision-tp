@@ -39,6 +39,10 @@ un `latest.json` dans la release ; l'app interroge
   plus vérifier les mises à jour suivantes.
 - `productName` est volontairement **sans accent** (`Revision TP`) : il nomme l'exe, donc l'URL
   de téléchargement du `latest.json`.
+- **Ne jamais reconstruire à la main l'URL de l'installateur dans `latest.json`.** GitHub renomme
+  les assets à la publication (les espaces deviennent des points) : une URL devinée renvoie 404 et
+  la mise à jour échoue au téléchargement, après avoir été détectée. Le workflow lit donc
+  `browser_download_url` via l'API après publication, puis vérifie que l'URL répond en 200.
 
 ## Pièges connus
 
