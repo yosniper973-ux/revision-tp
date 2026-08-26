@@ -62,6 +62,13 @@
     overflow: hidden;
   }
 
+  /* Edge, donc WebView2, ajoute un œil qui révèle le mot de passe en un clic.
+     On le retire : la formatrice saisit le sien devant ses apprenants. */
+  input[type="password"]::-ms-reveal,
+  input[type="password"]::-ms-clear {
+    display: none;
+  }
+
   body {
     font-family: var(--font-sans);
     background: linear-gradient(135deg, #1e1b4b 0%, #312e81 50%, #1e1b4b 100%);
