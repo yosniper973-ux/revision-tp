@@ -17,6 +17,18 @@ Une formation = un fichier dans `src/data/formations/` (modules, couleurs, icôn
 
 Chaque formation a **ses propres profils et scores** : clé `revision-data-<id>` dans le `localStorage`.
 
+## Activation des formations
+
+Chaque formation demande un code au premier accès sur un poste, puis le retient
+(`revision-unlocked-<id>` dans le `localStorage`). Le code attendu est celui de la formatrice,
+qui le saisit elle-même chez l'apprenant : le champ est masqué et l'œil de révélation d'Edge est
+neutralisé en CSS, donc l'apprenant ne le lit pas. Saisir ce code active la formation **sans**
+activer le mode formateur.
+
+`src/lib/formationCodes.ts` permet de déclarer des codes distincts par formation si besoin ;
+`scripts/code-empreinte.mjs` calcule l'empreinte à y coller. Aucun code n'apparaît en clair dans
+les sources ni dans le build.
+
 ## Mode formateur
 
 Un interrupteur dans les paramètres, protégé par mot de passe, débloque le suivi de promo :
