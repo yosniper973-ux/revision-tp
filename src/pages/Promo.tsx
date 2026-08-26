@@ -4,7 +4,8 @@ import { ChevronLeft, Upload, Trash2, Users, AlertTriangle } from 'lucide-react'
 import { useTeacherStore } from '../stores/useTeacherStore';
 import { getFormation } from '../data/formations';
 import { parseReport, type LearnerReport } from '../lib/resultsExport';
-import { getModuleStats, getStars } from '../lib/questionUtils';
+import { getModuleStats, getModuleName, getStars } from '../lib/questionUtils';
+import { formatExpectedAnswer, formatUserAnswer, questionLabel } from '../lib/answerFormat';
 import Card from '../components/ui/Card';
 import Button from '../components/ui/Button';
 import ProgressBar from '../components/ui/ProgressBar';
@@ -18,6 +19,14 @@ function examAverage(report: LearnerReport): number | null {
   if (exams.length === 0) return null;
   const sum = exams.reduce((s, h) => s + (h.score / h.total) * 20, 0);
   return Math.round((sum / exams.length) * 10) / 10;
+}
+
+/** Total brut sur l'ensemble des sessions : 19 bonnes réponses sur 40 questions posées. */
+function rawTotals(report: LearnerReport): { correct: number; total: number } {
+  return report.results.reduce(
+    (acc, r) => ({ correct: acc.correct + r.score, total: acc.total + r.total }),
+    { correct: 0, total: 0 },
+  );
 }
 
 function lastActivity(report: LearnerReport): string {
@@ -157,6 +166,7 @@ export default function Promo({ onBack }: Props) {
                       <th className="font-medium px-2 pb-2">Apprenant</th>
                       <th className="font-medium px-2 pb-2">Niveau</th>
                       <th className="font-medium px-2 pb-2">Sessions</th>
+                      <th className="font-medium px-2 pb-2">Bonnes réponses</th>
                       <th className="font-medium px-2 pb-2">Moy. examen</th>
                       <th className="font-medium px-2 pb-2">Dernière activité</th>
                       <th className="px-2 pb-2"></th>
@@ -169,6 +179,7 @@ export default function Promo({ onBack }: Props) {
                       .map(r => {
                         const key = `${r.formationId}|${r.profileName}`;
                         const avg = examAverage(r);
+                        const raw = rawTotals(r);
                         return (
                           <tr
                             key={key}
@@ -178,6 +189,9 @@ export default function Promo({ onBack }: Props) {
                             <td className="px-2 py-2 font-semibold">{r.profileName}</td>
                             <td className="px-2 py-2 text-white/60">Niv. {r.level}</td>
                             <td className="px-2 py-2 text-white/60">{r.results.length}</td>
+                            <td className="px-2 py-2 text-white/70 font-semibold">
+                              {raw.total > 0 ? `${raw.correct}/${raw.total}` : '—'}
+                            </td>
                             <td className={`px-2 py-2 font-bold ${avg === null ? 'text-white/30' : avg >= 14 ? 'text-emerald-400' : avg >= 10 ? 'text-amber-400' : 'text-red-400'}`}>
                               {avg === null ? '—' : `${avg}/20`}
                             </td>
@@ -274,30 +288,115 @@ export default function Promo({ onBack }: Props) {
                 );
               })()}
 
-              {/* Questions les plus souvent ratées */}
+              {/* Sessions, avec la note brute demandée : bonnes réponses sur questions posées */}
+              <div className="mt-6">
+                <h3 className="font-semibold text-sm mb-3 text-white/70">
+                  Sessions ({selectedReport.results.length})
+                </h3>
+                <div className="overflow-x-auto -mx-2">
+                  <table className="w-full text-sm min-w-[460px]">
+                    <thead>
+                      <tr className="text-white/40 text-left">
+                        <th className="font-medium px-2 pb-2">Date</th>
+                        <th className="font-medium px-2 pb-2">Mode</th>
+                        <th className="font-medium px-2 pb-2">Module</th>
+                        <th className="font-medium px-2 pb-2">Bonnes réponses</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {selectedReport.results
+                        .slice()
+                        .sort((a, b) => b.date.localeCompare(a.date))
+                        .map(r => {
+                          const note = Math.round((r.score / r.total) * 20 * 10) / 10;
+                          return (
+                            <tr key={r.id} className="border-t border-white/5">
+                              <td className="px-2 py-2 text-white/60">
+                                {new Date(r.date).toLocaleDateString('fr-FR')}
+                              </td>
+                              <td className="px-2 py-2 text-white/60">
+                                {r.mode === 'exam' ? 'Examen' : 'Quiz'}
+                              </td>
+                              <td className="px-2 py-2 text-white/50 truncate max-w-[220px]">
+                                {getModuleName(selectedFormation, r.module)}
+                              </td>
+                              <td className={`px-2 py-2 font-bold ${note >= 14 ? 'text-emerald-400' : note >= 10 ? 'text-amber-400' : 'text-red-400'}`}>
+                                {r.score}/{r.total}
+                              </td>
+                            </tr>
+                          );
+                        })}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              {/* Toutes les erreurs, avec la réponse donnée et la réponse attendue */}
               {(() => {
-                const misses = new Map<string, number>();
-                for (const r of selectedReport.results) {
+                // On garde la réponse fausse la plus récente pour chaque question, et le nombre d'échecs.
+                const misses = new Map<string, { count: number; answer: (number | string)[] }>();
+                for (const r of [...selectedReport.results].sort((a, b) => a.date.localeCompare(b.date))) {
                   for (const d of r.details) {
-                    if (!d.correct) misses.set(d.questionId, (misses.get(d.questionId) ?? 0) + 1);
+                    if (d.correct) continue;
+                    const prev = misses.get(d.questionId);
+                    misses.set(d.questionId, {
+                      count: (prev?.count ?? 0) + 1,
+                      answer: d.userAnswer,
+                    });
                   }
                 }
-                const top = [...misses.entries()].sort((a, b) => b[1] - a[1]).slice(0, 5);
-                if (top.length === 0) return null;
+                const entries = [...misses.entries()].sort((a, b) => b[1].count - a[1].count);
+
+                if (entries.length === 0) {
+                  return (
+                    <p className="mt-6 text-sm text-emerald-300">
+                      Aucune erreur enregistrée sur les sessions transmises.
+                    </p>
+                  );
+                }
+
                 return (
                   <div className="mt-6">
-                    <h3 className="font-semibold text-sm mb-2 text-white/70">Questions les plus souvent manquées</h3>
-                    <ul className="space-y-2">
-                      {top.map(([qid, count]) => {
+                    <h3 className="font-semibold text-sm mb-3 text-white/70">
+                      Toutes les erreurs ({entries.length} question{entries.length > 1 ? 's' : ''})
+                    </h3>
+                    <div className="space-y-3">
+                      {entries.map(([qid, info]) => {
                         const q = selectedFormation.questions.find(x => x.id === qid);
+                        if (!q) {
+                          return (
+                            <div key={qid} className="p-3 rounded-lg bg-white/5 border border-white/5 text-sm text-white/40">
+                              Question {qid} — absente de cette version de l'application
+                            </div>
+                          );
+                        }
+                        const mod = selectedFormation.modules.find(m => m.id === q.module);
                         return (
-                          <li key={qid} className="text-sm text-white/60 flex gap-2">
-                            <span className="text-red-400 font-bold flex-shrink-0">{count}×</span>
-                            <span>{q ? q.question.replace(/___/g, '…') : `Question ${qid} (absente de cette version)`}</span>
-                          </li>
+                          <div key={qid} className="p-3 rounded-lg bg-red-500/5 border border-red-400/20">
+                            <div className="flex items-start gap-2 mb-2">
+                              {info.count > 1 && (
+                                <span className="text-xs font-bold text-red-300 bg-red-500/15 rounded px-1.5 py-0.5 flex-shrink-0">
+                                  {info.count}×
+                                </span>
+                              )}
+                              <p className="text-sm font-medium flex-1">{questionLabel(q)}</p>
+                            </div>
+                            <p className="text-xs text-white/40 mb-2">
+                              {selectedFormation.modulePrefix}{q.module}
+                              {mod ? ` — ${mod.name}` : ''}
+                            </p>
+                            <p className="text-sm text-red-300/90">
+                              <span className="text-white/40">Sa réponse : </span>
+                              {formatUserAnswer(q, info.answer)}
+                            </p>
+                            <p className="text-sm text-emerald-300/90 mt-1">
+                              <span className="text-white/40">Attendu : </span>
+                              {formatExpectedAnswer(q)}
+                            </p>
+                          </div>
                         );
                       })}
-                    </ul>
+                    </div>
                   </div>
                 );
               })()}
