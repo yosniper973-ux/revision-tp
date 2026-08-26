@@ -52,6 +52,8 @@ function learnerKey(r: LearnerReport): string {
 interface TeacherStore {
   teacherMode: boolean;
   reports: LearnerReport[];
+  /** Vérifie le mot de passe sans rien activer : sert aussi à autoriser un changement de formation. */
+  checkPassword: (password: string) => boolean;
   /** Active le mode formateur si le mot de passe est le bon. */
   unlockTeacherMode: (password: string) => boolean;
   /** Désactive le mode formateur : aucun mot de passe requis pour sortir. */
@@ -66,8 +68,10 @@ export const useTeacherStore = create<TeacherStore>((set, get) => ({
   teacherMode: loadMode(),
   reports: loadReports(),
 
+  checkPassword: (password) => fingerprint(SALT + password.trim()) === PASSWORD_FINGERPRINT,
+
   unlockTeacherMode: (password) => {
-    if (fingerprint(SALT + password.trim()) !== PASSWORD_FINGERPRINT) return false;
+    if (!get().checkPassword(password)) return false;
     localStorage.setItem(MODE_KEY, '1');
     set({ teacherMode: true });
     return true;
