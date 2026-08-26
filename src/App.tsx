@@ -2,6 +2,8 @@ import { useState, useCallback, useEffect } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useProfileStore } from './stores/useProfileStore';
 import { useFormationStore } from './stores/useFormationStore';
+import { useTeacherStore } from './stores/useTeacherStore';
+import { formationNeedsCode, isFormationUnlocked } from './lib/formationCodes';
 import { useSound } from './hooks/useSound';
 import SplashScreen from './pages/SplashScreen';
 import FormationSelect from './pages/FormationSelect';
@@ -43,6 +45,7 @@ export default function App() {
 
   const { activeProfileId, addResult, getActiveProfile } = useProfileStore();
   const formation = useFormationStore(s => s.formation);
+  const teacherMode = useTeacherStore(s => s.teacherMode);
   /** Vrai quand on change de formation depuis les paramètres : permet de revenir en arrière. */
   const [changingFormation, setChangingFormation] = useState(false);
 
@@ -55,10 +58,18 @@ export default function App() {
   }, [fontSize]);
 
   const handleSplashDone = useCallback(() => {
-    if (!formation) setScreen('formation-select');
+    // Une formation retenue par une version antérieure à l'activation par code n'a jamais
+    // été déverrouillée : on repasse par l'écran de choix pour la faire activer.
+    const needsUnlock =
+      formation !== null &&
+      !teacherMode &&
+      formationNeedsCode(formation.id) &&
+      !isFormationUnlocked(formation.id);
+
+    if (!formation || needsUnlock) setScreen('formation-select');
     else if (activeProfileId) setScreen('home');
     else setScreen('profile-select');
-  }, [formation, activeProfileId]);
+  }, [formation, activeProfileId, teacherMode]);
 
   const handleFormationSelected = useCallback(() => {
     setChangingFormation(false);
