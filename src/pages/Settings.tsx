@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ChevronLeft, Volume2, VolumeX, Type, RotateCcw, GraduationCap, Users, Lock } from 'lucide-react';
+import { ChevronLeft, Volume2, VolumeX, Type, RotateCcw, GraduationCap, Users } from 'lucide-react';
 import { useProfileStore } from '../stores/useProfileStore';
 import { useFormationStore } from '../stores/useFormationStore';
 import { useTeacherStore } from '../stores/useTeacherStore';
@@ -22,15 +22,13 @@ export default function Settings({ onBack, onChangeFormation, soundEnabled, onTo
   const teacherMode = useTeacherStore(s => s.teacherMode);
   const unlockTeacherMode = useTeacherStore(s => s.unlockTeacherMode);
   const disableTeacherMode = useTeacherStore(s => s.disableTeacherMode);
-  const checkPassword = useTeacherStore(s => s.checkPassword);
-  /** Ce que le mot de passe doit débloquer : le mode formateur, ou un changement de formation. */
-  const [unlockFor, setUnlockFor] = useState<'teacher' | 'formation' | null>(null);
+  const [unlockFor, setUnlockFor] = useState<'teacher' | null>(null);
   const [password, setPassword] = useState('');
   const [unlockError, setUnlockError] = useState(false);
   const resetProfile = useProfileStore(s => s.resetProfile);
   const [showReset, setShowReset] = useState(false);
 
-  const askPassword = (purpose: 'teacher' | 'formation') => {
+  const askPassword = (purpose: 'teacher') => {
     setPassword('');
     setUnlockError(false);
     setUnlockFor(purpose);
@@ -44,27 +42,7 @@ export default function Settings({ onBack, onChangeFormation, soundEnabled, onTo
     askPassword('teacher');
   };
 
-  // En mode formateur, changer de formation est immédiat. Sinon le mot de passe est demandé,
-  // pour qu'un apprenant reste sur la formation qu'il suit sans être bloqué en cas d'erreur.
-  const handleChangeFormation = () => {
-    if (teacherMode) {
-      onChangeFormation();
-      return;
-    }
-    askPassword('formation');
-  };
-
   const handleUnlock = () => {
-    if (unlockFor === 'formation') {
-      if (!checkPassword(password)) {
-        setUnlockError(true);
-        return;
-      }
-      setUnlockFor(null);
-      setPassword('');
-      onChangeFormation();
-      return;
-    }
     if (unlockTeacherMode(password)) {
       setUnlockFor(null);
       setPassword('');
@@ -144,14 +122,10 @@ export default function Settings({ onBack, onChangeFormation, soundEnabled, onTo
               <GraduationCap size={20} className="text-violet-400" />
               <div>
                 <p className="font-semibold">Formation</p>
-                <p className="text-sm text-white/50">
-                  {formation?.shortName ?? '—'}
-                  {!teacherMode && ' — changement protégé'}
-                </p>
+                <p className="text-sm text-white/50">{formation?.shortName ?? '—'}</p>
               </div>
             </div>
-            <Button variant="secondary" size="sm" onClick={handleChangeFormation}>
-              {!teacherMode && <Lock size={13} className="inline mr-1.5 -mt-0.5" />}
+            <Button variant="secondary" size="sm" onClick={onChangeFormation}>
               Changer
             </Button>
           </div>
@@ -214,12 +188,10 @@ export default function Settings({ onBack, onChangeFormation, soundEnabled, onTo
       <Modal
         isOpen={unlockFor !== null}
         onClose={() => setUnlockFor(null)}
-        title={unlockFor === 'formation' ? 'Changer de formation' : 'Mode formateur'}
+        title="Mode formateur"
       >
         <p className="text-white/70 mb-4">
-          {unlockFor === 'formation'
-            ? 'Le changement de formation est réservé à la formatrice. Demande-lui le mot de passe si tu t\'es trompé au premier lancement.'
-            : 'Saisis le mot de passe pour activer le suivi des apprenants sur ce poste.'}
+          Saisis le mot de passe pour activer le suivi des apprenants sur ce poste.
         </p>
         <input
           type="password"
@@ -236,7 +208,7 @@ export default function Settings({ onBack, onChangeFormation, soundEnabled, onTo
             Annuler
           </Button>
           <Button onClick={handleUnlock} disabled={!password.trim()} className="flex-1">
-            {unlockFor === 'formation' ? 'Continuer' : 'Activer'}
+            Activer
           </Button>
         </div>
       </Modal>

@@ -1,28 +1,11 @@
 import { create } from 'zustand';
 import type { LearnerReport } from '../lib/resultsExport';
 import { reportKey } from '../lib/resultsExport';
+import { fingerprint } from '../lib/fingerprint';
+import { TEACHER_SALT, TEACHER_FINGERPRINT } from '../lib/teacherSecret';
 
 const MODE_KEY = 'revision-mode-formateur';
 const REPORTS_KEY = 'revision-promo';
-
-/**
- * Empreinte du mot de passe qui déverrouille le mode formateur.
- * Le mot de passe lui-même n'apparaît pas dans le code source.
- *
- * Attention : dans une application de bureau, tout le code est lisible sur le poste.
- * Ce verrou empêche une activation par curiosité, il ne protège pas contre quelqu'un
- * de déterminé. Ne rien y mettre de confidentiel.
- */
-const SALT = 'revision-tp:formateur:';
-const PASSWORD_FINGERPRINT = 'wz62ab';
-
-function fingerprint(value: string): string {
-  let h = 5381;
-  for (let i = 0; i < value.length; i++) {
-    h = ((h * 33) ^ value.charCodeAt(i)) >>> 0;
-  }
-  return h.toString(36);
-}
 
 /**
  * Données du mode formateur : elles ne dépendent pas de la formation active,
@@ -68,7 +51,7 @@ export const useTeacherStore = create<TeacherStore>((set, get) => ({
   teacherMode: loadMode(),
   reports: loadReports(),
 
-  checkPassword: (password) => fingerprint(SALT + password.trim()) === PASSWORD_FINGERPRINT,
+  checkPassword: (password) => fingerprint(TEACHER_SALT + password.trim()) === TEACHER_FINGERPRINT,
 
   unlockTeacherMode: (password) => {
     if (!get().checkPassword(password)) return false;
