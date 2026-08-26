@@ -1,8 +1,8 @@
 {
   "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
   "productName": "Revision TP",
-  "version": "1.1.0",
-  "identifier": "com.educentre.msads-revision",
+  "version": "1.1.1",
+  "identifier": "com.educentre.revision-tp",
   "build": {
     "frontendDist": "../dist",
     "devUrl": "http://localhost:5173",

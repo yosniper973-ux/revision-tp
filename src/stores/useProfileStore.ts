@@ -2,9 +2,6 @@ import { create } from 'zustand';
 import type { AppData, Profile, GameResult } from '../types';
 import { BADGES } from '../data/badges';
 
-/** Clé utilisée avant le multi-formation : contenait les profils MSADS. */
-const LEGACY_KEY = 'msads-revision-data';
-
 function storageKey(formationId: string): string {
   return `revision-data-${formationId}`;
 }
@@ -13,15 +10,6 @@ function loadData(formationId: string): AppData {
   try {
     const raw = localStorage.getItem(storageKey(formationId));
     if (raw) return JSON.parse(raw);
-
-    // Reprise des profils créés avant le passage au multi-formation.
-    if (formationId === 'msads') {
-      const legacy = localStorage.getItem(LEGACY_KEY);
-      if (legacy) {
-        localStorage.setItem(storageKey('msads'), legacy);
-        return JSON.parse(legacy);
-      }
-    }
   } catch { /* ignore */ }
   return { profiles: [], activeProfileId: null };
 }
